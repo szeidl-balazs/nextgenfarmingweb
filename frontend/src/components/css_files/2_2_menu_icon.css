@@ -1,0 +1,76 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Menu icon*/
+
+.menu-icon-container {
+    justify-self: center;
+    align-self: center;
+    grid-area: menu-icon-container;
+}
+
+.menu-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: menu-cont;    
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--main-light-color);
+    background-color: var(--main-dark-color);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+/*Menu icon lines*/
+.line1, .line2, .line3 {		
+    position: relative;    
+    width: 30px;
+    height: 3px;
+    background-color: var(--main-light-color);
+    margin: 2px 0;
+    border-radius: 5px;
+}
+
+/*the check box check squere is not visible because the checkbox functions as a button 
+and input type checkbox is used to utilize the :checked selector*/
+
+#menu_checkbox {
+    display: none;
+}
+
+/*Animation of menu icon lines*/
+/*First line rotates*/
+#menu_checkbox:checked + label .line1 {
+    top: 4px;
+    transform-origin: 52.5% 50%;
+    transform: rotateZ(45deg);
+    transition: 0.3s ease transform;    
+}
+
+/*Second line disappear*/
+#menu_checkbox:checked + label .line2 {
+    display: none;
+}
+
+/*Third line rotates*/
+#menu_checkbox:checked + label .line3 {
+    bottom: 4px;
+    transform-origin: 52.5% 50%;
+    transform: rotateZ(-45deg);
+    transition: 0.3s ease transform;   
+}
+   
+/*menu icon hover*/
+.menu-cont:hover {     
+    /*transform: scale(1.3);*/    
+    transition: 0.5s linear;
+    border: 1px solid var(--hover-color);		
+}

@@ -1,0 +1,119 @@
+/*This file includes everything about the navbar
+*menu icon
+*menus
+*navbar grid system
+*/
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ .main-title {
+    grid-area: main-title;
+    justify-self: center;
+    align-self: center; 
+    font-size: 25px;
+    color: var(--logo-color);
+    text-shadow: var(--text-shadow);   
+ }
+
+ .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: logo-container;
+    width: 60px;
+    height: 60px;
+    justify-self: center;
+    align-self: center; 
+    text-align: center;
+ }
+
+ .menu-benefit {
+    grid-area: menu-benefit;
+    justify-self: center;
+    align-self: center;
+ }
+
+ .menu-specification {
+    grid-area: menu-specification;
+    justify-self: center;
+    align-self: center;
+ }
+
+ .menu-workout {
+    grid-area: menu-workout;
+    justify-self: center;
+    align-self: center;
+ }
+
+ .menu-contact {
+    grid-area: menu-contact;
+    justify-self: center;
+    align-self: center;
+ }
+
+ .menu-logo-line {
+    height: 70px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    grid-area: menu-logo-line;
+    display: grid;
+    grid-template-columns: 60px calc(98vw - 120px) 60px;
+    grid-template-rows: auto;
+    grid-template-areas:     
+    "menu-icon-container main-title logo-container";    
+    justify-self: center;
+    align-self: center;
+    column-gap: 5px;
+    background-color: var(--main-dark-color);
+ }
+
+
+ .menu-titles {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 60px;
+    padding: 5px 0;
+    grid-area: menu-titles;    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "menu-benefit menu-specification menu-workout menu-contact";
+    column-gap: 5px;
+    display: none;
+    background-color: var(--main-dark-color);    
+ }
+
+ .navbar {   
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 70px;
+     grid-template-areas:     
+     "menu-logo-line menu-logo-line menu-logo-line menu-logo-line"
+     "menu-titles menu-titles menu-titles menu-titles";
+     column-gap: 5px;
+     background-color: var(--main-dark-color);
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--main-light-color);
+    transition: 0.5s linear;
+}
+
+/*hover effect on menu text*/
+
+.menu a:hover {
+    color: var(--hover-color);
+    transform: scale(1.2);
+    transition: 0.5s linear;
+}

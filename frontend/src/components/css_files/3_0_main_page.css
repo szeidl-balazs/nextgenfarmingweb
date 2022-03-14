@@ -1,0 +1,25 @@
+/*This file includes the grid system and the style of the main page such as
+*/
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-page {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "intro-container intro-container"
+    "benefits benefits"
+    "specifications specifications"
+    "presentation presentation";
+    background-color: var(--main-light-color);
+    color: var(--main-dark-color);
+    width: 100vw;
+}
