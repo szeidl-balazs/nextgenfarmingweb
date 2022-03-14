@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
                                     </label>    
                                     
                             </div>
-                            <h1 className="main-title">Ritmikus Gimnasztika Komárom</h1> {/*Main title*/}
+                            <h1 className="main-title">Farkas Gym</h1> {/*Main title*/}
                             <div className="logo-container"></div> {/*Page logo*/}
                         </div>
                         <div className="menu-titles-mover"></div>
@@ -30,7 +30,7 @@ const Header = () => {
                             <div className="menu menu-contact"><a href="#contact-id">Kapcsolat</a></div>    
                         </div>
                                 
-                    </header>
+            </header>
 
     );
 

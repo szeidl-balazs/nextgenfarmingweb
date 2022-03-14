@@ -1,0 +1,69 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Sticky positioning works if
+    ** the sticky icon position: fixed
+    **the icon container position: absolut
+    **the icon container is in a container which position: fixed
+*/
+
+/*grid-container is the container of the sticky icon wrapper, it must be position: relative*/
+.grid-container {
+    position: relative;    
+}
+
+
+.back-to-top-link {
+    display: block;
+    text-decoration: none;
+    color: var(--secondary-color);
+    position: fixed;
+    position: sticky;
+    top: calc(100vh - 4rem); 
+    width: 25px;
+    height: 25px;
+    pointer-events: all;      
+}
+
+.back-to-top-link:hover {
+    color: var(--hover-color);
+    transform: scale(1.1);
+}
+
+.back-to-top-wrapper {
+    position: absolute;
+    top: 100vh;
+    right: 0.25rem;
+    bottom: -10px;
+    width: 3em;
+    pointer-events: none;
+}
+
+/*tooltip*/
+
+.tooltip {
+    display: inline-block;
+}
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    font-size: var(--secondary-font-size);    
+    color: var(--secondary-color);
+    text-align: center;
+    border-radius: 6px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    left: -15px;
+    top: -20px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }

@@ -1,0 +1,22 @@
+.presentation {
+    grid-area: presentation;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation h3 {
+    padding: var(--text-padding);
+    text-align: center;
+}
+
+
+video {
+    width: 100%;
+}
+
+.video {
+    height: 35vh;
+    width: 100vw;
+}

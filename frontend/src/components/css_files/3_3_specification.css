@@ -1,0 +1,104 @@
+.specifications {
+    grid-area: specifications;    
+}
+
+
+.specification-img-wrap {
+    grid-area: specification-img-wrap;
+    justify-self: right;
+    width: 100%;    
+}
+
+
+.specification-photo {
+  grid-area: specification-photo;
+  background-image: url("../images/hero_breast_2.png");
+  background-size: cover;
+  height: 100px;
+  border-radius: 10px;    
+}
+
+#adjustable-angle-img {
+  background-image: url("../images/adjustable_angle.png");
+}
+
+#morefeatures {
+  background-image: url("../images/motorikus_kepessegek_svg.svg");  
+}
+
+#spec-swimmers {
+  background-image: url("../images/swim_and_gym_breast_kick.png");  
+}
+
+
+#pc-control {
+  background-image: url("../images/screen_with_frame_1920x780.png"); 
+}
+
+#leg-support-img {
+  background-image: url("../images/leg_supportwo_background.png"); 
+}
+
+#multisport {
+  background-image: url("../images/Jump.png"); 
+}
+
+
+.accordion {
+    
+    background-color: var(--main-dark-color);
+    color: var(--main-light-color);
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    color: var(--hover-color);
+    box-shadow: var(--box-shadow);
+    text-shadow: var(--text-shadow);
+    font-size: 120%;
+    transition: .5s ease-in;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+
+  .panel-text {
+    grid-area: panel-text;
+    text-align: justify;
+  }
+
+    
+  .panel {
+    padding: 0 var(--text-padding);
+    background-color: var(--main-light-color);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s ease-out;
+  }
+
+  .panel-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "panel-text "
+    "specification-img-wrap";
+    row-gap: calc(1*var(--text-padding));
+    padding: var(--text-padding) 0;
+    align-items: center;
+  }
