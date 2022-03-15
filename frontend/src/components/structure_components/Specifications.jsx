@@ -1,6 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Specifications = () => {
+
+    const [show, setShow] = useState('több');
+
+    const showHandler = () => {
+        show === 'több' ? setShow('kevesebb') : setShow('több');
+    }
 
     return (            
         <div className="specifications">
@@ -9,23 +15,36 @@ const Specifications = () => {
             
             <h2>JELLEMZŐK</h2>
 
-            <button className="accordion benefit-and-specs-list">Képességfejlesztés saját testtömeggel</button>
+            <button className="accordion benefit-and-specs-list" onClick={showHandler}>Képességfejlesztés saját testtömeggel {show}</button>
             
-                <div className="panel">
+                
 
-                    <div className="panel-wrap">
-                        <div className="panel-text">
-                            <p>Az erőfejlesztés a saját testtömeg mozgatásával történik, melynek pontos ismeretében helyes beállítással nincs korosztályi korlátozás.</p>
-                            <p>A pad dőlészöge állítható, így az erőkifejtés mértéke változtatható.</p>
-                            <p>Edzésrendszerbe állítható, azaz a szárazföldi edzés munka és a vízben elvégzett gyakorlatok szinergikusan hatnak egymásra.</p>
-                        </div>
+                    {
+                        show === 'kevesebb'
 
-                        <div className="specification-img-wrap">
-                            <div id="adjustable-angle-img" className="specification-photo"></div>
-                        </div>
-                    </div>
+                        ?
+                        
+                        <div className="panel">
+                            <div className="panel-wrap">
+                                <div className="panel-text">
+                                    <p>Az erőfejlesztés a saját testtömeg mozgatásával történik, melynek pontos ismeretében helyes beállítással nincs korosztályi korlátozás.</p>
+                                    <p>A pad dőlészöge állítható, így az erőkifejtés mértéke változtatható.</p>
+                                    <p>Edzésrendszerbe állítható, azaz a szárazföldi edzés munka és a vízben elvégzett gyakorlatok szinergikusan hatnak egymásra.</p>
+                                </div>
 
-                </div>                             
+                                <div className="specification-img-wrap">
+                                    <div id="adjustable-angle-img" className="specification-photo"></div>
+                                </div>
+                            </div>
+                        </div> 
+                    :
+
+                    null
+
+                    }
+
+
+                                            
 
             <button className="accordion benefit-and-specs-list">Egy időben több tulajdonság fejlesztése</button>
             
