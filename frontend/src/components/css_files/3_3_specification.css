@@ -86,7 +86,7 @@
   .panel {
     padding: 0 var(--text-padding);
     background-color: var(--main-light-color);
-    max-height: 0;
+    max-height: 700px;
     overflow: hidden;
     transition: max-height .5s ease-out;
   }
