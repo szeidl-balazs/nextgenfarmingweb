@@ -2,68 +2,94 @@ import React, { useState } from 'react';
 
 const Specifications = () => {
 
-    const [show, setShow] = useState('több');
+    const [show1, setShow1] = useState('+');
 
-    const showHandler = () => {
-        show === 'több' ? setShow('kevesebb') : setShow('több');
+    const showHandler1 = () => {
+        show1 === '+' ? setShow1('-') : setShow1('+');
+    }
+
+    const [show2, setShow2] = useState('+')
+
+    const showHandler2 = () => {
+        show2 === '+' ? setShow2('-') : setShow2('+');
     }
 
     return (            
+        
         <div className="specifications">
             
             <div id="specifications-id" className="place-holder-under-menuline"></div> {/*empty lane to push down the below content under menu line*/}
             
             <h2>JELLEMZŐK</h2>
 
-            <button className="accordion benefit-and-specs-list" onClick={showHandler}>Képességfejlesztés saját testtömeggel {show}</button>
+            <button className="accordion benefit-and-specs-list" onClick={showHandler1} >
+                Képességfejlesztés saját testtömeggel 
+                <span className="more-less-sign">{show1}</span>
+            </button>
             
+            {
+                show1 === '-'
+
+                ?
+    
+                <div className="panel">
+
+                    <div className="panel-wrap">
+
+                        <div className="panel-text">
+                            <p>Az erőfejlesztés a saját testtömeg mozgatásával történik, melynek pontos ismeretében helyes beállítással nincs korosztályi korlátozás.</p>
+                            <p>A pad dőlészöge állítható, így az erőkifejtés mértéke változtatható.</p>
+                            <p>Edzésrendszerbe állítható, azaz a szárazföldi edzés munka és a vízben elvégzett gyakorlatok szinergikusan hatnak egymásra.</p>
+                        </div>
+
+                        <div className="specification-img-wrap">
+                            <div id="adjustable-angle-img" className="specification-photo"></div>
+                        </div>                
+                    
+                    </div>
                 
+                </div> 
+                    
+                :
 
-                    {
-                        show === 'kevesebb'
+                null
 
-                        ?
-                        
-                        <div className="panel">
-                            <div className="panel-wrap">
-                                <div className="panel-text">
-                                    <p>Az erőfejlesztés a saját testtömeg mozgatásával történik, melynek pontos ismeretében helyes beállítással nincs korosztályi korlátozás.</p>
-                                    <p>A pad dőlészöge állítható, így az erőkifejtés mértéke változtatható.</p>
-                                    <p>Edzésrendszerbe állítható, azaz a szárazföldi edzés munka és a vízben elvégzett gyakorlatok szinergikusan hatnak egymásra.</p>
-                                </div>
-
-                                <div className="specification-img-wrap">
-                                    <div id="adjustable-angle-img" className="specification-photo"></div>
-                                </div>
-                            </div>
-                        </div> 
-                    :
-
-                    null
-
-                    }
-
-
+            }
                                             
 
-            <button className="accordion benefit-and-specs-list">Egy időben több tulajdonság fejlesztése</button>
+            <button className="accordion benefit-and-specs-list" onClick={showHandler2}>
+                Egy időben több tulajdonság fejlesztése
+                <span className="more-less-sign">{show2}</span>            
+            </button>
             
-            
-            <div className="panel">
+            {
+                show2 === '-'
 
-                <div className="panel-wrap">
-                    <div className="panel-text">
-                        <p>Az erőfejlesztéssel egyidejűleg a technika, azaz a mozgáskoordináció is fejleszthető, a technikai hibákat szárazföldön ki lehet javítani.</p>
-                        <p>Minden úszásnemre érvényes, kialakítható a helyes lábtartás.</p>
-                        <p>A végrehajtás technikája folyamatos instrukcióval javítható. Ebben a folyamatban a kommunikáció a sportoló és az edző között hatékonyabb, mintha ugyanez a vízben lévő sportoló és a medence szélén álló edző között történne.</p>
+                ?
+
+                <div className="panel">
+
+                    <div className="panel-wrap">
+
+                        <div className="panel-text">
+                            <p>Az erőfejlesztéssel egyidejűleg a technika, azaz a mozgáskoordináció is fejleszthető, a technikai hibákat szárazföldön ki lehet javítani.</p>
+                            <p>Minden úszásnemre érvényes, kialakítható a helyes lábtartás.</p>
+                            <p>A végrehajtás technikája folyamatos instrukcióval javítható. Ebben a folyamatban a kommunikáció a sportoló és az edző között hatékonyabb, mintha ugyanez a vízben lévő sportoló és a medence szélén álló edző között történne.</p>
+                        </div>
+
+                        <div className="specification-img-wrap">
+                            <div id="morefeatures" className="specification-photo" ></div>
+                        </div>
+
                     </div>
 
-                    <div className="specification-img-wrap">
-                        <div id="morefeatures" className="specification-photo" ></div>
-                    </div>
                 </div>
 
-            </div>
+                : 
+
+                null
+
+            }
 
             <button className="accordion benefit-and-specs-list">Speciális erősítő hatás úszók részére</button>
             
