@@ -1,20 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
+
 
 const Specifications = () => {
 
-    const [show1, setShow1] = useState('+');
 
-    const showHandler1 = () => {
-        show1 === '+' ? setShow1('-') : setShow1('+');
-    }
-
-    const [show2, setShow2] = useState('+')
-
-    const showHandler2 = () => {
-        show2 === '+' ? setShow2('-') : setShow2('+');
-    }
-
-    return (            
+    return ( 
+    
         
         <div className="specifications">
             
@@ -22,16 +13,11 @@ const Specifications = () => {
             
             <h2>JELLEMZŐK</h2>
 
-            <button className="accordion benefit-and-specs-list" onClick={showHandler1} >
+            <button className="accordion benefit-and-specs-list">
                 Képességfejlesztés saját testtömeggel 
-                <span className="more-less-sign">{show1}</span>
             </button>
             
-            {
-                show1 === '-'
-
-                ?
-    
+            
                 <div className="panel">
 
                     <div className="panel-wrap">
@@ -50,22 +36,13 @@ const Specifications = () => {
                 
                 </div> 
                     
-                :
-
-                null
-
-            }
+          
                                             
 
-            <button className="accordion benefit-and-specs-list" onClick={showHandler2}>
-                Egy időben több tulajdonság fejlesztése
-                <span className="more-less-sign">{show2}</span>            
+            <button className="accordion benefit-and-specs-list">
+                Egy időben több tulajdonság fejlesztése            
             </button>
             
-            {
-                show2 === '-'
-
-                ?
 
                 <div className="panel">
 
@@ -85,11 +62,7 @@ const Specifications = () => {
 
                 </div>
 
-                : 
-
-                null
-
-            }
+     
 
             <button className="accordion benefit-and-specs-list">Speciális erősítő hatás úszók részére</button>
             
@@ -186,6 +159,9 @@ const Specifications = () => {
 
         </div>
     );
+
+    
 }
 
 export default Specifications;
+

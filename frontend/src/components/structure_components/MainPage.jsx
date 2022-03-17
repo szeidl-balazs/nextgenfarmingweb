@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from './Hero'
 import Benefits from './Benefits';
-import Specifications from './Specifications';
+import Specifications2 from './Specifications2';
 import Presentations from './Presentations';
 import BackToTopArrow from './BackToTopArrow';
 
@@ -12,7 +12,7 @@ const MainPage = () => {
 
             <Hero />
             <Benefits />
-            <Specifications />
+            <Specifications2 />
             <Presentations />
             <BackToTopArrow />
 
