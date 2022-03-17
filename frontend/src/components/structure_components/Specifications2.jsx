@@ -47,9 +47,10 @@ const Specifications2 = () => {
               img_id="pc-control"
             />
 
-
           </div>
+
         </div>
+        
       );
 
 }

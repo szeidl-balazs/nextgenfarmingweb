@@ -66,7 +66,7 @@
     transition: .5s ease-in;
   }
   
-  .accordion:after {
+  /*.accordion:after {
     content: '\002B';
     font-weight: bold;
     float: right;
@@ -75,13 +75,13 @@
   
   .active:after {
     content: "\2212";
-  }
+  }*/
 
-  /*.more-less-sign {
+  .more-less-sign {
     font-weight:900;
     float: right;
     margin-left: 5px;
-  }*/
+  }
 
   .panel-text {
     grid-area: panel-text;
