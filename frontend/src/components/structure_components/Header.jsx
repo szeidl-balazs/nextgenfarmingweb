@@ -1,7 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 
 const Header = () => {
+
+    const [show, setShow] = useState(false);
+
+    const menuToggle = (e) => {
+        setShow(!show);
+    }
 
     return (
             <header id="top" className="navbar topnav"> {/*Navbar contains menu icon, main title, logo img, menu titles*/}
@@ -11,7 +17,7 @@ const Header = () => {
                             
                                    {/* <input type="checkbox" id="menu_checkbox" onclick="myFunction()" /> */}{/*The menu icon animation is provided by input checkbox tag*/}
                                                         
-                                    <label for="menu_checkbox" className="menu-cont"> {/*Menu icon with circle borders and 3 lines*/}
+                                    <label for="menu_checkbox" className="menu-cont" onClick={menuToggle}> {/*Menu icon with circle borders and 3 lines*/}
                                         <div className="menu line1"></div>
                                         <div className="menu line2"></div>
                                         <div className="menu line3"></div>
@@ -22,13 +28,25 @@ const Header = () => {
                             <div className="logo-container"></div> {/*Page logo*/}
                         </div>
                         <div className="menu-titles-mover"></div>
+
+                          
+                          {
+
+                          show === true
                         
-                        <div className="menu-titles" id="menu-links"> {/*Menu titles*/}
-                            <div className="menu menu-benefit"><a href="#benefit-id">Előnyök</a></div>
-                            <div className="menu menu-specification"><a href="#specifications-id">Jellemzők</a></div>           
-                            <div className="menu menu-workout"><a href="#recommendation-id">Gyakorlatok</a></div>
-                            <div className="menu menu-contact"><a href="#contact-id">Kapcsolat</a></div>    
-                        </div>
+                            ?
+                        
+                            <div className="menu-titles" id="menu-links"> {/*Menu titles*/}
+                                <div className="menu menu-benefit"><a href="#benefit-id">Előnyök</a></div>
+                                <div className="menu menu-specification"><a href="#specifications-id">Jellemzők</a></div>           
+                                <div className="menu menu-workout"><a href="#recommendation-id">Gyakorlatok</a></div>
+                                <div className="menu menu-contact"><a href="#contact-id">Kapcsolat</a></div>    
+                            </div>
+
+                            :
+
+                            null
+                          }
                                 
             </header>
 

@@ -73,6 +73,7 @@
     align-self: center;
     column-gap: 5px;
     background-color: var(--main-dark-color);
+    
  }
 
 
@@ -82,14 +83,15 @@
     right: 0;
     top: 60px;
     padding: 5px 0;
+    display: grid;
     grid-area: menu-titles;    
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
     "menu-benefit menu-specification menu-workout menu-contact";
     column-gap: 5px;
-    display: none;
-    background-color: var(--main-dark-color);    
+    
+    background-color: var(--main-dark-color); 
  }
 
  .navbar {   
@@ -101,6 +103,7 @@
      "menu-titles menu-titles menu-titles menu-titles";
      column-gap: 5px;
      background-color: var(--main-dark-color);
+     
 }
 
 .menu a {
