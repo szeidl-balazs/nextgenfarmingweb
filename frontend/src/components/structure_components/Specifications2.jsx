@@ -4,13 +4,13 @@ const Specifications2 = () => {
 
     return (
 
-        <div className="specifications">
+      <div className="specifications">
 
         <div id="specifications-id" className="place-holder-under-menuline"></div> {/*empty lane to push down the below content under menu line*/}
           
         <h2>JELLEMZŐK</h2>
 
-          <div className="accordion">
+          
 
             <Accordion
               title="Képességfejlesztés saját testtömeggel"
@@ -47,9 +47,9 @@ const Specifications2 = () => {
               img_id="pc-control"
             />
 
-          </div>
+          
 
-        </div>
+      </div>
         
       );
 

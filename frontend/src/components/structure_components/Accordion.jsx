@@ -12,19 +12,18 @@ function Accordion(props) {
   return (
 
 
-    <div className="specifications">
+    <div>
  
-
-      <div className="panel">
-
-        <button className="accordion benefit-and-specs-list" onClick={toggleHandler}>
+      <button className="accordion benefit-and-specs-list" onClick={toggleHandler}>
           {props.title}
           <span className="more-less-sign"><ExpandMoreIcon/></span>
-        </button>
+      </button>
+
+      <div className="panel">        
 
         <div className="panel-wrap">
 
-            <div className="panel-text">
+          <div className="panel-text">
             <p className="accordion__content">{props.text1}</p>
             <p className="accordion__content">{props.text2}</p>
             <p className="accordion__content">{props.text3}</p>
