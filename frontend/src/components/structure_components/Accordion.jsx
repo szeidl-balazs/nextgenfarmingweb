@@ -1,5 +1,7 @@
 import { React, useState } from "react";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import { useSpring, animated } from "react-spring";
+
 
 const Accordion = (props) => {
   
@@ -12,14 +14,42 @@ const Accordion = (props) => {
     setOpen(!open);
   };
 
+   //open animation with react spring
+   const openAnimation = useSpring({
+    from: { 
+      opacity: "0", 
+      maxHeight: "500px" 
+    },
+    to: { 
+      opacity: "1", 
+      maxHeight: open ? "1200px" : "25px"
+    },
+    config: { 
+      duration: "2000"
+    }
+  });
+  
+  //rotate animation
+  const iconAnimation = useSpring({
+    from: {
+      transform: "rotate(0deg)",
+      color: "#00ffff"
+    },
+    to: {
+      transform: open ? "rotate(180deg)" : "rotate(0deg)",
+      color: open ? "rgba(230, 240, 100, 1)" : "#00ffff"
+    },
+    config: { duration: "300" }
+  });
+  
   return (
 
 
-    <div>
+    <div className="accordion-container">
  
       <button className="accordion benefit-and-specs-list" onClick={toggleHandler}>
           {props.title}
-          <span className="more-less-sign"><ExpandMoreIcon/></span>
+          <animated.span className="more-less-sign" style={iconAnimation}><ExpandMoreIcon/></animated.span>
       </button>
 
       {
@@ -28,7 +58,7 @@ const Accordion = (props) => {
         
         ?
 
-        <div className="panel">        
+        <animated.div className="panel" style={openAnimation}>        
 
           <div className="panel-wrap">
 
@@ -49,7 +79,7 @@ const Accordion = (props) => {
 
           </div>
 
-        </div>
+        </animated.div>
 
         : 
 

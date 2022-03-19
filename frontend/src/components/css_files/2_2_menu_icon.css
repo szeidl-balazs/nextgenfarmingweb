@@ -52,7 +52,7 @@ and input type checkbox is used to utilize the :checked selector*/
     top: 4px;
     transform-origin: 52.5% 50%;
     transform: rotateZ(45deg);
-    transition: 0.3s ease transform;    
+    transition: .5s ease transform;    
 }
 
 /*Second line disappear*/
@@ -65,7 +65,7 @@ and input type checkbox is used to utilize the :checked selector*/
     bottom: 4px;
     transform-origin: 52.5% 50%;
     transform: rotateZ(-45deg);
-    transition: 0.3s ease transform;   
+    transition: 0.5s ease transform;   
 }
    
 /*menu icon hover*/

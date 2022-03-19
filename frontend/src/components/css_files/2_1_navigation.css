@@ -110,7 +110,7 @@
     display: inline-block;
     text-decoration: none;
     color: var(--main-light-color);
-    transition: 0.5s linear;
+    transition: 1.5s linear;
 }
 
 /*hover effect on menu text*/
