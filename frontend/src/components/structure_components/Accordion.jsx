@@ -18,7 +18,7 @@ const Accordion = (props) => {
    const openAnimation = useSpring({
     from: { 
       opacity: "0", 
-      maxHeight: "500px" 
+      maxHeight: "25px" 
     },
     to: { 
       opacity: "1", 
@@ -39,7 +39,9 @@ const Accordion = (props) => {
       transform: open ? "rotate(180deg)" : "rotate(0deg)",
       color: open ? "rgba(230, 240, 100, 1)" : "#00ffff"
     },
-    config: { duration: "300" }
+    config: { 
+      duration: "300" 
+    }
   });
   
   return (

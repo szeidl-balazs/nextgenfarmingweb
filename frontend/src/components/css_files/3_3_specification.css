@@ -58,7 +58,7 @@
     transition: 0.4s;
   }
   
-  .active, .accordion:hover {
+  .accordion:hover {
     color: var(--hover-color);
     box-shadow: var(--box-shadow);
     text-shadow: var(--text-shadow);
@@ -88,15 +88,17 @@
     text-align: justify;
   }
 
+  
     
   .panel {
     padding: 0 var(--text-padding);
     background-color: var(--main-light-color);
-    /*max-height: 1200px;*/
+    max-height: 25px;
     overflow: hidden;
-    transition: max-height .5s ease-out;
+    /*transition: max-height .5s ease-out;*/
   }
 
+  
   .panel-wrap {
     display: grid;
     grid-template-columns: 1fr;
