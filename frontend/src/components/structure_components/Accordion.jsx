@@ -1,33 +1,39 @@
 import { React, useState } from "react";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import { useSpring, animated } from "react-spring";
+import { useSpring, animated, easings } from "react-spring";
+import "../css_files/3_3_specification.css"
 
 
 const Accordion = (props) => {
   
    //toggle accordion function
   const [open, setOpen] = useState(false);
- 
-  
+     
   //switch state
   const toggleHandler = (e) => {    
-    setOpen(!open);
-  };
+    setOpen(!open);    
+  };    
 
    //open animation with react spring
+         
    const openAnimation = useSpring({
-    from: { 
-      opacity: "0", 
-      maxHeight: "25px" 
+    from: {       
+      maxHeight: "25px"
     },
-    to: { 
-      opacity: "1", 
+
+    to: {      
       maxHeight: open ? "1200px" : "25px"
     },
+
     config: { 
-      duration: "2000"
+      duration: "2000",
+      easing: easings.easeIn,
     }
   });
+
+    
+
+ 
   
   //rotate animation
   const iconAnimation = useSpring({
@@ -40,14 +46,14 @@ const Accordion = (props) => {
       color: open ? "rgba(230, 240, 100, 1)" : "#00ffff"
     },
     config: { 
-      duration: "300" 
+      duration: "1000" 
     }
   });
   
   return (
 
 
-    <div className="accordion-container">
+    <div className="accordion-container" >
  
       <button className="accordion benefit-and-specs-list" onClick={toggleHandler}>
           {props.title}
@@ -58,7 +64,7 @@ const Accordion = (props) => {
         
         open === true
         
-        ?
+      ?
 
         <animated.div className="panel" style={openAnimation}>        
 
@@ -82,7 +88,7 @@ const Accordion = (props) => {
           </div>
 
         </animated.div>
-
+        
         : 
 
         null

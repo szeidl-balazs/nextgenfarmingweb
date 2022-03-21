@@ -12,11 +12,9 @@ const Header = () => {
     //open animation with react spring
    const openAnimation = useSpring({
     from: { 
-      opacity: "0", 
       maxHeight: "500px" 
     },
     to: { 
-      opacity: "1", 
       maxHeight: show ? "1200px" : "25px"
     },
     config: { 
