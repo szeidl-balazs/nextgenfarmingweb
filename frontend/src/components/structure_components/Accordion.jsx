@@ -46,7 +46,7 @@ const Accordion = (props) => {
       color: open ? "rgba(230, 240, 100, 1)" : "#00ffff"
     },
     config: { 
-      duration: "1000" 
+      duration: "500" 
     }
   });
   
@@ -79,6 +79,8 @@ const Accordion = (props) => {
               <p className="accordion__content">{props.text6}</p>
               <p className="accordion__content">{props.text7}</p>
               <p className="accordion__content">{props.text8}</p>
+              <p className="accordion__content">{props.text9}</p>
+              <p className="accordion__content">{props.text10}</p>
             </div>
 
             <div className="specification-img-wrap">
