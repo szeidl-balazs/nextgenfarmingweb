@@ -1,6 +1,6 @@
 import Accordion from './5_2_Accordion';
 
-const Specifications2 = () => {
+const Specifications = () => {
 
     return (
 
@@ -57,6 +57,15 @@ const Specifications2 = () => {
             <Accordion 
               title="Sok sportágban alkalmazható"
               text1="A Farkas Gym edző pad úszók részére lett kifejlesztve, de más sportágakban is hatékonyan alkalmazható:"
+              text2="- Tenisz: láberő fejlesztés, robbanékonyság fokozás."
+              text3="- Labdarúgás: felugrás fejelésekhez és a megindulásokhoz az elrugaszkodás fejlesztése."
+              text4="- Kézilabda: felugrás átlövésekhet és a megindulásokhoz az elrugaszkodás fejlesztése."
+              text5="- Kosárlabda: felugrás dobásokhoz és a megindulásokhoz az elrugaszkodás fejlesztése."
+              text6="- Atlétika: elrugaszkodások fejlesztése ugrásokhoz, futószámokban a rajtok fejlesztése."
+              text7="- Vízilabda: kitaposás fejlesztése."
+              text8="- Síugrás: elrugaszkodás fejlesztése."
+              text9="- Evezés: kar, váll, hátizomzat fejlesztése."
+              text10="- stb."
               img_id="multisport"            
             />
 
@@ -66,4 +75,4 @@ const Specifications2 = () => {
 
 }
 
-export default Specifications2;
+export default Specifications;

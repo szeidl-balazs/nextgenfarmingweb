@@ -1,6 +1,12 @@
-import React from 'react';
+import {React, useState} from 'react';
 
 const Footer = () => {
+
+    const [show, showGDPR] = useState(false);
+
+    const gdprHandler = () => {
+        showGDPR(!show);
+    }
 
     return (
         <div id="contact-id" className="footer">            
@@ -11,7 +17,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="copyright">Copyright © 2021. Farkas János ev. minden jog fenntartva!</div>
-        <div className="gdpr"><a href="7_4_GDPR.html" target="_blank">Adatvédelem</a></div>
+        <div className="gdpr"><a href="7_4_GDPR.html" target="_blank" onClick={gdprHandler}>Adatvédelem</a></div>
         <div className="cookies"><a href="7_2_cookie_text.html" target="_blank">Süti (cookie) szabályzat</a></div>
         <div className="terms-and-conditions"><a href="7_5_terms_and_conditions.html" target="_blank">Felhasználási feltételek</a></div>            
     </div>

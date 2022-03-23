@@ -13,11 +13,14 @@ h2 {
 /*p {
     padding: 5px 20px;
     text-align: justify;
-}*/
+}
+*/
+
+
 
 .gdpr {
     grid-area: gdpr;
-    padding: 0 var(--text-padding);;
+    padding: 0 var(--text-padding);
     text-align: justify;
 }
 
@@ -43,3 +46,10 @@ li p {
     font-weight: bold;
     color: red;
 }
+
+@media screen and (min-width: 1080px) {
+    .gdpr {
+        padding: 0 calc(5*var(--text-padding)); 
+    }
+}
+

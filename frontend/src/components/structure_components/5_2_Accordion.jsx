@@ -2,7 +2,6 @@ import { React, useState } from "react";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useSpring, animated, easings } from "react-spring";
 import "../css_files/3_3_specification.css"
-import NestedListContent from "./5_4_Nested_list_content";
 
 
 const Accordion = (props) => {
@@ -73,7 +72,6 @@ const Accordion = (props) => {
 
             <div className="panel-text">
               <p className="accordion__content">{props.text1}</p>
-              <NestedListContent/>
               <p className="accordion__content">{props.text2}</p>
               <p className="accordion__content">{props.text3}</p>
               <p className="accordion__content">{props.text4}</p>
@@ -82,9 +80,9 @@ const Accordion = (props) => {
               <p className="accordion__content">{props.text7}</p>
               <p className="accordion__content">{props.text8}</p>
               <p className="accordion__content">{props.text9}</p>
-              <p className="accordion__content">{props.text10}</p>
+              <p className="accordion__content">{props.text10}</p>              
             </div>
-
+            
             <div className="specification-img-wrap">
               <div className="specification-photo" id={props.img_id}></div>
             </div>
