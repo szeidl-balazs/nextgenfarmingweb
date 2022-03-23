@@ -18,7 +18,8 @@
     "intro-container intro-container"
     "benefits benefits"
     "specifications specifications"
-    "presentation presentation";
+    "presentation presentation"
+    "gdpr gdpr";
     background-color: var(--main-light-color);
     color: var(--main-dark-color);
     width: 100vw;

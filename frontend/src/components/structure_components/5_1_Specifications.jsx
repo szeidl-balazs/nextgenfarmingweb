@@ -1,4 +1,4 @@
-import Accordion from './Accordion';
+import Accordion from './5_2_Accordion';
 
 const Specifications2 = () => {
 
@@ -8,9 +8,7 @@ const Specifications2 = () => {
 
         <div id="specifications-id" className="place-holder-under-menuline"></div> {/*empty lane to push down the below content under menu line*/}
           
-        <h2>JELLEMZŐK</h2>
-
-          
+        <h2>JELLEMZŐK</h2>          
 
             <Accordion
               title="Képességfejlesztés saját testtömeggel"
@@ -19,6 +17,7 @@ const Specifications2 = () => {
               text3="Edzésrendszerbe állítható, azaz a szárazföldi edzés munka és a vízben elvégzett gyakorlatok szinergikusan hatnak egymásra."
               img_id="adjustable-angle-img"
             />
+
             <Accordion
               title="Egy időben több tulajdonság fejlesztése"
               text1="Az erőfejlesztéssel egyidejűleg a technika, azaz a mozgáskoordináció is fejleszthető, a technikai hibákat szárazföldön ki lehet javítani."
@@ -58,19 +57,8 @@ const Specifications2 = () => {
             <Accordion 
               title="Sok sportágban alkalmazható"
               text1="A Farkas Gym edző pad úszók részére lett kifejlesztve, de más sportágakban is hatékonyan alkalmazható:"
-              text2="Tenisz: láberő fejlesztés, robbanékonyság fokozás."
-              text3="Labdarúgás: felugrás fejelésekhez és a megindulásokhoz az elrugaszkodás fejlesztése."
-              text4="Kézilabda: felugrás átlövésekhet és a megindulásokhoz az elrugaszkodás fejlesztése."
-              text5="Kosárlabda: felugrás dobásokhoz és a megindulásokhoz az elrugaszkodás fejlesztése."
-              text6="Atlétika: elrugaszkodások fejlesztése ugrásokhoz, futószámokban a rajtok fejlesztése."
-              text7="Vízilabda: kitaposás fejlesztése."
-              text8="Síugrás: elrugaszkodás fejlesztése."
-              text9="Evezés: kar, váll, hátizomzat fejlesztése." 
-              text10="stb."  
               img_id="multisport"            
             />
-
-          
 
       </div>
         

@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './Header';
-import MainPage from './MainPage';
-import Footer from './Footer';
-import CookieBar from './CookieBar';
+import Header from './3_Header';
+import MainPage from './2_MainPage';
+import Footer from './7_Footer';
+import CookieBar from './9_CookieBar';
 
 
 const GridContainer = () => {

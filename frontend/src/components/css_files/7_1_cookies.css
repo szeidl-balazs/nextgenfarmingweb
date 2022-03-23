@@ -65,7 +65,7 @@
   }
   
   .checkbox-cb:checked + .cookie-bar {
-        transform: translateY(120px);
+        transform: translateY(150px);
   }  
   
   .cookie-bar a {
