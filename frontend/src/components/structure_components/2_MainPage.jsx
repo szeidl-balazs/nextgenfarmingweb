@@ -4,10 +4,10 @@ import Benefits from './3_Benefits';
 import Specifications from './5_1_Specifications';
 import Presentations from './6_Presentations';
 import BackToTopArrow from './8_BackToTopArrow';
-import GDPR from './11_GDPR';
 
 
-const MainPage = ({show}) => {    
+
+const MainPage = () => {    
 
     return (
         <main className="main-page">
@@ -16,16 +16,7 @@ const MainPage = ({show}) => {
             <Benefits />
             <Specifications />
             <Presentations />
-            <BackToTopArrow />
-
-            {
-                show
-                ? 
-                <GDPR/>
-                :
-                null
-            }
-            
+            <BackToTopArrow />                 
 
         </main>
 

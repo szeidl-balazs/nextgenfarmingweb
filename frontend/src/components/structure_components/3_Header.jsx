@@ -9,6 +9,7 @@ const Header = () => {
         setShow(!show);
     }
 
+    
     //open animation with react spring
    const openAnimation = useSpring({
     from: { 
