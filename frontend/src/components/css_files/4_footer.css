@@ -35,6 +35,14 @@
     cursor: pointer;
 }
 
+.gdpr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
 .gdpr a, .cookies a, .terms-and-conditions a, .contact a {
     text-decoration: none;
     display: inline-block;    
@@ -45,10 +53,20 @@
     color: var(--secondary-color);
 }
 
+
+.legal-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
 .footer a, .button-wo-design {
     margin-right: 20px;
     transition: 0.5s linear;
 }
+
 
 /*hover effect to emphasize links*/
 
