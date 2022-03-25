@@ -4,7 +4,7 @@ import React from 'react';
 const Cookies = () => {
 
     return (
-        <div className="cookie_section">
+        <div className="cookie-wrap">
 
             <h1>Cookie (süti) tájékoztató</h1>
             

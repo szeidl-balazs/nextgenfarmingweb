@@ -12,7 +12,7 @@ import './components/css_files/3_4_presentation.css';
 import './components/css_files/4_footer.css';
 import './components/css_files/5_back_to_top_link.css';
 import './components/css_files/6_media_queries.css';
-import './components/css_files/7_1_cookies.css';
+import './components/css_files/7_1_cookie_bar.css';
 import './components/css_files/7_2_gdpr.css';
 
 

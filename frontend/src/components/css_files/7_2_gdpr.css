@@ -1,6 +1,6 @@
 
 
-.gdpr-wrap {
+.gdpr-wrap, .cookie-wrap {
     grid-area: gdpr;
     padding: 0 var(--text-padding);
     text-align: center;

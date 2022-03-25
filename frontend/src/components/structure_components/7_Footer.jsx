@@ -2,27 +2,50 @@ import {React, useState} from 'react';
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useSpring, animated, easings } from "react-spring";
 import GDPR from './11_GDPR';
+import Cookies from './10_Cookies';
 
 const Footer = () => {
 
-    const [gdpropen, setOpener] = useState(false);
+  //GDPR opener/closer 
+  const [gdpropen, setGdprOpener] = useState(false);
 
-    const gdprOpener = (e) => {
-        
-        setOpener(!gdpropen);               
-    }
+  const gdprOpener = (e) => {        
+    setGdprOpener(!gdpropen);               
+  }
 
-     //rotate animation
-     
+  //Cookie rules opener/closer
 
-     const iconAnimation = useSpring({
+  const [cookieopen, setCookieOpener] = useState(false);
+
+  const cookieOpener = (e) => {
+    setCookieOpener(!cookieopen);
+  }
+
+
+  //rotate animation
+    const iconAnimation1 = useSpring({
       from: {
         transform: "rotate(180deg)",
         color: "#00ffff"        
       },
       to: {
-        transform: gdpropen ? "rotate(0deg)" : "rotate(180deg)",
-        color: gdpropen ? "rgba(230, 240, 100, 1)" : "#00ffff"        
+       transform: gdpropen ? "rotate(0deg)" : "rotate(180deg)",
+       color: gdpropen ? "rgba(230, 240, 100, 1)" : "#00ffff"        
+      },
+      config: { 
+        duration: "500", 
+        easing: easings.easeIn
+      }
+    });
+
+    const iconAnimation2 = useSpring({
+      from: {
+        transform: "rotate(180deg)",
+        color: "#00ffff"        
+      },
+      to: {
+       transform: gdpropen ? "rotate(0deg)" : "rotate(180deg)",
+       color: gdpropen ? "rgba(230, 240, 100, 1)" : "#00ffff"        
       },
       config: { 
         duration: "500", 
@@ -37,13 +60,23 @@ const Footer = () => {
             {
                 gdpropen === true
                 ?
-
                 <div className="legal-wrap">
-                  <button className="gdpr button-wo-design closingIcon" onClick={gdprOpener}><animated.div style={iconAnimation} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
-                  <GDPR/>
+                  <button className="gdpr button-wo-design closingIcon" onClick={gdprOpener}><animated.div style={iconAnimation1} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
+                  <GDPR />
                 </div>
                 :
                 null
+            }
+
+            {
+              cookieopen === true
+              ?
+              <div className="legal-wrap">
+                <button className="gdpr button-wo-design closingIcon" onClick={cookieOpener}><animated.div style={iconAnimation2} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
+                <Cookies />
+              </div>
+              :
+              null
             }
 
             <div id="contact-id" className="footer">            
@@ -54,8 +87,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="copyright">Copyright © 2021. Farkas János ev. minden jog fenntartva!</div>
-                <button className="gdpr button-wo-design" onClick={gdprOpener}>Adatvédelem <animated.div style={iconAnimation} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
-                <div className="cookies"><a href="7_2_cookie_text.html" target="_blank">Süti (cookie) szabályzat</a></div>
+                <button className="gdpr button-wo-design" onClick={gdprOpener}>Adatvédelem <animated.div style={iconAnimation1} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
+                <button className="gdpr button-wo-design" onClick={cookieOpener}>Süti (cookie) szabályzat <animated.div style={iconAnimation2} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <div className="terms-and-conditions"><a href="7_5_terms_and_conditions.html" target="_blank">Felhasználási feltételek</a></div>            
             </div>
 
