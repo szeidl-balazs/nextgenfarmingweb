@@ -3,6 +3,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useSpring, animated, easings } from "react-spring";
 import GDPR from './11_GDPR';
 import Cookies from './10_Cookies';
+import Terms from './12_terms_and_conditions'
 
 const Footer = () => {
 
@@ -19,6 +20,14 @@ const Footer = () => {
 
   const cookieOpener = (e) => {
     setCookieOpener(!cookieopen);
+  }
+
+  // Terms and conditions opener
+
+  const [termsopen, setTermsOpener] = useState(false);
+
+  const termsOpener = (e) => {        
+    setTermsOpener(!termsopen);               
   }
 
 
@@ -44,8 +53,23 @@ const Footer = () => {
         color: "#00ffff"        
       },
       to: {
-       transform: gdpropen ? "rotate(0deg)" : "rotate(180deg)",
-       color: gdpropen ? "rgba(230, 240, 100, 1)" : "#00ffff"        
+       transform: cookieopen ? "rotate(0deg)" : "rotate(180deg)",
+       color: cookieopen ? "rgba(230, 240, 100, 1)" : "#00ffff"        
+      },
+      config: { 
+        duration: "500", 
+        easing: easings.easeIn
+      }
+    });
+
+    const iconAnimation3 = useSpring({
+      from: {
+        transform: "rotate(180deg)",
+        color: "#00ffff"        
+      },
+      to: {
+       transform: termsopen ? "rotate(0deg)" : "rotate(180deg)",
+       color: termsopen ? "rgba(230, 240, 100, 1)" : "#00ffff"        
       },
       config: { 
         duration: "500", 
@@ -79,6 +103,18 @@ const Footer = () => {
               null
             }
 
+{
+              termsopen === true
+              ?
+              <div className="legal-wrap">
+                <button className="gdpr button-wo-design closingIcon" onClick={termsOpener}><animated.div style={iconAnimation3} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
+                <Terms />
+              </div>
+              :
+              null
+            }
+
+
             <div id="contact-id" className="footer">            
                 <div className="contact">Kapcsolat:
                     <div>                
@@ -89,7 +125,7 @@ const Footer = () => {
                 <div className="copyright">Copyright © 2021. Farkas János ev. minden jog fenntartva!</div>
                 <button className="gdpr button-wo-design" onClick={gdprOpener}>Adatvédelem <animated.div style={iconAnimation1} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <button className="gdpr button-wo-design" onClick={cookieOpener}>Süti (cookie) szabályzat <animated.div style={iconAnimation2} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
-                <div className="terms-and-conditions"><a href="7_5_terms_and_conditions.html" target="_blank">Felhasználási feltételek</a></div>            
+                <button className="gdpr button-wo-design" onClick={termsOpener}>Felhasználási feltételek <animated.div style={iconAnimation3} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
             </div>
 
         </div>

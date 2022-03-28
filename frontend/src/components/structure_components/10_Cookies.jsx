@@ -10,21 +10,21 @@ const Cookies = () => {
             
             <div className="cookie-scope">
                 <h2>A Cookie (süti) tájékoztató hatálya</h2>
-                <p>Jelen szabályzat Farkas János egyéni vállalkozó (továbbiakban: Üzemeltető) kezelésében álló következő weboldalakra vonatkozik:</p>
+                <p className="short-text">Jelen szabályzat Farkas János egyéni vállalkozó (továbbiakban: Üzemeltető) kezelésében álló következő weboldalakra vonatkozik:</p>
                     <ul>
-                        <li><a href="index.html" target="_blank">www.farkasgym.hu</a></li>
+                        <li className="short-text"><a href="index.html" target="_blank">www.farkasgym.hu</a></li>
                     </ul>
             </div>
             
         
-            <div className="cookie-definition">
+            <div className="cookie-definition long-text">
                 <h2>Mik azok a cookie-k vagy sütik?</h2>
                 <p>Amikor a látogató a tájékoztató hatálya alá tartozó weboldalt meglátogatja, egy kisméretű adatfájlt, úgynevezett cookie (továbbiakban: cookie vagy süti) helyezünk el a számítógépére, mely többféle célt szolgálhat.</p>
                 <p>Kizárólag az oldal működéséhez feltétlenül szükséges és munkamenet támogató, az egyes felhasználói munkamenetek azonosítására szolgáló, továbbá weboldalunk kényelmesebb használatát elősegítő sütiket használunk.</p>
                 <p>Az általunk alkalmazott sütik egy része csak átmeneti és eltűnik a böngésző bezárásával, míg léteznek oly kényelmi sütik, melyek 1 hónapig tárolódnak számítógépén, hogyha rendszeresen látogatja weboldalunkat, akkor a böngészője megjegyezze a korábban használt beállításait, így nem szükséges minden megtekintéskor újból elfogadnia süti tájékoztatónkat vagy rendszeresen beállítania az igényei szerinti szűrési feltételeket.</p>
             </div>
         
-            <div className="cookie-goal">
+            <div className="cookie-goal long-text">
                 <h2>A sütik célja</h2>
                 <p>Egyes általunk használt sütik elengedhetetlenek az oldal megfelelő működéséhez (session cookie - munkamenet süti), mások a weboldal kényelmesebb használatának elősegéítésére szolgálnak. A látogató beállításainak, használati szokásainak rögzítésével az oldalon való navigáció és ezáltal a honlap használatának megkönnyítése.</p>
             </div>

@@ -1,6 +1,6 @@
 
 
-.gdpr-wrap, .cookie-wrap {
+.gdpr-wrap, .cookie-wrap, .terms-wrap {
     grid-area: gdpr;
     padding: 0 var(--text-padding);
     text-align: center;
@@ -16,6 +16,10 @@
 
 .short-text {
     text-align: center;
+}
+
+.long-text {
+    text-align: justify;
 }
 
 ol, ul, li, .gdpr-wrap .long-text {
@@ -38,7 +42,7 @@ li p {
 }
 
 @media screen and (min-width: 1080px) {
-    .gdpr-wrap {
+    .gdpr-wrap, .cookie-wrap, .terms-wrap {
         padding: calc(5*var(--text-padding)); 
     }
 }
