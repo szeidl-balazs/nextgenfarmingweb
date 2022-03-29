@@ -8,7 +8,7 @@ const Terms = () => {
 
             <h1>Általános szerződési feltételek</h1>
 
-            <div>
+            <div className="long-text">
                 <p>A jelen Általános Szerződési Feltételek (a továbbiakban: ÁSZF) Farkas János egyéni vállalkozó (továbbiakban: Szolgáltató), és a Szolgáltató által a <span><a href="index.html" target="_blank">www.farkasgym.hu</a></span> weboldalon keresztül nyújtott elektronikus kereskedelmi szolgáltatásokat igénybe vevő Ügyfél (a továbbiakban: Ügyfél) jogait és kötelezettségeit tartalmazza. (Szolgáltató és Ügyfél a továbbiakban együttesen: Felek). Az ÁSZF minden jogügyletre és szolgáltatásra vonatkozik, amely a <span><a href="index.html" target="_blank">www.farkasgym.hu</a></span> weboldalon keresztül történik, függetlenül attól, hogy annak teljesítése Magyarországról vagy külföldről, a Szolgáltató vagy közreműködője által történik. <span class="important">SZOLGÁLTATÓ ADATAI:</span></p>
                 <p><span class="important">Név: </span>Farkas János egyéni vállalkozó</p>
                 <p><span class="important">Székhely és levelezési cím: </span>Győr, Külső veszprémi út 14 B ép. 9028</p>
@@ -21,7 +21,7 @@ const Terms = () => {
                 <p><span class="important">Pénzintézete és bankszámla száma: </span>OTP Győr-Moson-Sopron megyei LAFO fiók (9022 Győr, Teleki út 51.) 11773377-02153434-00000000</p>
             </div>
 
-            <div>
+            <div className="long-text">
                 <h2>1. A FELEK KÖZÖTTI SZERZŐDÉS LÉTREJÖTTE</h2>
                 <p>1.1.	A jelen ÁSZF hatálya kiterjed a Magyarország területén nyújtott minden olyan elektronikus kereskedelmi szolgáltatásra, amely a <a href="index.html" target="_blank">www.farkasgym.hu</a> weboldalon (a továbbiakban: Weboldal) keresztül történik. Továbbá jelen ÁSZF hatálya kiterjed minden olyan kereskedelmi ügyletre, amely jelen szerződésben meghatározott Felek között jön létre. A www.farkasgym.hu weboldal alapján történő vásárlást az elektronikus kereskedelmi szolgáltatások, az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi CVIII. törvény ("Elkertv.") szabályozza.</p>
                 <p>1.2.	A www.farkasgym.hu weboldalon történő vásárlás elektronikus úton leadott megrendeléssel lehetséges, a jelen ÁSZF-ben meghatározott módon.</p>
@@ -30,8 +30,8 @@ const Terms = () => {
                 <p>1.5.	A szerződés nyelve magyar.</p>
                 <p>1.6.	A Szolgáltató semmilyen magatartási kódex rendelkezéseinek nem veti alá magát.</p>
                 <p>1.7.	Ügyfélszolgálat: Farkas János egyéni vállalkozó</p>
-                <ul>
-                    <li>Ügyfélszolgálati iroda helye: Győr, Külső veszprémi út 14 B ép. 9028</li>
+                <ul className="nested-list">
+                    <li>Ügyfélszolgálati iroda helye: Győr, Külső Veszprémi út 14 B ép. 9028</li>
                     <li>Az ügyfélszolgálat címén személyes ügyfélfogadásra nincs lehetőség. Az Ügyfél kizárólag tértivevényes postai levélben, emailben vagy telefonon tudja felvenni a kapcsolatot az ügyfélszolgálattal.</li>
                     <li>Telefonos ügyfélszolgálat hívható: munkanapokon 08:00-16:00 óra között.</li>
                     <li>Ügyfélszolgálat telefonszáma: <a href="🖀 +36 30 936 1899">🖀 +36 30 936 1899</a></li>
@@ -46,7 +46,7 @@ const Terms = () => {
                 <p>Megrendelni regisztráció nélkül lehet elektronikusan az 1. pontban megadott email címen.</p>
             </div>
 
-            <div>
+            <div className="long-text">
                 <h2>3. MEGRENDELÉS</h2>
                 <p>3.1.	A vásárolandó áru lényeges tulajdonságait, jellemzőit, az áru használatára vonatkozó utasításokat a Szolgáltatótól kért termékismertetőben lehet megismerni. A Szolgáltató szerződésszerű teljesítésének minősül, ha a termék a weboldalon nyújtott tájékoztatásnál kedvezőbb, előnyösebb tulajdonságokkal rendelkezik. Ha a vásárlás előtt az áruval kapcsolatban kérdése merülne fel, ügyfélszolgálatunk készséggel áll rendelkezésére. Amennyiben a Weboldalon található áru minőségével, alapvető tulajdonságával, használatával, használhatóságával kapcsolatban, a weboldalon közölteknél több információra van szüksége, kérjük, forduljon az ügyfélszolgálathoz az 1. pontban megadott telefonszámon.</p>
                 <p>3.2.	A vételárat a Szolgáltató minden megrendelés előtt írásban közli a Megrendelővel, mely alapesetben az általános forgalmi adót nem tartalmazza. A termékek vételára nem tartalmazza a kiszállítás költségét.</p>
@@ -60,7 +60,7 @@ const Terms = () => {
                 <p>Az Ügyfélnek a rendelés bármely szakaszában és a megrendelés Szolgáltató részére való elküldéséig bármikor lehetősége van az adatbeviteli hibák javítására a megrendelési felületen.</p>
             </div>
 
-            <div>
+            <div className="long-text">
                 <h2>5. AJÁNLATI, MEGRENDELÉSI KÖTÖTTSÉG, VISSZAIGAZOLÁS</h2>
                 <p>5.1.	Az Ügyfél által elküldött megrendelés megérkezését a Szolgáltató késedelem nélkül, automatikus visszaigazoló e-mail útján legkésőbb 72 órán belül visszaigazolja az Ügyfél részére, mely visszaigazoló e-mail tartalmazza az Ügyfél által a vásárlás során megadott adatokat (pl. számlázási és szállítási információk), a rendelés azonosítóját, a rendelés dátumát, a megrendelt termékhez tartozó elemek felsorolását, mennyiségét, a termék árát, szállítási költséget és a fizetendő végösszeget. Ez a visszaigazoló email kizárólag tájékoztatja az Ügyfelelt arról, hogy a megrendelése a Szolgáltatóhoz megérkezett.</p>
                 <p>5.2.	E visszaigazoló e-mail a Szolgáltató részéről az Ügyfél által tett ajánlat elfogadásának minősül, mellyel érvényes szerződés jön létre Szolgáltató és az Ügyfél között.</p>
@@ -69,7 +69,7 @@ const Terms = () => {
                 <p>5.5.	A megrendelés elektronikus úton megkötött szerződésnek minősül, amelyre a polgári törvénykönyvről szóló 2013. évi V. törvény, az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi CVIII. törvényben foglaltak irányadóak. Amennyiben a vevő fogyasztónak minősül, úgy a szerződés a fogyasztó és a vállalkozás közötti szerződések részletes szabályairól szóló 45/2014 (II.26.) Korm. rendelet hatálya alá tartozik, és szem előtt tartja a fogyasztók jogairól szóló Európai Parlament és a Tanács 2011/83/EU irányelvének rendelkezéseit.</p>
             </div>
 
-            <div>
+            <div className="long-text">
                 <h2>6. SZÁLLÍTÁSI ÉS FIZETÉSI FELTÉTELEK</h2>
                 <p>6.1. A szállítási díjat az Ügyfél viseli. A szállítási díj a számlán és a visszaigazoló emailben is feltüntetésre kerül. Ha egy Ügyféltől azonos napon több megrendelés is érkezik, ezek a házhoz szállítás díja szempontjából külön kerülnek figyelembevételre. Amennyiben az Ügyfél a második rendelés leadásakor jelzi és erre a Szolgáltató visszajelzése alapján még van lehetőség, a Szolgáltató összevonhatja a megrendeléseket, a már elindított csomagok utólagos összevonására azonban már nincs mód. A Szolgáltató a szállítási díj változtatásának jogát fenntartja azzal, hogy a módosítás a Weboldalon való megjelenéssel egyidejűleg lép hatályba. A módosítás a már megrendelt termékek vételárát nem befolyásolja. Nagyméretű eszközök kiszállítása értékhatártól függetlenül minden esetben külön díjszabás szerint kerül elszámolásra, előzetes ajánlat alapján.</p>
                 <p>6.2.	Szolgáltató a rendelés teljesíthetőségét követően lehetőséget biztosít Ügyfélnek a kiszállítási időpont megválasztására, mely nem konkrét időpontot jelöl, csak közelítő szállítási intervallum kiválasztására szolgál. Meghatározott órára történő kiszállítást a Szolgáltatónak nem áll módjában vállalni, a tényleges szállítási határidő minden esetben a rendelési visszaigazolásban szerepel.</p>
@@ -78,7 +78,7 @@ const Terms = () => {
                 <p>6.5.	Számla: a termék személyes átvételekor (bármely telephelyen történő átvétel, kiszállítás során a futártól történő átvétel stb.) a Szolgáltató az Ügyfél részére a vásárlás igazolására, papíralapú vagy elektronikus számlát ad.</p>
             </div>
 
-            <div>
+            <div className="long-text">
                 <h2>7.	ELÁLLÁS JOG</h2>
                 <p class="alert">Az e pontban foglaltak kizárólag a szakmája, foglalkozása vagy üzleti tevékenysége körén kívül eljáró természetes személyre vonatkoznak, aki árut vesz, rendel, kap, használ, igénybe vesz, valamint az áruval kapcsolatos kereskedelmi kommunikáció, ajánlat címzettje (a továbbiakban „Fogyasztó").</p>
                 <p>Fogyasztó jogosult a termék adásvételére irányuló szerződés esetén az első szolgáltatásnak, a Fogyasztó vagy az általa megjelölt, a fuvarozótól eltérő harmadik személy általi átvételének napjától számított tizennégy (14) napon belül a szerződéstől indokolás nélkül elállni abban az esetben, ha a Fogyasztó bizonyíthatóan a megrendelés előtt már legyártott termék vásárlásától áll el.</p>
@@ -100,13 +100,13 @@ const Terms = () => {
                 <p>7.1.14. A Szolgáltató követelheti a termék jellegének, tulajdonságainak és működésének megállapításához szükséges használatot meghaladó használatból eredő értékcsökkenés illetve ésszerű költségeinek - ha szolgáltatásnyújtásra irányuló szerződés teljesítését a Fogyasztó kifejezett kérésére a határidő lejárta előtt megkezdte és gyakorolja felmondási jogát - megtérítését.</p>
             </div>
 
-            <div>
+            <div className="long-text">
                 <h2>JÓTÁLLÁS</h2>
                 <p class="important">8.1. Kötelező jótállás</p>
                 <p>8.1.1. A Szolgáltatót termékeire vonatkozóan a Polgári törvénykönyv és a 151/2003. (IX. 22.) Korm. rendelet alapján jótállási kötelezettség terheli, amely azt jelenti, hogy a jótállás időtartama alatt a felelősség alól csak akkor mentesül, ha bizonyítja, hogy a hiba a termék nem rendeltetésszerű használatára vezethető vissza.</p>
                 <p>8.1.2. A jótállás időtartama (a jótállási idő) a tényleges teljesítéssel, tehát a terméknek az Ügyfél részére történő átadásával, vagy ha az üzembe helyezést a Szolgáltató vagy annak megbízottja végzi, az üzembe helyezés napja. Tartós fogyasztási cikknek minősülnek az egyes tartós fogyasztási cikkekre vonatkozó kötelező jótállásról szóló 151/2003. (IX.22.) Kormányrendelet mellékletében felsorolt termékek, melyekre a jogszabály egy éves kötelező jótállási időtartalmat ír elő. A rendelet (tárgyi) hatálya csakis az új, Magyarország területén kötött fogyasztói szerződés keretében értékesített és a rendelet mellékletében felsorolt termékekre vonatkozik.</p>
                 <p>Nem tartozik jótállás alá a hiba, ha annak oka a termék Ügyfél részére való átadását követően lépett fel, így például, ha a hibát</p>
-                <ul>
+                <ul className="nested-list">
                     <li>szakszerűtlen üzembe helyezés (kivéve, ha az üzembe helyezést a Szolgáltató, vagy annak megbízottja végezte el, illetve ha a szakszerűtlen üzembe helyezés a használati-kezelési útmutató hibájára vezethető vissza)</li>
                     <li>rendeltetésellenes használat, a használati-kezelési útmutatóban foglaltak figyelmen kívül hagyása,</li>
                     <li>helytelen tárolás, helytelen kezelés, rongálás,</li>
@@ -126,7 +126,7 @@ const Terms = () => {
                 <p>8.2.1. Szolgáltató az általa értékesített termékekre vonatkozóan a Weboldalon, a Termék ismertetőjében megjelölt időtartamú jótállást (garancia) vállal, amely a kormányrendelet szerinti időtartamnál hosszabb is lehet. Szolgáltató az egyes termékekre vonatkozó jótállás időtartamát legkésőbb a termék Ügyfél általi átvételekor adott garanciajegyen (jótállási jegyen) szereplő adatok útján közli. Jelen pontban meghatározott Önkéntes jótállás kizárólag a Szolgáltató és a Polgári törvénykönyvben meghatározott fogyasztók között kötött szerződésekre vonatkozik.</p>
             </div>
 
-            <div>
+            <div className="long-text">
                 <h2>9. SZAVATOSSÁG</h2>
                 <p class="important">9.1. Kellékszavatosság</p>
                 <p>9.1.1. A Szolgáltató szavatosságot vállal a Termékek Forgalmazásra alkalmas állapotáért és egyéb jogszabályban meghatározott tulajdonságáért.</p>
@@ -153,7 +153,7 @@ const Terms = () => {
                 <p>9.2.9. A gyártónak, forgalmazónak a mentesüléshez elegendő egy okot bizonyítania.</p>
             </div>
 
-            <div>
+            <div className="long-text">
                 <h2>10. FELELŐSSÉG</h2>
                 <p>10.1. A Weboldalon található információk jóhiszeműen kerültek felhelyezésre, azonban azok kizárólag tájékoztató célt szolgálnak, az információk pontosságáért, teljességéért Szolgáltató nem vállal felelősséget.</p>
                 <p>10.2. Az Ügyfél a Weboldalt kizárólag a saját kockázatára használhatja, és elfogadja, hogy Szolgáltató nem vállal felelősséget a használat során felmerülő vagyoni és nem vagyoni károkért a szándékosan, súlyos gondatlansággal, vagy bűncselekménnyel okozott, továbbá az életet, testi épséget, egészséget megkárosító szerződésszegésért való felelősségen túlmenően.</p>
@@ -164,14 +164,14 @@ const Terms = () => {
                 <p>10.7. Amennyiben az Ügyfél a Weboldalon kifogásolható tartalmat észlel, köteles azt haladéktalanul jelezni Szolgáltatónak. Amennyiben Szolgáltató jóhiszemű eljárása során a jelzést megalapozottnak találja, jogosult az információ haladéktalan törlésére vagy annak módosítására.</p>
             </div>
 
-            <div>
+            <div className="long-text">
                 <h2>11. SZERZŐI JOGOK</h2>
                 <p>11.1. A Weboldal szerzői jogvédelem alatt áll. Szolgáltató a szerzői jogi jogosultja vagy a feljogosított felhasználója a Weboldalon, valamint a Weboldalon keresztül elérhető szolgáltatások nyújtása során megjelenített valamennyi tartalomnak: bármely szerzői műnek, illetve más szellemi alkotásnak (ideértve többek közt valamennyi grafikát és egyéb anyagokat, a Weboldal felületének elrendezését, szerkesztését, a használt szoftveres és egyéb megoldásokat, ötletet, megvalósítást).</p>
                 <p>11.2. A Weboldal tartalmának valamint egyes részeinek fizikai vagy más adathordozóra mentése vagy kinyomtatása magáncélú felhasználás céljából vagy a Szolgáltató előzetes írásbeli hozzájárulása esetén engedélyezett. A magáncélú felhasználáson túli felhasználás - például adatbázisban történő tárolás, továbbadás, közzé- vagy letölthetővé tétel, kereskedelmi forgalomba hozatal - kizárólag a Szolgáltató előzetes írásbeli engedélyével lehetséges.</p>
                 <p>11.3. A jelen ÁSZF-ben kifejezetten meghatározott jogokon túlmenően a regisztráció, a Weboldal használata, illetve az ÁSZF egyetlen rendelkezése sem biztosít jogot az Ügyfélnek a Weboldal felületén szereplő bármely kereskedelmi névnek vagy védjegynek bármely használatára, hasznosítására. A Weboldal rendeltetésszerű használatával járó megjelenítésen, az ehhez szükséges ideiglenes többszörözésen és a magáncélú másolatkészítésen túl e szellemi alkotások a Szolgáltató előzetes írásbeli engedélye nélkül semmilyen egyéb formában nem használhatók fel vagy hasznosíthatók.</p>
             </div>
 
-            <div>
+            <div className="long-text">
                 <h2>12.	JOGÉRVÉNYESÍTÉSI LEHETŐSÉGEK</h2>
                 <p class="important">12.1. Panaszügyintézés</p>
                 <p>Az Ügyfél a termékkel vagy a Szolgáltató tevékenységével kapcsolatos fogyasztói kifogásait az alábbi elérhetőségeken terjesztheti elő: Vásárlói ügyfélszolgálat (Vevőszolgálat):</p>
@@ -200,7 +200,7 @@ const Terms = () => {
                 </ul>
             </div>
 
-            <div>
+            <div className="long-text">
                 <h2>13.	EGYÉB RENDELKEZÉSEK</h2>
                 <p>A www.farkasgym.hu weboldal biztonsági foka megfelelő, használata nem jelent kockázatot, azonban javasoljuk, hogy tegye meg az alábbi óvintézkedéseket: használjon vírus és spyware védelmi szoftvereket friss adatbázissal, telepítse az operációs rendszer biztonsági frissítéseit. A Weboldalon való vásárlás feltételezi az Ügyfél részéről az Internet technikai és műszaki korlátainak ismeretét és a technológiával együtt járó hibalehetőségek elfogadását.</p>
                 <p>A Szolgáltató bármikor jogosult jelen ÁSZF feltételeit egyoldalúan módosítani. A Szolgáltató a módosításokról az Ügyfeleket a Weboldal felületén keresztül tájékoztatja. A módosítást követően a Weboldal használatának feltétele, hogy az Ügyfél a Weboldalon keresztül és az ott biztosított módon azokat kifejezetten elfogadja.</p>
