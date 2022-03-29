@@ -120,3 +120,14 @@
     transform: scale(1.2);
     transition: 0.5s linear;
 }
+
+.language-selector {
+   position: fixed;
+   top: 60px;
+   right: 200px;
+   z-index: 1;
+   background-color: var(--main-dark-color);
+   border: 1px solid var(--main-dark-color);
+   box-shadow: var(--text-shadow);
+   cursor: pointer;
+}
