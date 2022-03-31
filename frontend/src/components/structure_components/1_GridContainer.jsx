@@ -1,36 +1,34 @@
 import {React, useState} from 'react';
-import Header from './3_Header';
-import MainPage from './2_MainPage';
+import Header from './2_1_Header_hun';
+import HeaderEng from './2_2_Header_eng';
+import MainPage from './3_MainPage';
 import Footer from './7_Footer';
 import CookieBar from './9_CookieBar';
 
 
 const GridContainer = () => {
     
-    const [hungarian, setHungarian] = useState(true);
+    const [language, setLanguage] = useState("hun");
 
-    const [english, setEnglish] = useState(false);
-
-    const hunSelector = (e) => {
-        setHungarian(true) && setEnglish(false);
+    
+    const languageSelector = (e) => {
+        setLanguage(e.target.value);
     }
 
-    const engSelector = (e) => {
-        setEnglish(true) && setHungarian(false)
-    }
+    
 
     return (
         <div className="grid-container">
            
-            <select className="language-selector">
-                <option selected="selected" value="hun" onClick={hunSelector}>HUN</option>
-                <option value="eng" onClick={engSelector}>ENG</option>
+            <select className="language-selector" value={language} onChange={languageSelector} >
+                <option value="hun" >HUN</option>
+                <option value="eng">ENG</option>
             </select>
 
 
         {
 
-            hungarian === true
+            language === "hun"
 
             ?
             
@@ -46,7 +44,7 @@ const GridContainer = () => {
             
             :
 
-            null
+            <HeaderEng />
 
         }
             

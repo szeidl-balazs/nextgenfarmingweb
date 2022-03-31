@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from './4_Hero'
-import Benefits from './3_Benefits';
+import Benefits from './5_0_Benefits';
 import Specifications from './5_1_Specifications';
 import Presentations from './6_Presentations';
 import BackToTopArrow from './8_BackToTopArrow';
