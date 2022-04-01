@@ -1,7 +1,8 @@
 import {React, useState} from 'react';
-import Header from './2_1_Header_hun';
-import HeaderEng from './2_2_Header_eng';
-import MainPage from './3_MainPage';
+import Header from './2_Header_hun';
+import HeaderEng from './2_Header_eng';
+import MainPage from './3_MainPage_hun';
+import MainPageEng from './3_MainPage_eng';
 import Footer from './7_Footer';
 import CookieBar from './9_CookieBar';
 
@@ -44,7 +45,12 @@ const GridContainer = () => {
             
             :
 
-            <HeaderEng />
+            <div>
+
+                <HeaderEng />
+                <MainPageEng />
+
+            </div>
 
         }
             

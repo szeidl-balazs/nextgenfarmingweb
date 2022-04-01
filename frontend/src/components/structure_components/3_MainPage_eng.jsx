@@ -1,19 +1,19 @@
 import React from 'react';
 import Hero from './4_Hero'
-import Benefits from './5_0_Benefits';
+import BenefitsEng from './5_0_Benefits_eng';
 import Specifications from './5_1_Specifications';
 import Presentations from './6_Presentations';
 import BackToTopArrow from './8_BackToTopArrow';
 
 
 
-const MainPage = () => {    
+const MainPageEng = () => {    
 
     return (
         <main className="main-page">
 
             <Hero />
-            <Benefits />
+            <BenefitsEng />
             <Specifications />
             <Presentations />
             <BackToTopArrow />                 
@@ -23,4 +23,4 @@ const MainPage = () => {
     );
 }
 
-export default MainPage;
+export default MainPageEng;
