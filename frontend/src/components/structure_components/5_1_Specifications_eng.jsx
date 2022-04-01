@@ -13,23 +13,23 @@ const SpecificationsEng = () => {
             <Accordion
               title="Skill development with own weight"
               text1="The strength development occurs with the move of own body weight of which accurate knowing there is no age group limitation during work out."
-              text2="The angular offset of the bench is adjustable, therefore the level of power alterable."
+              text2="The angular offset of the bench is adjustable, therefore the level of power is alterable."
               text3="The work outs with the bench can be integrated into training system, that is, the bench training and the sport specific work outs have synergic effect to each other e.g. breast srtoke kicking on the bench and breast stroke kicking in the water."
               img_id="adjustable-angle-img"
             />
 
             <Accordion
               title="Simultaneous development of different skills"
-              text1="Az erőfejlesztéssel egyidejűleg a technika, azaz a mozgáskoordináció is fejleszthető, a technikai hibákat szárazföldön ki lehet javítani."
-              text2="Minden úszásnemre érvényes, kialakítható a helyes lábtartás."
-              text3="A végrehajtás technikája folyamatos instrukcióval javítható. Ebben a folyamatban a kommunikáció a sportoló és az edző között hatékonyabb, mintha ugyanez a vízben lévő sportoló és a medence szélén álló edző között történne."     
+              text1="Simultaneously with the strength development the coordination can be improved as well, the technical mistakes can be corrected on the bench which is easier than in the water in case of swimming or on the sports ground in case of other sports."
+              text2="The proper leg or arm technique can be established in many sports."
+              text3="During the workout the proper technique can be improved with continuous instructions of a coach. In this process the communication between athlets and coaches are more efficient compered to an original athlet - coach situation when an athlet is on a sports ground or in a swimming pool and a coach is further from him or her."     
               img_id="morefeatures"
             />
 
             <Accordion
               title="Sport specific strength development effect"
-              text1="Az egyes gyakorlatok speciális, úszásnemre vonatkozó izomcsoportokat erősítenek."
-              text2="Az eddigi tapasztalatok alapján a terhelési összetevők tervezett változtatása ugyanolyan élettani hatásokat vált ki, mint a medencében történő edzés során tapasztalunk."
+              text1="A particular work out strengthens specific muscle groups."
+              text2="According to our experience till now the planed alteration of charging components results same training effects that could be gained on sports grounds or in a swimming pool."
               img_id="spec-swimmers"           
             />
 
