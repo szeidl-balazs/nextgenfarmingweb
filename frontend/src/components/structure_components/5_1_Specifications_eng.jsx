@@ -35,14 +35,14 @@ const SpecificationsEng = () => {
 
             <Accordion
               title="PC control and monitoring"
-              text1="Az erősítő gép számítógépes vezérléssel és kézi vezérléssel egyaránt működtethető."
-              text2="A beépített számítógéppel vezérelhető a pad dőlésszögének állítása, mely a terhelés mértékét szabályozza. A beállítástól függően a számítógép automatikusan emeli, vagy süllyeszti a padot."
-              text3="A számítógépes vezérléssel a gyakorlat ismétlésszáma, időtartama és a pihenő idő is beállítható."
-              text4="A beállított programnak megfelelően a pihenő idő alatt változik a dőlésszög."
-              text5="A gépen szenzorok érzékelik, hogy a sportoló a feladatnak megfelelően teljesít-e. A kijelző csak azt a végrehajtást számolja, amelyiknél a megtett út a beállított értéknek megfelelt, vagyis az erő kifejtés az edző által meghatározott módon lett teljesítve."
-              text6="A sportoló mellkasára rögzített szívfrekvencia mérő egység adatai megjelennek a gép kijelzőjén a leadott teljesítmény Wattban kifejezett értékeivel együtt."
-              text7="A képernyőről leolvasható adatok a terhelés mértékéről azonnali információt adnak."
-              text8="A kijelzőről leolvasható: a gyakorlat vagy pihenés során eltelt idő, az ismétlésszám, a sportoló által elvégzett teljesítmény Watt-ban, a szívfrekvencia (pulzus szám) - mellkas mérő használata esetén."  
+              text1="Farkas Gym machine operates with computer and manual control, too."
+              text2="The angular offset of the bench can be controlled by the onboard computer. The level of workload can be settled by the angular offset. Depending on the coach's settings the onboard computer automatically raises or lowers the angular offset of the bench."
+              text3="The repetion, the duration of the work phase and the rest phase of workouts can be programmed with the onboard computer as well."
+              text4="Within a workout set the angular offset of the bench can be modified during the rest phase between two workout repetitions according to the settings."
+              text5="There are sensors on the bench which monitors the performance of athlets whether a workout is carried out properly. The display counts only that repetition in which the performed route on the bench is at least as long as it has been set on the onboard computer by a coach. Namely the level of the performed power of an athlet is in line with the definition of coaches."
+              text6="The data of a heart rate monitor which is mounted on the breast of an athlet are displayed on the onboard computer together with the performance value in Watt."
+              text7="There are immediate information about the performance of athlets on the display of onboard computer."
+              text8="The display of onboard computer shows: the duration of the work and the rest phase, the count of repetitions, the performance of athlet in Watt, heart rate in case of breast mounted sensor."  
               img_id="pc-control"
             />
 
