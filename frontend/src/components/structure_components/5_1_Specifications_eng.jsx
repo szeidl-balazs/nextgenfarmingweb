@@ -48,24 +48,23 @@ const SpecificationsEng = () => {
 
             <Accordion 
               title="Adjustable foot support"
-              text1="Az alsó támasz állítása lehetőséget biztosít a lábak aktív szakaszának út és időtartam növelésére, mindez manuálisan beállítható."
-              text2="Az alsó támasz a gyakorlat sorozatai után állitható."
-              text3="Fejlesztés alatt van a motorral fokozatmentesen állítható lábtámasz, melynek köszönhetően a gyakorlat szettjei között gyorsan lehet változtatni a lábtámasz szögét."
+              text1="The lower foot support is adjustable which enables coaches to modify the active displacement of the leg workouts."
+              text2="The lower foot support can be adjusted with an engine controlled by the onboard computer between the sets of a workout."
               img_id="leg-support-img"            
             />
 
             <Accordion 
               title="Applicable in many sports"
-              text1="A Farkas Gym edző pad úszók részére lett kifejlesztve, de más sportágakban is hatékonyan alkalmazható:"
-              text2="- Tenisz: láberő fejlesztés, robbanékonyság fokozás."
-              text3="- Labdarúgás: felugrás fejelésekhez és a megindulásokhoz az elrugaszkodás fejlesztése."
-              text4="- Kézilabda: felugrás átlövésekhet és a megindulásokhoz az elrugaszkodás fejlesztése."
-              text5="- Kosárlabda: felugrás dobásokhoz és a megindulásokhoz az elrugaszkodás fejlesztése."
-              text6="- Atlétika: elrugaszkodások fejlesztése ugrásokhoz, futószámokban a rajtok fejlesztése."
-              text7="- Vízilabda: kitaposás fejlesztése."
-              text8="- Síugrás: elrugaszkodás fejlesztése."
-              text9="- Evezés: kar, váll, hátizomzat fejlesztése."
-              text10="- stb."
+              text1="The Farkas Gym training bench originally has been developed for swimmers although it can be effectively implemented in many other sports as well."
+              text2="- Tennis: leg power development, explosiveness increase."
+              text3="- Football: development of jumping to head the ball or starts."
+              text4="- Handball: development of vertical jump shots and starts."
+              text5="- Basketball: development of vertical jump shots and starts."
+              text6="- Athletics: development of leg push off for long jump or high jump, in running events the development of start."
+              text7="- Waterpolo: development of the vertical eggbeaeter kick."
+              text8="- Ski-jumping: development of legs push off."
+              text9="- Rowing: arm, shoulder and back power development."
+              text10="- etc."
               img_id="multisport"            
             />
 
