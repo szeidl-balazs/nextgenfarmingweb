@@ -49,7 +49,8 @@ const SpecificationsEng = () => {
             <Accordion 
               title="Adjustable foot support"
               text1="The lower foot support is adjustable which enables coaches to modify the active displacement of the leg workouts."
-              text2="The lower foot support can be adjusted with an engine controlled by the onboard computer between the sets of a workout."
+              text2="The lower foot support can be adjusted with an engine controlled by the coach between the sets of a workout."
+              text3="Due to the engine driven foot support angle setting the aletartion is rapid."
               img_id="leg-support-img"            
             />
 

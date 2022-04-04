@@ -3,8 +3,10 @@ import Header from './2_Header_hun';
 import HeaderEng from './2_Header_eng';
 import MainPage from './3_MainPage_hun';
 import MainPageEng from './3_MainPage_eng';
-import Footer from './7_Footer';
-import CookieBar from './9_CookieBar';
+import Footer from './7_Footer_hun';
+import FooterEng from './7_Footer_eng';
+import CookieBar from './9_CookieBar_hun';
+import CookieBarEng from './9_CookieBar_eng';
 
 
 const GridContainer = () => {
@@ -49,6 +51,9 @@ const GridContainer = () => {
 
                 <HeaderEng />
                 <MainPageEng />
+                <FooterEng />
+                <input className="checkbox-cb" id="checkbox-cb" type="checkbox" />
+                <CookieBarEng />
 
             </div>
 
