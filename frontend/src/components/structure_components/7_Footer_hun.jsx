@@ -1,7 +1,7 @@
 import {React, useState} from 'react';
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useSpring, animated, easings } from "react-spring";
-import GDPR from './11_GDPR';
+import GDPR from './11_GDPR_hun';
 import Cookies from './10_Cookies';
 import Terms from './12_terms_and_conditions'
 
