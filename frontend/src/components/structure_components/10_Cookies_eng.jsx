@@ -10,7 +10,7 @@ const CookiesEng = () => {
             
             <div className="cookie-scope">
                 <h2>The scope of cookie guide</h2>
-                <p className="short-text">The current policy regards the following website managed by János Farkas - Operator -:</p>
+                <p className="short-text">The current policy regards the following website managed by János Farkas s.p. - Operator -:</p>
                     <ul>
                         <li className="short-text"><a href="index.html" target="_blank">www.farkasgym.hu</a></li>
                     </ul>

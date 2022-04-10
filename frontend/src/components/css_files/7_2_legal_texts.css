@@ -1,17 +1,25 @@
 
 
-.gdpr-wrap, .cookie-wrap, .terms-wrap {
-    grid-area: gdpr;
-    padding: 0 var(--text-padding);
-    text-align: center;
+.gdpr-wrap, .cookie-wrap, .terms-wrap, .imprint-wrap {   
+    
     background-color: var(--main-light-color);
     color: var(--main-dark-color);
     font-family: 'Rokkitt', serif;
     width: 100vw;
 }
 
-.gdpr-wrap h1 {
+.gdpr-wrap, .cookie-wrap, .terms-wrap {    
+    padding: 0 var(--text-padding);    
+}
+
+
+
+.gdpr-wrap, .imprint-wrap h1 {
     color: var(--main-dark-color);
+}
+
+h1 {
+    text-align: center;
 }
 
 .short-text {
@@ -42,7 +50,7 @@ li p {
 }
 
 @media screen and (min-width: 1080px) {
-    .gdpr-wrap, .cookie-wrap, .terms-wrap {
+    .gdpr-wrap, .cookie-wrap, .terms-wrap, .imprint-wrap {
         padding: calc(5*var(--text-padding)); 
     }
 }

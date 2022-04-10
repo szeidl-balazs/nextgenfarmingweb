@@ -16,7 +16,6 @@ const Terms = () => {
                 <p><span class="important">Telefonszáma: </span><a href="🖀 +36 30 936 1899">🖀 +36 30 936 1899</a></p>
                 <p><span class="important">Email címe: </span><a href="mailto: fjuszas@gmail.com">✉ fjuszas@gmail.com</a></p>
                 <p><span class="important">Nyilvántartási száma: </span>7113188</p>
-                <p><span class="important">Bejegyző bíróság megnevezése: </span></p>
                 <p><span class="important">Adószáma: </span>72395990-1-28</p>
                 <p><span class="important">Pénzintézete és bankszámla száma: </span>OTP Győr-Moson-Sopron megyei LAFO fiók (9022 Győr, Teleki út 51.) 11773377-02153434-00000000</p>
             </div>

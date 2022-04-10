@@ -4,6 +4,7 @@ import { useSpring, animated, easings } from "react-spring";
 import GDPRHun from './11_GDPR_hun';
 import CookiesHun from './10_Cookies_hun';
 import Terms from './12_terms_and_conditions'
+import ImprintHun from './13_imprint_hun';
 
 const Footer = () => {
 
@@ -28,6 +29,14 @@ const Footer = () => {
 
   const termsOpener = (e) => {        
     setTermsOpener(!termsopen);               
+  }
+
+  // Imprint opener
+
+  const [imprint, setImprint] = useState(false);
+
+  const imprintOpener = (e) => {
+    setImprint(!imprint);
   }
 
 
@@ -77,6 +86,21 @@ const Footer = () => {
       }
     });
 
+    const iconAnimation4 = useSpring({
+      from: {
+        transform: "rotate(180deg)",
+        color: "#00ffff"        
+      },
+      to: {
+       transform: imprint ? "rotate(0deg)" : "rotate(180deg)",
+       color: imprint ? "rgba(230, 240, 100, 1)" : "#00ffff"        
+      },
+      config: { 
+        duration: "500", 
+        easing: easings.easeIn
+      }
+    });
+
     return (
 
         <div>
@@ -103,12 +127,23 @@ const Footer = () => {
               null
             }
 
-{
+            {
               termsopen === true
               ?
               <div className="legal-wrap">
                 <button className="gdpr button-wo-design closingIcon" onClick={termsOpener}><animated.div style={iconAnimation3} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <Terms />
+              </div>
+              :
+              null
+            }
+
+            {
+              imprint === true
+              ?
+              <div className="legal-wrap">
+                <button className="gdpr button-wo-design closingIcon" onClick={imprintOpener}><animated.div style={iconAnimation3} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
+                <ImprintHun />
               </div>
               :
               null
@@ -126,6 +161,7 @@ const Footer = () => {
                 <button className="gdpr button-wo-design" onClick={gdprOpener}>Adatvédelem <animated.div style={iconAnimation1} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <button className="gdpr button-wo-design" onClick={cookieOpener}>Süti (cookie) szabályzat <animated.div style={iconAnimation2} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <button className="gdpr button-wo-design" onClick={termsOpener}>Felhasználási feltételek <animated.div style={iconAnimation3} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
+                <button className="gdpr button-wo-design" onClick={imprintOpener}>Imprint<animated.div style={iconAnimation4} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
             </div>
 
         </div>
