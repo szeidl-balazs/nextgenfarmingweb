@@ -2,7 +2,7 @@ import {React, useState} from 'react';
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useSpring, animated, easings } from "react-spring";
 import GDPREng from './11_GDPR_eng';
-import Cookies from './10_Cookies';
+import CookiesEng from './10_Cookies_eng';
 import Terms from './12_terms_and_conditions'
 
 const FooterEng = () => {
@@ -97,7 +97,7 @@ const FooterEng = () => {
               ?
               <div className="legal-wrap">
                 <button className="gdpr button-wo-design closingIcon" onClick={cookieOpener}><animated.div style={iconAnimation2} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
-                <Cookies />
+                <CookiesEng />
               </div>
               :
               null

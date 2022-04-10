@@ -1,7 +1,7 @@
 import {React} from 'react';
 
 
-const GDPR = () => {    
+const GDPRHun = () => {    
  
     return (
 
@@ -43,4 +43,4 @@ const GDPR = () => {
     )
 }
 
-export default GDPR;
+export default GDPRHun;

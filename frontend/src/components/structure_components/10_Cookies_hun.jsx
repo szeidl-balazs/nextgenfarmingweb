@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Cookies = () => {
+const CookiesHun = () => {
 
     return (
         <div className="cookie-wrap">
@@ -74,4 +74,4 @@ const Cookies = () => {
     );
 }
 
-export default Cookies;
+export default CookiesHun;
