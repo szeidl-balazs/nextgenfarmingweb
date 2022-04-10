@@ -64,10 +64,9 @@ const CookiesEng = () => {
                             <li><a href="https://addons.opera.com/hu/extensions/details/disable-cookies/" target="_blank" rel="noreferrer">Opera</a></li>
                             <li><a href="https://support.apple.com/hu-hu/guide/safari/sfri11471/mac" target="_blank" rel="noreferrer">Safari</a></li>
                         </ul>
-                    <li className="important">Tudnivalók reklámblokkoló (ad-blocker) használata esetén</li>
-                    <p>Felhívjuk látogatóink figyelmét, hogy reklámblokkoló (ad-blocker) használata esetén a cookie nyilatkozatról szóló tájékoztatás nem minden esetben jelenik meg. Amennyiben szeretné megtekinteni, deaktiválja a reklámblokkoló alkalmazást!</p>
+                    <li className="important">Information in case of advertisement-blocker use</li>
+                    <p className="alert">It should be noted for our visitors that in case of advertisement-blocker use the information of cookie policy will not be displayed in every case. If this occurs please deactivate the advertisement-blocker application!</p>
                 </ol>
-                <p className="alert">Felhívjuk látogatóink figyelmét, hogy reklámblokkoló (ad-blocker) használata esetén a cookie nyilatkozatról szóló tájékoztatás nem minden esetben jelenik meg. Amennyiben szeretné megtekinteni, deaktiválja a reklámblokkoló alkalmazást!</p>
             </div>
         </div>
 
