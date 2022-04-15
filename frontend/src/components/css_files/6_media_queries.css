@@ -13,10 +13,6 @@
         font-size: 1.3rem;
     }
 
-    .logo-container {
-        margin-right: 20px;
-    }
-
     .menu a {
         font-size: .9rem;
     }
@@ -24,6 +20,8 @@
     .menu a:hover {       
         transform: scale(1.1);        
     }
+
+    
 }
 
 /*iPhone 5/SE*/

@@ -1,6 +1,6 @@
 import {React, useState} from 'react';
-import Header from './2_Header_hun';
-import HeaderEng from './2_Header_eng';
+import NavigationHun from './2_Navigation_hun';
+import NavigationEng from './2_Navigation_eng';
 import MainPage from './3_MainPage_hun';
 import MainPageEng from './3_MainPage_eng';
 import Footer from './7_Footer_hun';
@@ -23,10 +23,11 @@ const GridContainer = () => {
     return (
         <div className="grid-container">
            
-            <select className="language-selector" value={language} onChange={languageSelector} >
+           <select className="language-selector" value={language} onChange={languageSelector} >
                 <option value="hun" >HUN</option>
                 <option value="eng">ENG</option>
             </select>
+
 
 
         {
@@ -35,9 +36,9 @@ const GridContainer = () => {
 
             ?
             
-            <div>
+            <div className="grid-wrap">
 
-                <Header />
+                <NavigationHun />
                 <MainPage />
                 <Footer />
                 <input className="checkbox-cb" id="checkbox-cb" type="checkbox" />
@@ -49,7 +50,7 @@ const GridContainer = () => {
 
             <div>
 
-                <HeaderEng />
+                <NavigationEng />
                 <MainPageEng />
                 <FooterEng />
                 <input className="checkbox-cb" id="checkbox-cb" type="checkbox" />

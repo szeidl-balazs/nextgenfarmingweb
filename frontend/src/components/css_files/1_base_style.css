@@ -25,6 +25,7 @@ body {
     background-color: var(--main-dark-color);
     color: var(--main-light-color);
     font-family: 'Rokkitt', serif;
+    overflow-x: hidden;
 }
 
 /*The below code retains the benefit content always below the menu line:*/

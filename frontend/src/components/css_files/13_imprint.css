@@ -29,6 +29,7 @@
     "regnum regnum-content"
     "tax tax-content";
     column-gap: 5px;
+    row-gap: 10px;
     border: 10px solid red;
     font-size: 1rem;
   

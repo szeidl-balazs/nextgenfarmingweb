@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { useSpring, animated } from "react-spring";
 
-const HeaderEng = () => {
+const NavigationEng = () => {
 
     const [show, setShow] = useState(false);
 
@@ -68,4 +68,4 @@ const HeaderEng = () => {
 
 }
 
-export default HeaderEng;
+export default NavigationEng;

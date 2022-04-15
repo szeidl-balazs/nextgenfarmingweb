@@ -15,7 +15,7 @@
     grid-template-columns: 2fr 3fr;
     grid-template-rows: auto auto auto auto;
     grid-template-areas: 
-    "intro-container intro-container"
+    "intro-container language"
     "benefits benefits"
     "specifications specifications"
     "presentation presentation"
@@ -23,4 +23,7 @@
     background-color: var(--main-light-color);
     color: var(--main-dark-color);
     width: 100vw;
+    margin: 0;
 }
+
+

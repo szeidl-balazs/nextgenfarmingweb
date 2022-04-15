@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { useSpring, animated } from "react-spring";
 
-const Header = () => {
+const NavigationHun = () => {
 
     const [show, setShow] = useState(false);
 
@@ -68,4 +68,4 @@ const Header = () => {
 
 }
 
-export default Header;
+export default NavigationHun;
