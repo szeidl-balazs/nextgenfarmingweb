@@ -40,7 +40,7 @@ const GDPREng = () => {
             </div>             
       
         </div>
-    )
+    );
 }
 
 export default GDPREng;

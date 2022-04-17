@@ -81,6 +81,7 @@
     font-weight:900;
     float: right;
     margin-left: 5px;
+    z-index: 1;
   }
 
   .panel-text {

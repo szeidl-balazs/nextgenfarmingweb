@@ -40,7 +40,7 @@ const GDPRHun = () => {
             </div>             
       
         </div>
-    )
+    );
 }
 
 export default GDPRHun;

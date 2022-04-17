@@ -30,7 +30,7 @@ const ImprintHun = () => {
             
 
         </div>
-    )
+    );
 }
 
 export default ImprintHun;
