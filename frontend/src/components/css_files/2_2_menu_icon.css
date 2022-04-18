@@ -43,7 +43,7 @@
 and input type checkbox is used to utilize the :checked selector*/
 
 #menu_checkbox {
-    display: none;
+    display:none;
 }
 
 /*Animation of menu icon lines*/

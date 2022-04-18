@@ -7,7 +7,7 @@ import Footer from './7_Footer_hun';
 import FooterEng from './7_Footer_eng';
 import CookieBar from './9_CookieBar_hun';
 import CookieBarEng from './9_CookieBar_eng';
-import Language from './14_Language_selector';
+/*import Language from './14_Language_selector';*/
 
 
 const GridContainer = () => {
@@ -24,8 +24,10 @@ const GridContainer = () => {
     return (
         <div className="grid-container">
            
-           
-        <Language data={language} languageChooser={languageSelector}/>
+           {/*<select className="language-selector" value={language} onChange={languageSelector}>
+                <option value="hun" >HUN</option>
+                <option value="eng">ENG</option>
+            </select>*/}       
 
 
         {
@@ -36,7 +38,7 @@ const GridContainer = () => {
             
             <div className="grid-wrap">
 
-                <NavigationHun />
+                <NavigationHun data={language} function={languageSelector}/>
                 <MainPage />
                 <Footer />
                 <input className="checkbox-cb" id="checkbox-cb" type="checkbox" />
@@ -48,7 +50,7 @@ const GridContainer = () => {
 
             <div>
 
-                <NavigationEng />
+                <NavigationEng data={language} function={languageSelector}/>
                 <MainPageEng />
                 <FooterEng />
                 <input className="checkbox-cb" id="checkbox-cb" type="checkbox" />

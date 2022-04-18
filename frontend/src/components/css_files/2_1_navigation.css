@@ -89,7 +89,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "menu-benefit menu-specification menu-workout menu-contact";
+    "menu-benefit menu-specification menu-workout menu-contact language";
     column-gap: 5px;
     
     background-color: var(--main-dark-color); 
@@ -101,7 +101,7 @@
      grid-template-rows: 70px;
      grid-template-areas:     
      "menu-logo-line menu-logo-line menu-logo-line menu-logo-line"
-     "menu-titles menu-titles menu-titles menu-titles";
+     "menu-titles menu-titles menu-titles menu-titles menu-titles";
      column-gap: 5px;
      background-color: var(--main-dark-color);
      
@@ -123,10 +123,10 @@
 }
 
 .language-selector {
-   position: fixed;
+   /*position: fixed;
    top: 5px;
    right: 25px;
-   z-index: 11;
+   z-index: 11;*/
    background-color: var(--main-dark-color);
    border: 1px solid var(--main-dark-color);
    box-shadow: var(--text-shadow);

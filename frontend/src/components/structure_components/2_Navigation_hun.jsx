@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { useSpring, animated } from "react-spring";
 
-const NavigationHun = () => {
+const NavigationHun = (props) => {
 
     const [show, setShow] = useState(false);
 
@@ -10,7 +10,7 @@ const NavigationHun = () => {
     }
 
     
-    //open animation with react spring
+    //open animation with react spring for the navigation line
    const openAnimation = useSpring({
     from: { 
       maxHeight: "500px" 
@@ -55,6 +55,10 @@ const NavigationHun = () => {
                                 <div className="menu menu-specification"><a href="#specifications-id">Jellemzők</a></div>           
                                 <div className="menu menu-workout"><a href="#recommendation-id">Gyakorlatok</a></div>
                                 <div className="menu menu-contact"><a href="#contact-id">Kapcsolat</a></div>    
+                                <select className="language-selector" value={props.data} onChange={props.function}>
+                                  <option value="hun" >HUN</option>
+                                  <option value="eng">ENG</option>
+                                </select>                      
                             </animated.div>
 
                             :
