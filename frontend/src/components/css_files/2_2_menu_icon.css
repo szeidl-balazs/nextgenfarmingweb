@@ -29,7 +29,12 @@
     transition: 0.5s linear;
 }
 
+/*Menu line closeed when page loaded*/
+
+/*
+
 /*Menu icon lines*/
+/*
 .line1, .line2, .line3 {		
     position: relative;    
     width: 30px;
@@ -38,6 +43,7 @@
     margin: 2px 0;
     border-radius: 5px;
 }
+*/
 
 /*the check box check squere is not visible because the checkbox functions as a button 
 and input type checkbox is used to utilize the :checked selector*/
@@ -48,24 +54,89 @@ and input type checkbox is used to utilize the :checked selector*/
 
 /*Animation of menu icon lines*/
 /*First line rotates*/
+
+/*
 #menu_checkbox:checked + label .line1 {
     top: 4px;
     transform-origin: 52.5% 50%;
     transform: rotateZ(45deg);
     transition: .5s ease transform;    
 }
+*/
 
 /*Second line disappear*/
+
+/*
 #menu_checkbox:checked + label .line2 {
     display: none;
 }
+*/
 
 /*Third line rotates*/
+
+/*
 #menu_checkbox:checked + label .line3 {
     bottom: 4px;
     transform-origin: 52.5% 50%;
     transform: rotateZ(-45deg);
     transition: 0.5s ease transform;   
+}
+
+*/
+
+
+/*Menu line opened when page loaded*/
+
+.line1 {
+    top: 11px;
+    transform-origin: 52.5% 50%;
+    transform: rotateZ(45deg);
+    position: relative;    
+    width: 30px;
+    height: 3px;
+    background-color: var(--main-light-color);
+    margin: 2px 0;
+    border-radius: 5px;       
+}
+
+.line3 {
+    bottom: 15px;
+    transform-origin: 52.5% 50%;
+    transform: rotateZ(-45deg);
+    position: relative;    
+    width: 30px;
+    height: 3px;
+    background-color: var(--main-light-color);
+    margin: 2px 0;
+    border-radius: 5px; 
+}
+
+#menu_checkbox:checked + label .line1 {
+    width: 45px;
+    height: 5px;
+    margin: 9px 0;
+    transform: rotateZ(180deg); 
+    top: 5px;    
+}
+
+#menu_checkbox:checked + label .line2 {
+    position: relative;      
+    width: 45px;
+    height: 5px;
+    background-color: var(--main-light-color);
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+#menu_checkbox:checked + label .line3 {
+    position: relative; 
+    width: 45px;
+    height: 5px;
+    margin: 9px 0;
+    transform: rotateZ(-180deg); 
+    top: -5px;
+    left: 3.5px;
+    
 }
    
 /*menu icon hover*/

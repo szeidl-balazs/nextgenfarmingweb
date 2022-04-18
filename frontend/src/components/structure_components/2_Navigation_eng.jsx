@@ -3,7 +3,7 @@ import { useSpring, animated } from "react-spring";
 
 const NavigationEng = (props) => {
 
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(true);
 
     const menuToggle = (e) => {
         setShow(!show);
