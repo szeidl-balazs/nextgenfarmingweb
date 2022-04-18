@@ -57,6 +57,19 @@
     align-self: center;
  }
 
+ .language-selector { 
+   font-family: 'Rokkitt', serif;
+   font-size: 1.2rem;
+   background-color: var(--main-dark-color);
+   border: 1px solid var(--main-dark-color);
+   box-shadow: var(--text-shadow);
+   cursor: pointer;
+   grid-area: language;
+   justify-self: center;
+    align-self: center;
+}
+
+
  .menu-logo-line {
     height: 70px;
     position: fixed;
@@ -86,13 +99,13 @@
     padding: 5px 0;
     display: grid;
     grid-area: menu-titles;    
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
     "menu-benefit menu-specification menu-workout menu-contact language";
-    column-gap: 5px;
-    
+    column-gap: 5px;    
     background-color: var(--main-dark-color); 
+    z-index: 10;
  }
 
  .navbar {   
@@ -122,14 +135,3 @@
     transition: 0.5s linear;
 }
 
-.language-selector {
-   /*position: fixed;
-   top: 5px;
-   right: 25px;
-   z-index: 11;*/
-   background-color: var(--main-dark-color);
-   border: 1px solid var(--main-dark-color);
-   box-shadow: var(--text-shadow);
-   cursor: pointer;
-   grid-area: language;
-}

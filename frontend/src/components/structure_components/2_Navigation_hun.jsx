@@ -55,7 +55,7 @@ const NavigationHun = (props) => {
                                 <div className="menu menu-specification"><a href="#specifications-id">Jellemzők</a></div>           
                                 <div className="menu menu-workout"><a href="#recommendation-id">Gyakorlatok</a></div>
                                 <div className="menu menu-contact"><a href="#contact-id">Kapcsolat</a></div>    
-                                <select className="language-selector" value={props.data} onChange={props.function}>
+                                <select className="language-selector" id="language" value={props.data} onChange={props.function}>
                                   <option value="hun" >HUN</option>
                                   <option value="eng">ENG</option>
                                 </select>                      

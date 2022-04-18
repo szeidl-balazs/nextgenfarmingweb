@@ -40,8 +40,6 @@ button {
 }
 
 h1 {
-    /*font-family: 'Nova Square', cursive;*/
-    /*font-family: shuriken-std, sans-serif;*/
     font-family: 'Black Ops One', cursive;
     color: var(--main-light-color);
     font-weight: 400;
