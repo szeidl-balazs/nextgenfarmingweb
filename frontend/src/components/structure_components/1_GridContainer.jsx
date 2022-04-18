@@ -7,6 +7,7 @@ import Footer from './7_Footer_hun';
 import FooterEng from './7_Footer_eng';
 import CookieBar from './9_CookieBar_hun';
 import CookieBarEng from './9_CookieBar_eng';
+import Language from './14_Language_selector';
 
 
 const GridContainer = () => {
@@ -23,11 +24,8 @@ const GridContainer = () => {
     return (
         <div className="grid-container">
            
-           <select className="language-selector" value={language} onChange={languageSelector} >
-                <option value="hun" >HUN</option>
-                <option value="eng">ENG</option>
-            </select>
-
+           
+        <Language data={language} languageChooser={languageSelector}/>
 
 
         {
