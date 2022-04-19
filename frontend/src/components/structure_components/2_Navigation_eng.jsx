@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import { useSpring, animated } from "react-spring";
+import { useSpring, animated } from "react-spring"; /*Has to be installed!!! npm install use-spring */
+import { Squash as Hamburger } from 'hamburger-react' /*Has to be installed!!! npm install hamburger-react */
 
 const NavigationEng = (props) => {
 
@@ -27,16 +28,8 @@ const NavigationEng = (props) => {
             <header id="top" className="navbar topnav"> {/*Navbar contains menu icon, main title, logo img, menu titles*/}
                         <div className="menu-logo-line"> {/*menu-logo-line contains only menu icon, main title, logo img and position fixed*/}
                             
-                            <div className="menu-icon-container">
-                            
-                                   <input type="checkbox" id="menu_checkbox" /> {/*The menu icon animation is provided by input checkbox tag*/}
-                                                        
-                                    <label for="menu_checkbox" className="menu-cont" onClick={menuToggle}> {/*Menu icon with circle borders and 3 lines*/}
-                                        <div className="menu line1"></div>
-                                        <div className="menu line2"></div>
-                                        <div className="menu line3"></div>
-                                    </label>    
-                                    
+                            <div className="menu-icon-container" onClick={menuToggle}>
+                              <Hamburger duration={.8}/>
                             </div>
                             <h1 className="main-title">Farkas Gym</h1> {/*Main title*/}
                             <div className="logo-container"></div> {/*Page logo*/}
