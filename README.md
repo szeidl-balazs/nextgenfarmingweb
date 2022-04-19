@@ -1,1 +1,1 @@
-# rgkom
+# farkasgym
