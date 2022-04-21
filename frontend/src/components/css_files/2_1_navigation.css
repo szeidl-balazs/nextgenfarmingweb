@@ -33,6 +33,58 @@
     text-align: center;
  }
 
+ .menu-logo-line {
+   height: 70px;
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   z-index: 10;
+   grid-area: menu-logo-line;
+   display: grid;
+   grid-template-columns: 60px calc(98vw - 120px) 60px;
+   grid-template-rows: auto;
+   grid-template-areas:     
+   "menu-icon-container main-title logo-container";    
+   justify-self: center;
+   align-self: center;
+   column-gap: 5px;
+   background-color: var(--main-dark-color);
+   
+}
+
+
+.menu-titles {
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 60px;
+   padding: 5px 0;
+   display: grid;
+   grid-area: menu-titles;    
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: auto auto;
+   grid-template-areas:
+   "menu-benefit menu-specification menu-workout menu-contact language";
+   column-gap: 5px;
+   grid-auto-rows: max-content;    
+   background-color: var(--main-dark-color); 
+   z-index: 10;
+}
+
+.navbar {   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70px;
+    grid-template-areas:     
+    "menu-logo-line menu-logo-line menu-logo-line menu-logo-line"
+    "menu-titles menu-titles menu-titles menu-titles menu-titles";
+    column-gap: 5px;
+    background-color: var(--main-dark-color);
+    
+}
+
+
  .menu-benefit {
     grid-area: menu-benefit;
     justify-self: center;
@@ -60,6 +112,7 @@
  .language-selector { 
    font-family: 'Rokkitt', serif;
    font-size: 1.2rem;
+   color: var(--main-light-color);
    background-color: var(--main-dark-color);
    border: 1px solid var(--main-dark-color);
    box-shadow: var(--text-shadow);
@@ -70,55 +123,6 @@
 }
 
 
- .menu-logo-line {
-    height: 70px;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 10;
-    grid-area: menu-logo-line;
-    display: grid;
-    grid-template-columns: 60px calc(98vw - 120px) 60px;
-    grid-template-rows: auto;
-    grid-template-areas:     
-    "menu-icon-container main-title logo-container";    
-    justify-self: center;
-    align-self: center;
-    column-gap: 5px;
-    background-color: var(--main-dark-color);
-    
- }
-
-
- .menu-titles {
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 60px;
-    padding: 5px 0;
-    display: grid;
-    grid-area: menu-titles;    
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "menu-benefit menu-specification menu-workout menu-contact language";
-    column-gap: 5px;    
-    background-color: var(--main-dark-color); 
-    z-index: 10;
- }
-
- .navbar {   
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr 1fr;
-     grid-template-rows: 70px;
-     grid-template-areas:     
-     "menu-logo-line menu-logo-line menu-logo-line menu-logo-line"
-     "menu-titles menu-titles menu-titles menu-titles menu-titles";
-     column-gap: 5px;
-     background-color: var(--main-dark-color);
-     
-}
 
 .menu a {
     display: inline-block;
