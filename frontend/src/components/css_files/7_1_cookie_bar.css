@@ -80,7 +80,18 @@
   }
   
   /*media queries for cookies*/
-  
+
+  @media screen and (min-width: 100px) {
+
+    .menu-titles {
+      font-size: .9rem;
+    }
+    .close-cb {
+        font-size: .7rem;
+        
+    }
+}
+
   @media screen and (min-width: 320px) {
     .cookie-bar {
       text-align: center;

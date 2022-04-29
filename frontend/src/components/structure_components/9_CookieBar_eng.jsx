@@ -11,7 +11,7 @@ const CookieBarEng = (Cookies) => {
                 <p>Using this website you accept our <a href="Cookies" target="_blank" rel="noreferrer">cookie policy</a>.</p>
             </div>
             <div className="mobile">This website uses cookies, <a href="7_2_cookie_text.html" target="_blank">details</a>.</div>
-            <div className="accept-btn"><label for="checkbox-cb" className="close-cb">I ACCEPT.</label></div>
+            <div className="accept-btn close-cb"><label for="checkbox-cb">I ACCEPT.</label></div>
         </div>
     );
 

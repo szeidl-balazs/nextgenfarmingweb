@@ -60,14 +60,17 @@
    right: 0;
    top: 60px;
    padding: 5px 0;
-   display: grid;
+   /*display: grid;
    grid-area: menu-titles;    
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    grid-template-rows: auto auto;
    grid-template-areas:
    "menu-benefit menu-specification menu-workout menu-contact language";
    column-gap: 5px;
-   grid-auto-rows: max-content;    
+   grid-auto-rows: max-content;*/    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
    background-color: var(--main-dark-color); 
    z-index: 10;
 }
@@ -85,7 +88,7 @@
 }
 
 
- .menu-benefit {
+ /*.menu-benefit {
     grid-area: menu-benefit;
     justify-self: center;
     align-self: center;
@@ -107,7 +110,7 @@
     grid-area: menu-contact;
     justify-self: center;
     align-self: center;
- }
+ }*/
 
  .language-selector { 
    font-family: 'Rokkitt', serif;
@@ -117,7 +120,7 @@
    border: 1px solid var(--main-dark-color);
    box-shadow: var(--text-shadow);
    cursor: pointer;
-   grid-area: language;
+   /*grid-area: language;*/
    justify-self: center;
     align-self: center;
 }
