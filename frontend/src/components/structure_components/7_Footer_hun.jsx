@@ -92,14 +92,15 @@ const Footer = () => {
         color: "#00ffff"        
       },
       to: {
-       transform: imprint ? "rotate(0deg)" : "rotate(180deg)",
-       color: imprint ? "rgba(230, 240, 100, 1)" : "#00ffff"        
+       transform: termsopen ? "rotate(0deg)" : "rotate(180deg)",
+       color: termsopen ? "rgba(230, 240, 100, 1)" : "#00ffff"        
       },
       config: { 
         duration: "500", 
         easing: easings.easeIn
       }
     });
+
 
     return (
 
@@ -142,7 +143,7 @@ const Footer = () => {
               imprint === true
               ?
               <div className="legal-wrap">
-                <button className="gdpr button-wo-design closingIcon" onClick={imprintOpener}><animated.div style={iconAnimation3} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
+                <button className="gdpr button-wo-design closingIcon" onClick={imprintOpener}><animated.div style={iconAnimation4} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <ImprintHun />
               </div>
               :

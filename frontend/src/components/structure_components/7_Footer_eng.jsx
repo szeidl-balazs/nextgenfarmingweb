@@ -3,7 +3,8 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useSpring, animated, easings } from "react-spring";
 import GDPREng from './11_GDPR_eng';
 import CookiesEng from './10_Cookies_eng';
-import Terms from './12_terms_and_conditions'
+import TermsEng from './12_terms_and_conditions_eng'
+import ImprintEng from './13_imprint_eng';
 
 const FooterEng = () => {
 
@@ -28,6 +29,14 @@ const FooterEng = () => {
 
   const termsOpener = (e) => {        
     setTermsOpener(!termsopen);               
+  }
+
+  //Imprint opener
+
+  const [imprintEng, setImprintOpener] = useState(false);
+
+  const imprintEngOpener = (e) => {
+    setImprintOpener(!imprintEng);
   }
 
 
@@ -77,6 +86,21 @@ const FooterEng = () => {
       }
     });
 
+    const iconAnimation4 = useSpring({
+      from: {
+        transform: "rotate(180deg)",
+        color: "#00ffff"        
+      },
+      to: {
+       transform: imprintEng ? "rotate(0deg)" : "rotate(180deg)",
+       color: imprintEng ? "rgba(230, 240, 100, 1)" : "#00ffff"        
+      },
+      config: { 
+        duration: "500", 
+        easing: easings.easeIn
+      }
+    });
+
     return (
 
         <div>
@@ -103,12 +127,23 @@ const FooterEng = () => {
               null
             }
 
-{
+            {
               termsopen === true
               ?
               <div className="legal-wrap">
                 <button className="gdpr button-wo-design closingIcon" onClick={termsOpener}><animated.div style={iconAnimation3} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
-                <Terms />
+                <TermsEng />
+              </div>
+              :
+              null
+            }
+
+            {
+              imprintEng === true
+              ?
+              <div className="legal-wrap">
+                <button className="gdpr button-wo-design closingIcon" onClick={imprintEngOpener}><animated.div style={iconAnimation4} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
+                <ImprintEng />
               </div>
               :
               null
@@ -126,6 +161,7 @@ const FooterEng = () => {
                 <button className="gdpr button-wo-design" onClick={gdprOpener}>Privacy policy <animated.div style={iconAnimation1} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <button className="gdpr button-wo-design" onClick={cookieOpener}>Cookie policy <animated.div style={iconAnimation2} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <button className="gdpr button-wo-design" onClick={termsOpener}>General terms & conditions <animated.div style={iconAnimation3} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
+                <button className="gdpr button-wo-design" onClick={imprintEngOpener}>Imprint <animated.div style={iconAnimation4} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
             </div>
 
         </div>

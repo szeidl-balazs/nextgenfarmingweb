@@ -4,9 +4,9 @@ const Terms = () => {
 
     return (
 
-        <div className ="terms-wrap">
+        <div className="terms-wrap">
 
-            <h1>Általános szerződési feltételek</h1>
+            <h2>Általános szerződési feltételek</h2>
 
             <div className="long-text">
                 <p>A jelen Általános Szerződési Feltételek (a továbbiakban: ÁSZF) Farkas János egyéni vállalkozó (továbbiakban: Szolgáltató), és a Szolgáltató által a <span><a href="index.html" target="_blank">www.farkasgym.hu</a></span> weboldalon keresztül nyújtott elektronikus kereskedelmi szolgáltatásokat igénybe vevő Ügyfél (a továbbiakban: Ügyfél) jogait és kötelezettségeit tartalmazza. (Szolgáltató és Ügyfél a továbbiakban együttesen: Felek). Az ÁSZF minden jogügyletre és szolgáltatásra vonatkozik, amely a <span><a href="index.html" target="_blank">www.farkasgym.hu</a></span> weboldalon keresztül történik, függetlenül attól, hogy annak teljesítése Magyarországról vagy külföldről, a Szolgáltató vagy közreműködője által történik. <span class="important">SZOLGÁLTATÓ ADATAI:</span></p>
