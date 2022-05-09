@@ -158,7 +158,7 @@ const FooterEng = () => {
                     </div>
                 </div>
                 <div className="copyright">Copyright © 2021. Farkas János s.p. All rights reserved!</div>
-                <button className="gdpr button-wo-design" onClick={gdprOpener}>Privacy policy <animated.div style={iconAnimation1} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
+                <button id="gdpr-id" className="gdpr button-wo-design" onClick={gdprOpener}>Privacy policy <animated.div style={iconAnimation1} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <button className="gdpr button-wo-design" onClick={cookieOpener}>Cookie policy <animated.div style={iconAnimation2} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <button className="gdpr button-wo-design" onClick={termsOpener}>General terms & conditions <animated.div style={iconAnimation3} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <button className="gdpr button-wo-design" onClick={imprintEngOpener}>Imprint <animated.div style={iconAnimation4} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>

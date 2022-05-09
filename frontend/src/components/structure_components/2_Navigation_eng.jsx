@@ -42,8 +42,8 @@ const NavigationEng = (props) => {
                           show === true
                         
                             ?
-                        
-                            <animated.div className="menu-titles" id="menu-links" style={openAnimation}> {/*Menu titles*/}
+                            
+                              <animated.div className="menu-titles" id="menu-links" style={openAnimation}> 
                                 <div className="menu menu-benefit"><a href="#benefit-id">Benefits</a></div>
                                 <div className="menu menu-specification"><a href="#specifications-id">Specifications</a></div>           
                                 <div className="menu menu-workout"><a href="#recommendation-id">Recommendation</a></div>
@@ -51,9 +51,8 @@ const NavigationEng = (props) => {
                                 <select className="language-selector" value={props.data} onChange={props.function}>
                                   <option value="hun" >HUN</option>
                                   <option value="eng">ENG</option>
-                                </select>            
-
-                            </animated.div>
+                                </select>
+                              </animated.div>
 
                             :
 
