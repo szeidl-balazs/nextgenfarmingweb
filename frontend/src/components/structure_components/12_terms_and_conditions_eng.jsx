@@ -71,8 +71,6 @@ const TermsEng = () => {
                 <p>For all products with heart rate related functions: the heart rate values provided by the heart rate monitor or hand-held sensors have been explicitly designed to display heart rate only. Therefore, any other use, either diagnostic or medical, is excluded; it does not detect cardiac abnormalities or dysfunctions. The use of the heart rate monitor in the presence of a pacemaker or similar medical devices is not recommended. The value may be altered in the case of drugs that can affect the heart rate. Always consult your doctor before starting a physical activity programme and before using specific devices with heart rate related functions.</p>
             </div>
 
-
-
         </div>
 
 

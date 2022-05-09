@@ -10,6 +10,10 @@ const NavigationHun = (props) => {
         setShow(!show);
     }
 
+    const [isOpen, setOpen] = useState(true);
+
+
+
     
     //open animation with react spring for the navigation line
    const openAnimation = useSpring({
@@ -29,7 +33,7 @@ const NavigationHun = (props) => {
                         <div className="menu-logo-line"> {/*menu-logo-line contains only menu icon, main title, logo img and position fixed*/}
                             
                             <div className="menu-icon-container" onClick={menuToggle}>
-                              <Hamburger duration={.8}/>
+                              <Hamburger toggled={isOpen} toggle={setOpen} duration={.8}/>
                             </div>
                             <h1 className="main-title">Farkas Gym</h1> {/*Main title*/}
                             <div className="logo-container"></div> {/*Page logo*/}
