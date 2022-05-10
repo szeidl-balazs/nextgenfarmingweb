@@ -9,7 +9,7 @@ const PresentationsEng = () => {
             <h2>RECOMMENDED WORKOUTS</h2>
 
             {/*vimeo*/}
-            <iframe className="video" title="Farkas Gym video" src="https://player.vimeo.com/video/664006203?h=a9da9e12ec" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <iframe className="video" title="Farkas Gym video" src="https://player.vimeo.com/video/676863215?h=243d66f469" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
 
     );
