@@ -16,7 +16,7 @@ const Accordion = (props) => {
 
    //open animation with react spring
          
-   const openAnimation = useSpring({
+   const openAnimation = useSpring ({
     from: {       
       maxHeight: "25px"
     },
@@ -51,7 +51,6 @@ const Accordion = (props) => {
   });
   
   return (
-
 
     <div className="accordion-container" >
  

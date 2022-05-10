@@ -17,16 +17,16 @@ const NavigationHun = (props) => {
     
     //open animation with react spring for the navigation line
    const openAnimation = useSpring({
-    from: { 
-      maxHeight: "500px" 
-    },
-    to: { 
-      maxHeight: show ? "1200px" : "25px"
-    },
-    config: { 
-      duration: "5000"
-    }
-  });
+      from: { 
+        maxHeight: "500px" 
+      },
+      to: { 
+        maxHeight: show ? "1200px" : "25px"
+      },
+      config: { 
+        duration: "5000"
+      }
+    });
 
     return (
             <header id="top" className="navbar topnav"> {/*Navbar contains menu icon, main title, logo img, menu titles*/}
@@ -53,8 +53,8 @@ const NavigationHun = (props) => {
                                 <div className="menu menu-workout"><a href="#recommendation-id">Gyakorlatok</a></div>
                                 <div className="menu menu-contact"><a href="#contact-id">Kapcsolat</a></div>    
                                 <select className="language-selector" id="language" value={props.data} onChange={props.function}>
-                                  <option value="hun" >HUN</option>
-                                  <option value="eng">ENG</option>
+                                  <option value="hun" >Hun</option>
+                                  <option value="eng">Eng</option>
                                 </select>                      
                             </animated.div>
 
