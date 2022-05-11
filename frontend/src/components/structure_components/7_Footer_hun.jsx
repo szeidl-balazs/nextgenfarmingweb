@@ -3,7 +3,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useSpring, animated, easings } from "react-spring";
 import GDPRHun from './11_GDPR_hun';
 import CookiesHun from './10_Cookies_hun';
-import Terms from './12_terms_and_conditions'
+import TermsHun from './12_terms_and_conditions_hun'
 import ImprintHun from './13_imprint_hun';
 
 const Footer = () => {
@@ -92,8 +92,8 @@ const Footer = () => {
         color: "#00ffff"        
       },
       to: {
-       transform: termsopen ? "rotate(0deg)" : "rotate(180deg)",
-       color: termsopen ? "rgba(230, 240, 100, 1)" : "#00ffff"        
+       transform: imprint ? "rotate(0deg)" : "rotate(180deg)",
+       color: imprint ? "rgba(230, 240, 100, 1)" : "#00ffff"        
       },
       config: { 
         duration: "500", 
@@ -133,7 +133,7 @@ const Footer = () => {
               ?
               <div className="legal-wrap">
                 <button className="gdpr button-wo-design closingIcon" onClick={termsOpener}><animated.div style={iconAnimation3} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
-                <Terms />
+                <TermsHun />
               </div>
               :
               null

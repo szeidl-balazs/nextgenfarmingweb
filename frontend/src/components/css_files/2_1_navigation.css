@@ -60,14 +60,6 @@
    right: 0;
    top: 60px;
    padding: 5px 0;
-   /*display: grid;
-   grid-area: menu-titles;    
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-   grid-template-rows: auto auto;
-   grid-template-areas:
-   "menu-benefit menu-specification menu-workout menu-contact language";
-   column-gap: 5px;
-   grid-auto-rows: max-content;*/    
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
@@ -87,31 +79,6 @@
     
 }
 
-
- /*.menu-benefit {
-    grid-area: menu-benefit;
-    justify-self: center;
-    align-self: center;
- }
-
- .menu-specification {
-    grid-area: menu-specification;
-    justify-self: center;
-    align-self: center;
- }
-
- .menu-workout {
-    grid-area: menu-workout;
-    justify-self: center;
-    align-self: center;
- }
-
- .menu-contact {
-    grid-area: menu-contact;
-    justify-self: center;
-    align-self: center;
- }*/
-
  .language-selector { 
    font-family: 'Rokkitt', serif;
    font-size: 1.2rem;
@@ -120,7 +87,6 @@
    border: 1px solid var(--main-dark-color);
    box-shadow: var(--text-shadow);
    cursor: pointer;
-   /*grid-area: language;*/
    justify-self: center;
     align-self: center;
 }

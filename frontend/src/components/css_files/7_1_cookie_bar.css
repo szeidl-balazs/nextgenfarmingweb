@@ -40,7 +40,6 @@
   .close-cb:hover {
     background: radial-gradient(circle, rgb(177, 224, 107), rgb(33, 233, 33));
     color: black;
-    /*border: solid 5px green;*/
     text-align: center;
     transition: 1s ease-out;
   }

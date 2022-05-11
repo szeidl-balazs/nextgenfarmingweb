@@ -18,7 +18,7 @@ const CookiesEng = () => {
             
         
             <div className="cookie-definition long-text">
-                <h2>What are cookies??</h2>
+                <h2>What are cookies?</h2>
                 <p>A cookie is a small text file that a website stores on your computer or mobile device when you visit the site.</p>
                 <p>We implement solely cookies that are by all means necessary for the operation of this website and support operative sessions, or necessary for the identification of users' operative sessions, furthermore necesary for the convenient use of this website.</p>
                 <p>Certain cookies we implement are only temporary and disappear at the time of closing the browser, whilst exist such convenience cookies that are stored 1 month on the PC or mobile device of visitors and if they regurlarly visit this website the browser stores the previous settings of visitors, therefore it is not necessary to accept our cookie guide in the beginning of each website visit again or set the preferred filtering options.</p>
