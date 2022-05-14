@@ -39,9 +39,9 @@ const NavigationEng = (props) => {
                             </div>
                             <h1 className="main-title">Farkas Gym</h1> {/*Main title*/}
                             <div className="logo-container"></div> {/*Page logo*/}
-                        </div>
+                        </div>                        
                         <div className="menu-titles-mover"></div>
-                          
+                                                  
                           {
 
                           show === true

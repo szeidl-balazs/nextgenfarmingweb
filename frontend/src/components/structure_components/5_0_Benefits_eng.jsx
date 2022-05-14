@@ -6,7 +6,7 @@ const BenefitsEng = () => {
         
         <div className="benefits">
             
-            <div id="benefit-id" className="place-holder-under-menuline"><div className="forsale">Production license for sale!</div></div> {/*empty lane to push down the below content under menu line*/}
+            <div id="benefit-id" className="place-holder-under-menuline"></div> {/*empty lane to push down the below content under menu line*/}
         
             <h2>Benefits</h2>
 

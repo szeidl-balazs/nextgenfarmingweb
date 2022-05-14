@@ -21,6 +21,8 @@
     text-shadow: var(--text-shadow);   
  }
 
+
+
  .logo-container {
     display: flex;
     justify-content: center;
