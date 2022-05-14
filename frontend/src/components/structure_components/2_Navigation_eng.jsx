@@ -4,13 +4,17 @@ import { Squash as Hamburger } from 'hamburger-react' /*Has to be installed!!! n
 
 const NavigationEng = (props) => {
 
-    const [show, setShow] = useState(true);
+  //show variable controls that the menu is visible in page laod or not
+
+    const [show, setShow] = useState(false);
 
     const menuToggle = (e) => {
         setShow(!show);
     }
 
-    const [isOpen, setOpen] = useState(true);
+    //isOpen variable controls that the Hamburger icon is open or closed
+
+    const [isOpen, setOpen] = useState(false);
 
     
     //open animation with react spring for the navigation line

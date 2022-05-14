@@ -12,7 +12,7 @@ const MainPageEng = () => {
     return (
         <main className="main-page">
 
-            <Hero />
+            <Hero />            
             <BenefitsEng />
             <SpecificationsEng />
             <PresentationsEng />

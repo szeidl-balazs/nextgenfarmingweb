@@ -11,7 +11,7 @@ import CookieBarEng from './9_CookieBar_eng';
 
 const GridContainer = () => {
     
-    const [language, setLanguage] = useState("hun");
+    const [language, setLanguage] = useState("eng");
 
     
     const languageSelector = (e) => {
