@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from './4_Hero'
+import HeroEng from './4_Hero_eng'
 import BenefitsEng from './5_0_Benefits_eng';
 import SpecificationsEng from './5_1_Specifications_eng';
 import PresentationsEng from './6_Presentations_eng';
@@ -12,7 +12,7 @@ const MainPageEng = () => {
     return (
         <main className="main-page">
 
-            <Hero />            
+            <HeroEng />            
             <BenefitsEng />
             <SpecificationsEng />
             <PresentationsEng />

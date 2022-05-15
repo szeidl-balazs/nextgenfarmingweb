@@ -1,6 +1,6 @@
 import {React, useState} from 'react';
 
-const Hero = () => {
+const HeroHun = () => {
 
     const [modal, setModal] = useState(false);
 
@@ -17,7 +17,7 @@ const Hero = () => {
 
             <div className="forsale-wrap">
                 <div className="disc" onClick={forSaleSwitch}></div>
-                <button className="forsale" >Production license for sale!</button>
+                <button className="forsale" >Gyártási licensz eladó!</button>
             </div>
 
             <div className="hero-image" >            
@@ -29,7 +29,7 @@ const Hero = () => {
                 ?
 
                 <div className="modal">
-                    <div className="modal-text" onClick={forSaleSwitch}><a className="modal-text" href="#contact-id">Production license is for sale including full documentation for manufacturing. The product is patent protected. For more information write email to the contact person, please!</a></div>
+                    <div className="modal-text" onClick={forSaleSwitch}><a className="modal-text" href="#contact-id">Gyártási licensz eladó a teljes gyártási dokumentációval. A termék szabadalmi oltalommal védett. Részletes információért kérem hívjon a "kapcsolat" menüben megadott telefonszámon!</a></div>
                 </div>
 
                 :
@@ -43,4 +43,4 @@ const Hero = () => {
     );
 }
 
-export default Hero;
+export default HeroHun;

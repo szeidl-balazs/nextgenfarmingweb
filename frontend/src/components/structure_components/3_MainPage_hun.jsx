@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from './4_Hero'
+import HeroHun from './4_Hero_hun'
 import Benefits from './5_0_Benefits_hun';
 import Specifications from './5_1_Specifications_hun';
 import Presentations from './6_Presentations_hun';
@@ -12,7 +12,7 @@ const MainPage = () => {
     return (
         <main className="main-page">
 
-            <Hero />
+            <HeroHun />
             <Benefits />
             <Specifications />
             <Presentations />
