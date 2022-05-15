@@ -5,12 +5,6 @@ const Hero = () => {
     const [modal, setModal] = useState(false);
 
     
-    /*
-    const forSaleSwitch = () => {
-        alert('Production license is for sale including full documentation for manufacturing. The product is patent protected. Patent registration number: 005188. For more information call or write the contact!')
-    }
-    */
-
     const forSaleSwitch = (e) => {
         setModal(!modal);
     }
@@ -35,7 +29,7 @@ const Hero = () => {
                 ?
 
                 <div className="modal">
-                    <div className="modal-text" onClick={forSaleSwitch}><a className="modal-text" href="#contact-id">Production license is for sale including full documentation for manufacturing. The product is patent protected. Patent registration number: 005188. For more information call or write the contact!</a></div>
+                    <div className="modal-text" onClick={forSaleSwitch}><a className="modal-text" href="#contact-id">Production license is for sale including full documentation for manufacturing. The product is patent protected. For more information write email to the contact person, please!</a></div>
                 </div>
 
                 :

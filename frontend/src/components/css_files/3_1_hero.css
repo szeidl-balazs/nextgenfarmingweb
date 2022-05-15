@@ -50,7 +50,6 @@
     animation: forsale 10s linear infinite;
     position: absolute;
     cursor: pointer;
-
     width: var(--width);
     height: calc(var(--width));
     border-radius: 155px;

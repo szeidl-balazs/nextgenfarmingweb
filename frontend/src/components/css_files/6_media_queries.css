@@ -24,18 +24,19 @@
     }
 
     .forsale, .disc {
-        --width: 90px;
-        font-size: .9rem;
-        margin-left: -130px;
-        margin-bottom: 130px;
+        --width: 80px;
+        font-size: .8rem;
+        margin-left: -150px;
+        margin-bottom: 0;
     }
 
     .intro-container {
         align-items: flex-end;
     }
 
+    
     .modal {
-        width: 50vw;
+        width: 90vw;
         font-size: 1rem;
     }
 
@@ -162,6 +163,32 @@
 
 }
 
+/* Samsung Galaxy Tab 712px*/
+
+@media screen and (min-width: 712px) {
+
+    .forsale, .disc {
+        --width: 120px;
+        font-size: 1.2rem;
+        margin-left: 10px;
+        margin-top: -200px;
+    }
+
+    .intro-container {
+        align-items: flex-end;
+    }
+
+    .hero-image {
+        align-items: center;        
+    }
+
+    
+    .modal {
+        width: 90vw;
+        font-size: 1rem;
+    }
+}
+
 /* iPhone 6/7/8 Plus */
 
 @media screen and (max-width: 736px) {
@@ -194,6 +221,27 @@
     .specification-photo {
         height: 290px;
         width: auto;
+    }
+
+    .forsale, .disc {
+        --width: 120px;
+        font-size: 1.2rem;
+        margin-left: 10px;
+        margin-top: -250px;
+    }
+
+    .intro-container {
+        align-items: flex-end;
+    }
+
+    .hero-image {
+        align-items: flex-start;      
+    }
+
+    
+    .modal {
+        width: 90vw;
+        font-size: 1.1rem;
     }
 }
 
@@ -258,6 +306,7 @@
     
     .hero-image {        
         height: 60vh;
+        align-items: center; 
         
     }
 
@@ -267,6 +316,22 @@
 
     p {
         font-size: 1.5rem;
+    }
+
+    .forsale, .disc {
+        --width: 120px;
+        font-size: 1.2rem;
+        margin-left: 10px;
+        margin-top: -250px;
+    }
+
+    .intro-container {
+        align-items: flex-end;
+    }
+    
+    .modal {
+        width: 90vw;
+        font-size: 1.1rem;
     }
     
 }
@@ -301,8 +366,7 @@
     }
 
     .hero-image {        
-        height: 85vh;
-        
+        height: 85vh;        
     }
 
     .video {
@@ -327,15 +391,41 @@
     }
 
     .forsale, .disc {
-        --width: 150px;
+        --width: 130px;
         font-size: 1.5rem;
-        margin-left: 10px;
+        margin-left: -10px;
         margin-bottom: 0;
       
     }
 
     .disc {
-        --width: 155px;
+        --width: 135px;
+    }
+
+    .intro-container {
+        align-items: flex-end;
+    }
+
+    .modal {
+        width: 25vw;
+        font-size: 1.2rem;
+    }
+}
+
+/*iPad Air portrait 812px media query*/
+
+@media screen and (min-width: 812px)  {
+    
+    .forsale, .disc {
+        --width: 130px;
+        font-size: 1.5rem;
+        margin-left: -10px;
+        margin-top: 150px;
+      
+    }
+
+    .disc {
+        --width: 135px;
     }
 
     .intro-container {
@@ -343,12 +433,12 @@
     }
 
     .modal {
-        width: 25vw;
-        font-size: 1.5rem;
+        width: 40vw;
+        font-size: 1.4rem;
     }
 }
 
-/*iPad pro portrait media query*/
+/*iPad pro portrait 1024px media query*/
 
 @media  screen and (min-width: 1024px) {
 
