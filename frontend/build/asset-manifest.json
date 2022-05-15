@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.848a3fc4.css",
-    "main.js": "./static/js/main.09db5c14.js",
+    "main.css": "./static/css/main.6c75184a.css",
+    "main.js": "./static/js/main.54c7ce83.js",
     "static/js/787.cda612ba.chunk.js": "./static/js/787.cda612ba.chunk.js",
     "static/media/Jump.png": "./static/media/Jump.431fcd637f2ab6d6f879.png",
     "static/media/hero_breast_2.png": "./static/media/hero_breast_2.cdeeca4b97a67b74489c.png",
@@ -13,12 +13,12 @@
     "static/media/farkas_gym_logo_facebook_profile.png": "./static/media/farkas_gym_logo_facebook_profile.23ddf1f58ff1f08af647.png",
     "index.html": "./index.html",
     "static/media/arrow_up.svg": "./static/media/arrow_up.488078ec0f8cb001a356ae9023c0d3dd.svg",
-    "main.848a3fc4.css.map": "./static/css/main.848a3fc4.css.map",
-    "main.09db5c14.js.map": "./static/js/main.09db5c14.js.map",
+    "main.6c75184a.css.map": "./static/css/main.6c75184a.css.map",
+    "main.54c7ce83.js.map": "./static/js/main.54c7ce83.js.map",
     "787.cda612ba.chunk.js.map": "./static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.848a3fc4.css",
-    "static/js/main.09db5c14.js"
+    "static/css/main.6c75184a.css",
+    "static/js/main.54c7ce83.js"
   ]
 }
