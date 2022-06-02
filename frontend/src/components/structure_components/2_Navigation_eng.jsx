@@ -37,7 +37,7 @@ const NavigationEng = (props) => {
                             <div className="menu-icon-container" onClick={menuToggle}>
                               <Hamburger toggled={isOpen} toggle={setOpen} duration={.8}/>
                             </div>
-                            <h1 className="main-title">BALOREA WEB</h1> {/*Main title*/}
+                            <h1 className="main-title">BAL<span className="orsi">O</span>REA WEB</h1> {/*Main title*/}
                             <div className="logo-container"></div> {/*Page logo*/}
                         </div>                        
                         <div className="menu-titles-mover"></div>
