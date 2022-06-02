@@ -8,7 +8,7 @@ const SpecificationsEng = () => {
 
         <div id="specifications-id" className="place-holder-under-menuline"></div> {/*empty lane to push down the below content under menu line*/}
           
-        <h2>SPECIFICATIONS</h2>          
+        <h2>REFERENCE PROJECTS</h2>          
 
             <Accordion
               title="Skill development with own weight"

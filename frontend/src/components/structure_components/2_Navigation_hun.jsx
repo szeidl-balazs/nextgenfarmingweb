@@ -37,7 +37,7 @@ const NavigationHun = (props) => {
                             <div className="menu-icon-container" onClick={menuToggle}>
                               <Hamburger toggled={isOpen} toggle={setOpen} duration={.8}/>
                             </div>
-                            <h1 className="main-title">Farkas Gym</h1> {/*Main title*/}
+                            <h1 className="main-title">balOrea team</h1> {/*Main title*/}
                             <div className="logo-container"></div> {/*Page logo*/}
                         </div>
                         <div className="menu-titles-mover"></div>
