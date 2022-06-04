@@ -15,6 +15,16 @@
         font-size: 1.3rem;
     }
 
+    .logo-container {
+        height: 30px;
+        width: 30px;
+        font-size: 0.5rem;
+    }
+
+    .orsi {
+        font-size: 0.5rem;
+    }
+
     .menu a, .language-selector {
         font-size: .9rem;
     }
