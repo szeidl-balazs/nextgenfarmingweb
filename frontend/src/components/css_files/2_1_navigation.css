@@ -18,7 +18,8 @@
     align-self: center; 
     font-size: 25px;
     color: var(--logo-color);
-    text-shadow: var(--text-shadow);   
+    text-shadow: var(--text-shadow); 
+    /*border: 1px solid #b9bcbd;*/
  }
 
 
@@ -38,8 +39,7 @@
    justify-self: center;
    align-self: center;
    column-gap: 5px;
-   background-color: var(--main-dark-color);
-   
+   background-color: var(--main-dark-color);   
 }
 
 
@@ -64,8 +64,7 @@
     "menu-logo-line menu-logo-line menu-logo-line menu-logo-line"
     "menu-titles menu-titles menu-titles menu-titles menu-titles";
     column-gap: 5px;
-    background-color: var(--main-dark-color);
-    
+    background-color: var(--main-dark-color);    
 }
 
  .language-selector { 
@@ -97,3 +96,7 @@
     transition: 0.5s linear;
 }
 
+
+.orsi-title {
+    font-size: 2.rem;
+}

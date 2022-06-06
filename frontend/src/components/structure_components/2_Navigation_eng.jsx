@@ -40,17 +40,7 @@ const NavigationEng = (props) => {
                             <h1 className="main-title">BAL<span className="orsi-title">O</span>REA WEB</h1> {/*Main title*/}
                             
                             {/*Page logo*/}
-                            <div className="logo-container">
-
-                                <div className="bal">BAL</div>                  
-                                <div className="orsi">O</div>
-                                <div className="rea">REA</div>             
-                                <div className="t">T</div>
-                                <div className="e">E</div>
-                                <div className="a">A</div>
-                                <div className="m">M</div>                               
-
-                            </div> 
+                            <div className="logo-container"></div> 
 
                         </div>                        
                         
