@@ -52,6 +52,10 @@
         margin-right: calc(.5*var(--text-padding));
     }
 
+    .place-holder-under-menuline {
+        height: 50px;
+    }
+
     
 }
 
@@ -124,6 +128,10 @@
         width: auto;
     } 
 
+    .place-holder-under-menuline {
+        height: 35px;
+    }
+
     
 }
 
@@ -144,6 +152,18 @@
 
     .main-title {
         font-size: 2rem;
+    }
+
+    .benefits-list, .presentation {
+        padding: calc(2*var(--text-padding)) ;
+    }
+
+    .accordion {
+        padding: 10px calc(2*var(--text-padding));
+    }
+
+    .panel-wrap {
+        padding: 10px var(--text-padding);
     }
 
 }
@@ -300,19 +320,19 @@
     }
 
     .menu-logo-line {
-        height: 130px;
+        height: 80px;
         
     }
 
   
     .logo-container {
-        height: 110px;
-        width: 110px;       
+        height: 70px;
+        width: 70px;       
     }
 
 
     .main-title {
-        font-size: 3.5rem;
+        font-size: 2.3rem;
     }
     
     .menu-cont {
@@ -322,15 +342,15 @@
     }
     
     .menu-titles {
-        top: 110px;
+        top: 80px;
     }
 
     .menu a, .language-selector {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     .place-holder-under-menuline {    
-        height: 100px;
+        height: 90px;
     }
 
     
@@ -453,9 +473,17 @@
         font-size: 1.2rem;
     }
 
-    .benefits-list {
+    .benefits-list, .presentation {
         padding: calc(3*var(--text-padding));
         line-height: 3rem;
+    }
+
+    .accordion {
+        padding: 10px calc(3*var(--text-padding));
+    }
+
+    .panel-wrap {
+        padding: 10px calc(2*var(--text-padding));
     }
 }
 
@@ -495,12 +523,16 @@
     }
     .menu-logo-line {
         height: 110px;
-        grid-template-columns: 100px calc(98vw - 200px) 100px;
+        grid-template-columns: 1.5fr 5fr 1.5fr;;
+    }
+
+    .menu-icon-container {
+        margin-left: calc(2.5*var(--text-padding));
     }
 
     .logo-container {
-        height: 100px;
-        width: 100px;
+        height: 110px;
+        width: 110px;
         margin-right: 40px;
     }
 
@@ -511,8 +543,7 @@
     
     .menu-cont {
         width: 80px;
-        height: 80px;
-        margin: 15px 15px 15px 30px;
+        height: 80px;        
     }
 
     .menu-titles {
@@ -600,8 +631,10 @@
         grid-template-rows: auto;
         grid-template-areas: 
         "panel-text specification-img-wrap";
-        padding: var(--text-padding) 0;
-      }     
+        padding: calc(2*var(--text-padding));
+    }
+
+    
 }
 
 /*iPad pro landscape 1366x1024*/
@@ -628,12 +661,12 @@
 
     .menu-logo-line {
         height: 140px;
-        grid-template-columns: 100px calc(98vw - 200px) 100px;
+        grid-template-columns: 1.5fr 5fr 1.5fr;
     }
 
     .logo-container {
-        width: 110px;
-        height: 110px;
+        width: 130px;
+        height: 130px;
     }
 
 

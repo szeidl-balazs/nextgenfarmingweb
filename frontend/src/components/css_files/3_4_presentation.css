@@ -1,9 +1,16 @@
 .presentation {
     grid-area: presentation;
     line-height: 2rem;
-    padding: var(--text-padding);
-    text-align: justify;
+    padding: var(--text-padding);    
     max-width: 100vw;
+}
+
+.presentation p {
+    text-align: justify;
+}
+
+.presentation h3 {
+    margin-top: 50px;
 }
 
 video {
