@@ -420,6 +420,11 @@
         width: 25vw;
         font-size: 1.2rem;
     }
+
+    .benefits-list {
+        padding: calc(3*var(--text-padding));
+        line-height: 3rem;
+    }
 }
 
 /*iPad Air portrait 812px media query*/
