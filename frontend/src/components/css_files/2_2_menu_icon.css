@@ -9,9 +9,9 @@
 /*Menu icon*/
 
 .menu-icon-container {
-    justify-self: center;
     align-self: center;
     grid-area: menu-icon-container;
+    margin-left: var(--text-padding)
     /*border: 1px solid #b9bcbd;*/
 }
 

@@ -31,7 +31,7 @@ body {
 /*The below code retains the benefit content always below the menu line:*/
 .place-holder-under-menuline {    
     background-color: var(--main-light-color);
-    width: 98vw;
+    width: 93vw;
     height: 30px;
 }
 
@@ -40,7 +40,7 @@ button {
 }
 
 h1 {
-    font-family: 'Limelight', cursive;
+    font-family: 'Limelight', cursive;    
     color: var(--main-light-color);
     font-weight: 400;
 }

@@ -12,8 +12,11 @@
     /*background-position-x: center;
     background-position-y: center;*/
     grid-area: logo-container;
-    justify-self: center;
+    justify-self: right;
+    margin-right: var(--text-padding);
     align-self: center;
+    width: 40px;
+    height: 40px;
     /*border: #b9bcbd solid 1px;*/
 }
 

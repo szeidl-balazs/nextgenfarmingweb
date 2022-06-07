@@ -1,5 +1,6 @@
 .specifications {
-    grid-area: specifications;    
+    grid-area: specifications;
+    max-width: 100vw;
 }
 
 

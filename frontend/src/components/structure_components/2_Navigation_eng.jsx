@@ -31,44 +31,46 @@ const NavigationEng = (props) => {
    });
 
     return (
-            <header id="top" className="navbar topnav"> {/*Navbar contains menu icon, main title, logo img, menu titles*/}
-                        <div className="menu-logo-line"> {/*menu-logo-line contains only menu icon, main title, logo img and position fixed*/}
+      <header id="top" className="navbar topnav"> {/*Navbar contains menu icon, main title, logo img, menu titles*/}
+        <div className="menu-logo-line"> {/*menu-logo-line contains only menu icon, main title, logo img and position fixed*/}
                             
-                            <div className="menu-icon-container" onClick={menuToggle}>
-                              <Hamburger toggled={isOpen} toggle={setOpen} duration={.8}/>
-                            </div>
-                            <h1 className="main-title">BAL<span className="orsi-title">O</span>REA WEB</h1> {/*Main title*/}
+          <div className="menu-icon-container" onClick={menuToggle}>
+            <Hamburger toggled={isOpen} toggle={setOpen} duration={.8}/>
+          </div>
+          
+          <h1 className="main-title">BAL<span className="orsi-title">O</span>REA WEB</h1> {/*Main title*/}
                             
-                            {/*Page logo*/}
-                            <div className="logo-container"></div> 
+          {/*Page logo*/}
+          <div className="logo-container"></div> 
 
-                        </div>                        
+        </div>                        
                         
-                        <div className="menu-titles-mover"></div>
+        <div className="menu-titles-mover"></div>
                                                   
-                          {
+        {
 
-                          show === true
+          show === true
                         
-                            ?
+          ?
                             
-                              <animated.div className="menu-titles" id="menu-links" style={openAnimation}> 
-                                <div className="menu menu-benefit"><a href="#benefit-id">Introduction</a></div>
-                                <div className="menu menu-specification"><a href="#specifications-id">Reference projects</a></div>           
-                                <div className="menu menu-workout"><a href="#recommendation-id">Services</a></div>
-                                <div className="menu menu-contact"><a href="#contact-id">Contact</a></div>    
-                                <select className="language-selector" value={props.data} onChange={props.function}>
-                                  <option value="hun" >Hun</option>
-                                  <option value="eng">Eng</option>
-                                </select>
-                              </animated.div>
+          <animated.div className="menu-titles" id="menu-links" style={openAnimation}> 
+            <div className="menu menu-benefit"><a href="#benefit-id">Introduction</a></div>
+            <div className="menu menu-specification"><a href="#specifications-id">Reference projects</a></div>           
+            <div className="menu menu-workout"><a href="#recommendation-id">Services</a></div>
+            <div className="menu menu-contact"><a href="#contact-id">Contact</a></div>    
+            <select className="language-selector" value={props.data} onChange={props.function}>
+              <option value="hun" >Hun</option>
+              <option value="eng">Eng</option>
+            </select>
+          </animated.div>
 
-                            :
+        :
 
-                            null
-                          }
+        null
+        
+        }
                                 
-            </header>
+      </header>
 
     );
 
