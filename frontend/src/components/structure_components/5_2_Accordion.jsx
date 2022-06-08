@@ -69,26 +69,25 @@ const Accordion = (props) => {
 
           <div className="panel-wrap">
 
-            <div className="panel-text">
-              <p className="accordion__content">{props.subtitle1}</p>
-              <p className="accordion__content">
-                <a href="https://farkasgym.hu/"  rel="noreferrer" target="_blank">{props.url1}</a>
-              </p>
-              <p className="accordion__content">{props.description1}</p>
-              <p className="accordion__content">{props.text3}</p>
-              <p className="accordion__content">{props.text4}</p>
-              <p className="accordion__content">{props.text5}</p>
-              <p className="accordion__content">{props.text6}</p>
-              <p className="accordion__content">{props.text7}</p>
-              <p className="accordion__content">{props.text8}</p>
-              <p className="accordion__content">{props.text9}</p>
-              <p className="accordion__content">{props.text10}</p>              
+            <div className="subpanel">
+
+              <div className="panel-text">
+
+                <p className="accordion__content">Title: {props.subtitle1}</p>
+                <p className="accordion__content">URL: <a href={props.urladdress1}  rel="noreferrer" target="_blank">{props.urlname1}</a></p>
+                <p className="accordion__content">Description: {props.description1}</p>
+                <p className="accordion__content">Highlights: {props.highlights1}</p>
+                
+              </div>
+
+              <div className="specification-img-wrap">
+                <div className="specification-photo" id={props.img_id1}></div>
+              </div>
+                
             </div>
             
-            <div className="specification-img-wrap">
-              <div className="specification-photo" id={props.img_id}></div>
-            </div>
-
+             
+          
           </div>
 
         </animated.div>

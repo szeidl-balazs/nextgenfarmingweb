@@ -23,8 +23,8 @@
   background-image: url("../images/farkasgym1.png");
 }
 
-#morefeatures {
-  background-image: url("../images/motorikus_kepessegek_svg.svg");  
+#wedding-zoe-and-alex {
+  background-image: url("../images/weddingzoeandalex.png");  
 }
 
 #spec-swimmers {
@@ -80,8 +80,13 @@
     text-decoration: none;
   }
 
-  .accordion__content p a {
+  .accordion__content a {
     text-decoration: none;
+    color: var(--main-dark-color);
+  }
+
+  .accordion__content a:hover {    
+    font-weight: 900;
   }
 
   
@@ -97,7 +102,7 @@
   
 
   
-  .panel-wrap {
+  .subpanel {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
