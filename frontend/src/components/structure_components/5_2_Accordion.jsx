@@ -39,11 +39,11 @@ const Accordion = (props) => {
   const iconAnimation = useSpring({
     from: {
       transform: "rotate(0deg)",
-      color: "#00ffff"
+      color: "var(--main-light-color)"
     },
     to: {
       transform: open ? "rotate(180deg)" : "rotate(0deg)",
-      color: open ? "rgba(230, 240, 100, 1)" : "#00ffff"
+      color: open ? "rgba(230, 240, 100, 1)" : "var(--main-light-color)"
     },
     config: { 
       duration: "500" 
@@ -70,8 +70,9 @@ const Accordion = (props) => {
           <div className="panel-wrap">
 
             <div className="panel-text">
-              <p className="accordion__content">{props.text1}</p>
-              <p className="accordion__content">{props.text2}</p>
+              <p className="accordion__content">{props.subtitle1}</p>
+              <p><a href="www.farkasgym.hu">www.farkasgym.hu</a></p>
+              <p className="accordion__content">{props.description1}</p>
               <p className="accordion__content">{props.text3}</p>
               <p className="accordion__content">{props.text4}</p>
               <p className="accordion__content">{props.text5}</p>

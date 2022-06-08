@@ -11,10 +11,17 @@ const SpecificationsEng = () => {
         <h2>REFERENCE PROJECTS</h2>          
 
             <Accordion
-              title="Skill development with own weight"
-              text1="The strength development occurs with the move of own body weight of which accurate knowing there is no age group limitation during work out."
-              text2="The angular offset of the bench is adjustable, therefore the level of power is alterable."
-              text3="The work outs with the bench can be integrated into training system, that is, the bench training and the sport specific work outs have synergic effect to each other e.g. breast srtoke kicking on the bench and breast stroke kicking in the water."
+              title="Landing pages"
+              subtitle1="Farkas Gym"
+              url1="www.farkasgym.hu"
+              description1="Farkas Gym has been dedicated for introduction and promotion of an innovative fitness machine. 
+              The site is bulingual: English and Hungarian. The programming technology was React, 
+              therefore the switchning between sections and altering languages is fast like lightening.
+              The design is very simple, but modern, functionality is easy to understand and handling is piece of mind.
+              Very important detail is the fixed position header section including menu icon, main title and logo,
+              because whenever clients switching between different sites in their browser in this site the header always
+              indicates the identity of the page regardless of the cursor position in the site unlike in many other websites
+              where clients might return in the middle of a section and cannot quickly recognise to whom the site belongs."
               img_id="adjustable-angle-img"
             />
 
