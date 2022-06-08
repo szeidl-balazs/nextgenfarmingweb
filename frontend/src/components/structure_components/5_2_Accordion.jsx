@@ -71,7 +71,9 @@ const Accordion = (props) => {
 
             <div className="panel-text">
               <p className="accordion__content">{props.subtitle1}</p>
-              <p><a href="www.farkasgym.hu">www.farkasgym.hu</a></p>
+              <p className="accordion__content">
+                <a href="https://farkasgym.hu/"  rel="noreferrer" target="_blank">{props.url1}</a>
+              </p>
               <p className="accordion__content">{props.description1}</p>
               <p className="accordion__content">{props.text3}</p>
               <p className="accordion__content">{props.text4}</p>

@@ -19,8 +19,8 @@
   border-radius: 10px;    
 }
 
-#adjustable-angle-img {
-  background-image: url("../images/adjustable_angle.png");
+#farkasgym1 {
+  background-image: url("../images/farkasgym1.png");
 }
 
 #morefeatures {
@@ -77,6 +77,11 @@
   .panel-text {
     grid-area: panel-text;
     text-align: justify;
+    text-decoration: none;
+  }
+
+  .accordion__content p a {
+    text-decoration: none;
   }
 
   

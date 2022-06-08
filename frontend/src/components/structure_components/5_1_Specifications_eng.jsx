@@ -22,7 +22,7 @@ const SpecificationsEng = () => {
               because whenever clients switching between different sites in their browser in this site the header always
               indicates the identity of the page regardless of the cursor position in the site unlike in many other websites
               where clients might return in the middle of a section and cannot quickly recognise to whom the site belongs."
-              img_id="adjustable-angle-img"
+              img_id="farkasgym1"
             />
 
             <Accordion
