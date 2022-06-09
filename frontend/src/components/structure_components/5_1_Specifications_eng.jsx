@@ -20,12 +20,21 @@ const SpecificationsEng = () => {
               fix header section with menu icon - main title - logo, minimalist design - details only on click, 
               lightening fast page load - section and language toggling, fully responsive in each device size readable."
               img_id1="farkasgym1"
+
+              subtitle2="Göcsej Természetvédelmi Alapítvány"
+              urlname2="gocsej-alapitvany"
+              urladdress2="https://szeidl-balazs.github.io/landing_page/"
+              description2="The site has been a team project work in Code Cool frontend course where I created this site with Márta Marosi and Richárd Arany. 
+              The task has been to develop a web page for a nonprofit organization."
+              highlights2="HTML, CSS, flex box, border styling."
+              img_id2="farkasgym1"
+
             />
 
             <Accordion
               title="Landing pages promoting events"
-              subtitle1="Weeding event: Zoe and Alex"
-              description1="The site was a project in CodeBerry Programming School to practice aligning content without flex or grid technology and styling in elegant way."
+              subtitle1="Wedding event: Zoe and Alex"
+              description1="The site was a project task in CodeBerry Programming School to practice aligning content without flex or grid technology and styling in elegant way."
               urlname1="wedding-zoe-and-alex"
               urladdress1="https://szeidl-balazs.github.io/wedding_event_template/"
               highlights1="HTML and CSS basics, align without flex or grid, responsive in each display size."     
