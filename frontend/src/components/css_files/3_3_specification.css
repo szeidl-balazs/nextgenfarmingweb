@@ -13,7 +13,7 @@
 
 .specification-photo {
   grid-area: specification-photo;
-  background-image: url("../images/hero_breast_2.png");
+  
   background-size: cover;
   height: 100px;
   border-radius: 10px;    
@@ -23,26 +23,19 @@
   background-image: url("../images/farkasgym1.png");
 }
 
+#gocsej {
+  background-image: url("../images/gocsej.png");
+}
+
+#pizza-dominium {
+  background-image: url("../images/pizza_dominium.png");
+}
+
 #wedding-zoe-and-alex {
   background-image: url("../images/weddingzoeandalex.png");  
 }
 
-#spec-swimmers {
-  background-image: url("../images/swim_and_gym_breast_kick.png");  
-}
 
-
-#pc-control {
-  background-image: url("../images/screen_with_frame_1920x780.png"); 
-}
-
-#leg-support-img {
-  background-image: url("../images/leg_supportwo_background.png"); 
-}
-
-#multisport {
-  background-image: url("../images/Jump.png"); 
-}
 
 
 .accordion {

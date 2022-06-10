@@ -2,6 +2,8 @@ import { React, useState } from "react";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useSpring, animated, easings } from "react-spring";
 import "../css_files/3_3_specification.css"
+import LandingPages from "./5_1_Reference_eng_landing_pages";
+
 
 
 const Accordion = (props) => {
@@ -55,9 +57,9 @@ const Accordion = (props) => {
     <div className="accordion-container" >
  
       <button className="accordion benefit-and-specs-list" onClick={toggleHandler}>
-          {props.title}
+          {props.accordiontitle}
           <animated.span className="more-less-sign" style={iconAnimation}><ExpandMoreIcon/></animated.span>
-      </button>
+      </button>      
 
       {
         
@@ -66,30 +68,7 @@ const Accordion = (props) => {
       ?
 
         <animated.div className="panel" style={openAnimation}>        
-
-          <div className="panel-wrap">
-
-            <div className="subpanel">
-
-              <div className="panel-text">
-
-                <p className="accordion__content">Title: {props.subtitle1}</p>
-                <p className="accordion__content">URL: <a href={props.urladdress1}  rel="noreferrer" target="_blank">{props.urlname1}</a></p>
-                <p className="accordion__content">Description: {props.description1}</p>
-                <p className="accordion__content">Highlights: {props.highlights1}</p>
-                
-              </div>
-
-              <div className="specification-img-wrap">
-                <div className="specification-photo" id={props.img_id1}></div>
-              </div>
-                
-            </div>
-            
-             
-          
-          </div>
-
+          <LandingPages />
         </animated.div>
         
         : 
