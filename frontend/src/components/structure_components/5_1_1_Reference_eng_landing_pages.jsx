@@ -13,7 +13,7 @@ const LandingPages = () => {
                     <p className="accordion__content">Title: Farkas Gym</p>
                     <p className="accordion__content">URL: <a href="https://farkasgym.hu/" rel="noreferrer" target="_blank">www.farkasgym.hu</a></p>
                     <p className="accordion__content">  
-                        Description: Farkas Gym has been dedicated for introduction and promotion of an innovative fitness machine."
+                        Description: Farkas Gym has been dedicated for introduction and promotion of an innovative fitness machine.
                     </p>
                     <p className="accordion__content">
                         Highlights: React technology, Material UI icons, Use Spring animation, bilingual, 
