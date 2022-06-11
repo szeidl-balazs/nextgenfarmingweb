@@ -4,6 +4,7 @@ import { useSpring, animated, easings } from "react-spring";
 import "../css_files/3_3_specification.css"
 import LandingPages from "./5_1_1_Reference_eng_landing_pages";
 import Events from "./5_1_2_Reference_eng_events";
+import Blogs from "./5_1_3-Reference_eng_blogs";
 
 
 
@@ -95,6 +96,49 @@ const AccordionEng = (props) => {
         duration: "500" 
       }
     });
+
+    //functions for blogs
+
+    //toggle accordion function
+    const [openblog, setOpenBlog] = useState(false);
+
+    //switch state
+    const toggleHandlerBlog = (e) => {    
+      setOpenBlog(!openblog);    
+    };    
+  
+     //open animation with react spring
+           
+     const openAnimation3 = useSpring ({
+      from: {       
+        maxHeight: "25px"
+      },
+  
+      to: {      
+        maxHeight: openblog ? "1200px" : "25px"
+      },
+  
+      config: { 
+        duration: "2000",
+        easing: easings.easeIn,
+      }
+    });
+   
+    
+    //rotate animation
+    const iconAnimation3 = useSpring({
+      from: {
+        transform: "rotate(0deg)",
+        color: "var(--main-light-color)"
+      },
+      to: {
+        transform: openblog ? "rotate(180deg)" : "rotate(0deg)",
+        color: openblog ? "rgba(230, 240, 100, 1)" : "var(--main-light-color)"
+      },
+      config: { 
+        duration: "500" 
+      }
+    });
   
 
 
@@ -160,7 +204,35 @@ const AccordionEng = (props) => {
 
       </div>
 
+
+        {/*Blog page references*/}
+
+        <button className="accordion benefit-and-specs-list" onClick={toggleHandlerBlog}>
+          Blog pages, user interfaces
+          <animated.span className="more-less-sign" style={iconAnimation3}><ExpandMoreIcon/></animated.span>
+        </button>      
+
+        {
+        
+        openblog=== true
+        
+        ?
+
+        <animated.div className="panel" style={openAnimation3}>        
+          <Blogs />
+        </animated.div>
+        
+        : 
+
+        null
+
+        }
+
+
     </div>
+
+
+  
 
   );
 }
