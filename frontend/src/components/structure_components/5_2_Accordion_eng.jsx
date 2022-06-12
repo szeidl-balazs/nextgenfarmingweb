@@ -208,7 +208,7 @@ const AccordionEng = (props) => {
         {/*Blog page references*/}
 
         <button className="accordion benefit-and-specs-list" onClick={toggleHandlerBlog}>
-          Blog pages, user interfaces
+          Blog pages, articles, user interfaces
           <animated.span className="more-less-sign" style={iconAnimation3}><ExpandMoreIcon/></animated.span>
         </button>      
 

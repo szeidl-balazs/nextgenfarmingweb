@@ -39,6 +39,14 @@
   background-image: url("../images/game_character.png");  
 }
 
+#mantis-shrimp {
+  background-image: url("../images/mantis_shrimp.png");  
+}
+
+#pricing-table {
+  background-image: url("../images/pricing_table.png");  
+}
+
 
 
 
@@ -92,7 +100,7 @@
     padding: 0 var(--text-padding);
     background-color: var(--main-light-color);
     overflow: hidden;
-    max-height: 25px;
+    max-height: 35px;
     cursor: pointer;
   }
 
