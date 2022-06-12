@@ -24,7 +24,8 @@
 body {
     background-color: var(--main-dark-color);
     color: var(--main-light-color);
-    font-family: 'Rokkitt', serif;
+    /*font-family: 'Rokkitt', serif;*/
+    font-family: 'Jura', sans-serif;
     overflow-x: hidden;
 }
 

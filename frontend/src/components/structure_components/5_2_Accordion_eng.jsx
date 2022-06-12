@@ -4,7 +4,8 @@ import { useSpring, animated, easings } from "react-spring";
 import "../css_files/3_3_specification.css"
 import LandingPages from "./5_1_1_Reference_eng_landing_pages";
 import Events from "./5_1_2_Reference_eng_events";
-import Blogs from "./5_1_3-Reference_eng_blogs";
+import Blogs from "./5_1_3_Reference_eng_blogs";
+import Uicomponents from "./5_1_4_Reference_eng_ui";
 
 
 
@@ -97,7 +98,7 @@ const AccordionEng = (props) => {
       }
     });
 
-    //functions for blogs
+    //functions for blogs, articles
 
     //toggle accordion function
     const [openblog, setOpenBlog] = useState(false);
@@ -140,6 +141,50 @@ const AccordionEng = (props) => {
       }
     });
   
+
+  //functions for UI components
+
+    //toggle accordion function
+    const [openui, setOpenUi] = useState(false);
+
+    //switch state
+    const toggleHandlerUi = (e) => {    
+      setOpenUi(!openui);    
+    };    
+  
+     //open animation with react spring
+           
+     const openAnimation4 = useSpring ({
+      from: {       
+        maxHeight: "25px"
+      },
+  
+      to: {      
+        maxHeight: openui ? "1200px" : "25px"
+      },
+  
+      config: { 
+        duration: "2000",
+        easing: easings.easeIn,
+      }
+    });
+   
+    
+    //rotate animation
+    const iconAnimation4 = useSpring({
+      from: {
+        transform: "rotate(0deg)",
+        color: "var(--main-light-color)"
+      },
+      to: {
+        transform: openui ? "rotate(180deg)" : "rotate(0deg)",
+        color: openui ? "rgba(230, 240, 100, 1)" : "var(--main-light-color)"
+      },
+      config: { 
+        duration: "500" 
+      }
+    });
+
 
 
   
@@ -208,7 +253,7 @@ const AccordionEng = (props) => {
         {/*Blog page references*/}
 
         <button className="accordion benefit-and-specs-list" onClick={toggleHandlerBlog}>
-          Blog pages, articles, user interfaces
+          Blog pages and articles
           <animated.span className="more-less-sign" style={iconAnimation3}><ExpandMoreIcon/></animated.span>
         </button>      
 
@@ -227,6 +272,31 @@ const AccordionEng = (props) => {
         null
 
         }
+
+
+        {/*UI component references*/}
+
+        <button className="accordion benefit-and-specs-list" onClick={toggleHandlerUi}>
+          User interface components
+          <animated.span className="more-less-sign" style={iconAnimation4}><ExpandMoreIcon/></animated.span>
+        </button>      
+
+        {
+        
+        openui=== true
+        
+        ?
+
+        <animated.div className="panel" style={openAnimation4}>        
+          <Uicomponents />
+        </animated.div>
+        
+        : 
+
+        null
+
+        }
+
 
 
     </div>
