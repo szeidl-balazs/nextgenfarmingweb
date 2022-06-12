@@ -26,6 +26,7 @@ body {
     color: var(--main-light-color);
     /*font-family: 'Rokkitt', serif;*/
     font-family: 'Jura', sans-serif;
+    font-weight: 600;
     overflow-x: hidden;
 }
 
@@ -37,7 +38,8 @@ body {
 }
 
 button {
-    font-family: 'Rokkitt', serif;
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
 }
 
 h1 {

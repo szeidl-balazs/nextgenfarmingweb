@@ -45,12 +45,14 @@
   }
   
   .cookie-bar .message {
-    font-family: 'Rokkitt', serif;     
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;     
   }
   
   .cookie-bar .mobile {
     display: none; 
-    font-family: 'Rokkitt', serif;  
+    font-family: 'Jura', sans-serif;
+    font-weight: 600; 
   }
   
   a {

@@ -6,7 +6,7 @@ import LandingPages from "./5_1_1_Reference_eng_landing_pages";
 import Events from "./5_1_2_Reference_eng_events";
 import Blogs from "./5_1_3_Reference_eng_blogs";
 import Uicomponents from "./5_1_4_Reference_eng_ui";
-
+import MarketingComponents from "./5_1_5_Reference_eng_marketing";
 
 
 const AccordionEng = (props) => {
@@ -186,6 +186,51 @@ const AccordionEng = (props) => {
     });
 
 
+    //functions for marketing components
+
+    //toggle accordion function
+    const [openmarketing, setOpenMarketing] = useState(false);
+
+    //switch state
+    const toggleHandlerMarketing = (e) => {    
+      setOpenMarketing(!openmarketing);    
+    };    
+  
+     //open animation with react spring
+           
+     const openAnimation5 = useSpring ({
+      from: {       
+        maxHeight: "25px"
+      },
+  
+      to: {      
+        maxHeight: openmarketing ? "1200px" : "25px"
+      },
+  
+      config: { 
+        duration: "2000",
+        easing: easings.easeIn,
+      }
+    });
+   
+    
+    //rotate animation
+    const iconAnimation5 = useSpring({
+      from: {
+        transform: "rotate(0deg)",
+        color: "var(--main-light-color)"
+      },
+      to: {
+        transform: openmarketing ? "rotate(180deg)" : "rotate(0deg)",
+        color: openmarketing ? "rgba(230, 240, 100, 1)" : "var(--main-light-color)"
+      },
+      config: { 
+        duration: "500" 
+      }
+    });
+
+
+
 
   
   return (
@@ -289,6 +334,29 @@ const AccordionEng = (props) => {
 
         <animated.div className="panel" style={openAnimation4}>        
           <Uicomponents />
+        </animated.div>
+        
+        : 
+
+        null
+
+        }
+
+        {/*Marketing component references*/}
+
+        <button className="accordion benefit-and-specs-list" onClick={toggleHandlerMarketing}>
+          Marketing components, logos, tags
+          <animated.span className="more-less-sign" style={iconAnimation5}><ExpandMoreIcon/></animated.span>
+        </button>      
+
+        {
+        
+        openmarketing=== true
+        
+        ?
+
+        <animated.div className="panel" style={openAnimation5}>        
+          <MarketingComponents />
         </animated.div>
         
         : 

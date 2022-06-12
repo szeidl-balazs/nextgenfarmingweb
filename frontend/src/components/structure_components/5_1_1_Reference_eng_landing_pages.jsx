@@ -52,7 +52,7 @@ const LandingPages = () => {
 
                 <div className="panel-text">
                     <p className="accordion__content">Title: Pizza Dominium</p>
-                    <p className="accordion__content">URL: <a href="https://szeidl-balazs.github.io/table_booking/" rel="noreferrer" target="_blank">pizza-dominium</a></p>
+                    <p className="accordion__content">URL: <a href="https://szeidl-balazs.github.io/table_booking/" rel="noreferrer" target="_blank" className="url--style">pizza-dominium</a></p>
                     <p className="accordion__content">
                         Description: The site has been a team project in Code Cool frontend course where I created this site with Márta Marosi and Richárd Arany. 
                         The task has been to develop a web page for a pizzeria including a form for table booking.
