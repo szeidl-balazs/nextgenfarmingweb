@@ -22,20 +22,19 @@ const HeroEng = () => {
 
             <div className="hero-image hero-image--style" >            
         
-            {
+                {
+                    modal === true 
 
-                modal === true 
+                    ?
 
-                ?
+                    <div className="modal">
+                        <div className="modal-text" onClick={forSaleSwitch}><a className="modal-text" href="#contact-id">Web design and web site development. For more information write email or call the contact person!</a></div>
+                    </div>
 
-                <div className="modal">
-                    <div className="modal-text" onClick={forSaleSwitch}><a className="modal-text" href="#contact-id">Web design and web site development. For more information write email or call the contact person!</a></div>
-                </div>
+                    :
 
-                :
-
-                null
-            }
+                    null
+                }
         
             </div>
         </div>

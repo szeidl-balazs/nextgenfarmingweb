@@ -8,7 +8,6 @@
 }
 
 .hero-image {
-    
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -21,15 +20,20 @@
     align-items: center;
 }
 
-@keyframes hero-image {
-    0% {background-image: url("../images/farkasgym1.png");}
-    50% {background-image: url("../images/pizza_dominium.png");}
-    100% {background-image: url("../images/pricing_table2.png");}
+.hero-image--style {
+    animation: hero-image 30s infinite ease-in-out;
 }
 
-.hero-image--style {
-    animation: hero-image 10s infinite;
+@keyframes hero-image {
+    0% {background-image: url("../images/farkasgym1.png");}
+    
+    50% {background-image: url("../images/pizza_dominium.png");}
+    
+    100% {background-image: url("../images/pricing_table2.png");}
+    
 }
+
+
 
 .forsale-wrap {
     display: flex;

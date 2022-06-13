@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const CookieBarEng = (Cookies) => {
-
+    
     return (
 
         <div className="cookie-bar">
@@ -12,7 +12,8 @@ const CookieBarEng = (Cookies) => {
             </div>
             <div className="mobile">This website uses cookies, <a href="7_2_cookie_text.html" target="_blank">details</a>.</div>
             <div className="accept-btn close-cb"><label for="checkbox-cb">I ACCEPT.</label></div>
-        </div>
+        </div>   
+
     );
 
 }
