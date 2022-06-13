@@ -20,7 +20,7 @@ const HeroEng = () => {
                 <button className="forsale" >Call for bid!</button>
             </div>
 
-            <div className="hero-image" >            
+            <div className="hero-image hero-image--style" >            
         
             {
 

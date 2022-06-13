@@ -8,7 +8,7 @@
 }
 
 .hero-image {
-    /*background-image: url("../images/hero_breast_2.png");*/
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -19,6 +19,16 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+@keyframes hero-image {
+    0% {background-image: url("../images/farkasgym1.png");}
+    50% {background-image: url("../images/pizza_dominium.png");}
+    100% {background-image: url("../images/pricing_table2.png");}
+}
+
+.hero-image--style {
+    animation: hero-image 10s infinite;
 }
 
 .forsale-wrap {
