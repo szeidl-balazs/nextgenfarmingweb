@@ -18,7 +18,11 @@ const AccordionHun = () => {
 
   //switch state
   const toggleHandlerLanding = (e) => {    
-    setOpenlanding(!openlanding);    
+    setOpenlanding(!openlanding);
+    setOpenEvent(false);
+    setOpenBlog(false);
+    setOpenMarketing(false);
+    setOpenUi(false);       
   };    
 
    //open animation with react spring
@@ -62,7 +66,11 @@ const AccordionHun = () => {
 
     //switch state
     const toggleHandlerEvent = (e) => {    
-      setOpenEvent(!openevent);    
+      setOpenEvent(!openevent);
+      setOpenBlog(false);
+      setOpenMarketing(false);
+      setOpenUi(false);
+      setOpenlanding(false);    
     };    
   
      //open animation with react spring
@@ -105,7 +113,11 @@ const AccordionHun = () => {
 
     //switch state
     const toggleHandlerBlog = (e) => {    
-      setOpenBlog(!openblog);    
+      setOpenBlog(!openblog);
+      setOpenEvent(false);
+      setOpenMarketing(false);
+      setOpenUi(false);
+      setOpenlanding(false); 
     };    
   
      //open animation with react spring
@@ -149,7 +161,11 @@ const AccordionHun = () => {
 
     //switch state
     const toggleHandlerUi = (e) => {    
-      setOpenUi(!openui);    
+      setOpenUi(!openui);
+      setOpenBlog(false);
+      setOpenEvent(false);
+      setOpenMarketing(false);
+      setOpenlanding(false);   
     };    
   
      //open animation with react spring
@@ -193,7 +209,11 @@ const AccordionHun = () => {
 
     //switch state
     const toggleHandlerMarketing = (e) => {    
-      setOpenMarketing(!openmarketing);    
+      setOpenMarketing(!openmarketing);
+      setOpenBlog(false);
+      setOpenEvent(false);
+      setOpenUi(false);
+      setOpenlanding(false);     
     };    
   
      //open animation with react spring
