@@ -1,4 +1,5 @@
 import {React, useState} from 'react';
+import SlideShow from './4_Hero_slide_show';
 
 const HeroHun = () => {
 
@@ -9,8 +10,7 @@ const HeroHun = () => {
         setModal(!modal);
     }
 
-
-
+    
     return (
         
         <div className="intro-container">
@@ -20,7 +20,9 @@ const HeroHun = () => {
                 <button className="forsale" >Hívjon ajánlatért!</button>
             </div>
 
-            <div className="hero-image" >            
+            <div className="hero-image" >  
+
+            <SlideShow/>          
         
             {
 
