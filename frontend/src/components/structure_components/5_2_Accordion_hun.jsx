@@ -2,14 +2,14 @@ import { React, useState } from "react";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useSpring, animated, easings } from "react-spring";
 import "../css_files/3_3_specification.css"
-import LandingPages from "./5_1_1_Reference_eng_landing_pages";
-import Events from "./5_1_2_Reference_eng_events";
-import Blogs from "./5_1_3_Reference_eng_blogs";
-import Uicomponents from "./5_1_4_Reference_eng_ui";
-import MarketingComponents from "./5_1_5_Reference_eng_marketing";
+import LandingPagesHun from "./5_1_1_Reference_hun_landing_pages";
+import EventsHun from "./5_1_2_Reference_hun_events";
+import BlogsHun from "./5_1_3_Reference_hun_blogs";
+import UicomponentsHun from "./5_1_4_Reference_hun_ui";
+import MarketingComponentsHun from "./5_1_5_Reference_hun_marketing";
 
 
-const AccordionEng = () => {
+const AccordionHun = () => {
   
   //functions for landing pages 
   
@@ -239,7 +239,7 @@ const AccordionEng = () => {
 
       <div id="specifications-id" className="place-holder-under-menuline"></div> {/*empty lane to push down the below content under menu line*/}
           
-      <h2>REFERENCE PROJECTS</h2>          
+      <h2>REFERENCIÁK</h2>          
   
 
       <div className="accordion-container" >
@@ -247,7 +247,7 @@ const AccordionEng = () => {
         {/*Landing page references*/}
 
         <button className="accordion benefit-and-specs-list" onClick={toggleHandlerLanding}>
-          Landing pages promoting organizations, products or services
+          Célodalak (landing page) szervezetek, termékek és szolgáltatások promóciójához
           <animated.span className="more-less-sign" style={iconAnimation}><ExpandMoreIcon/></animated.span>
         </button>      
 
@@ -258,7 +258,7 @@ const AccordionEng = () => {
         ?
 
         <animated.div className="panel" style={openAnimation}>        
-          <LandingPages />
+          <LandingPagesHun />
         </animated.div>
         
         : 
@@ -271,7 +271,7 @@ const AccordionEng = () => {
         {/*Event page references*/}
 
         <button className="accordion benefit-and-specs-list" onClick={toggleHandlerEvent}>
-          Landing pages promoting events
+          Céloldalak (landing page) egyedi események promóciójához
           <animated.span className="more-less-sign" style={iconAnimation2}><ExpandMoreIcon/></animated.span>
         </button>      
 
@@ -282,7 +282,7 @@ const AccordionEng = () => {
         ?
 
         <animated.div className="panel" style={openAnimation2}>        
-          <Events />
+          <EventsHun />
         </animated.div>
         
         : 
@@ -298,7 +298,7 @@ const AccordionEng = () => {
         {/*Blog page references*/}
 
         <button className="accordion benefit-and-specs-list" onClick={toggleHandlerBlog}>
-          Blog pages and articles
+          Blog oldalak és cikkek
           <animated.span className="more-less-sign" style={iconAnimation3}><ExpandMoreIcon/></animated.span>
         </button>      
 
@@ -309,7 +309,7 @@ const AccordionEng = () => {
         ?
 
         <animated.div className="panel" style={openAnimation3}>        
-          <Blogs />
+          <BlogsHun />
         </animated.div>
         
         : 
@@ -322,7 +322,7 @@ const AccordionEng = () => {
         {/*UI component references*/}
 
         <button className="accordion benefit-and-specs-list" onClick={toggleHandlerUi}>
-          User interface components
+          Felhasználói felület (UI) komponensek
           <animated.span className="more-less-sign" style={iconAnimation4}><ExpandMoreIcon/></animated.span>
         </button>      
 
@@ -333,7 +333,7 @@ const AccordionEng = () => {
         ?
 
         <animated.div className="panel" style={openAnimation4}>        
-          <Uicomponents />
+          <UicomponentsHun />
         </animated.div>
         
         : 
@@ -345,7 +345,7 @@ const AccordionEng = () => {
         {/*Marketing component references*/}
 
         <button className="accordion benefit-and-specs-list" onClick={toggleHandlerMarketing}>
-          Marketing components, logos, tags
+          Marketing komponensek, logók, címkék, feliratok
           <animated.span className="more-less-sign" style={iconAnimation5}><ExpandMoreIcon/></animated.span>
         </button>      
 
@@ -356,7 +356,7 @@ const AccordionEng = () => {
         ?
 
         <animated.div className="panel" style={openAnimation5}>        
-          <MarketingComponents />
+          <MarketingComponentsHun />
         </animated.div>
         
         : 
@@ -374,4 +374,4 @@ const AccordionEng = () => {
 
   );
 }
-export default AccordionEng;
+export default AccordionHun;

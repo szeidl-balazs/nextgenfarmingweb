@@ -9,33 +9,32 @@ const TermsHun = () => {
             <h2>Általános szerződési feltételek</h2>
 
             <div className="long-text">
-                <p>A jelen Általános Szerződési Feltételek (a továbbiakban: ÁSZF) Farkas János egyéni vállalkozó (továbbiakban: Szolgáltató), és a Szolgáltató által a <span><a href="index.html" target="_blank">www.farkasgym.hu</a></span> weboldalon keresztül nyújtott elektronikus kereskedelmi szolgáltatásokat igénybe vevő Ügyfél (a továbbiakban: Ügyfél) jogait és kötelezettségeit tartalmazza. (Szolgáltató és Ügyfél a továbbiakban együttesen: Felek). Az ÁSZF minden jogügyletre és szolgáltatásra vonatkozik, amely a <span><a href="index.html" target="_blank">www.farkasgym.hu</a></span> weboldalon keresztül történik, függetlenül attól, hogy annak teljesítése Magyarországról vagy külföldről, a Szolgáltató vagy közreműködője által történik. <span class="important">SZOLGÁLTATÓ ADATAI:</span></p>
-                <p><span class="important">Név: </span>Farkas János egyéni vállalkozó</p>
-                <p><span class="important">Székhely és levelezési cím: </span>Győr, Külső veszprémi út 14 B ép. 9028</p>
+                <p>A jelen Általános Szerződési Feltételek (a továbbiakban: ÁSZF) BALOREA TEAM Kft. (továbbiakban: Szolgáltató), és a Szolgáltató által a <span><a href="index.html" target="_blank">www.balorea.com</a></span> weboldalon keresztül nyújtott elektronikus kereskedelmi szolgáltatásokat igénybe vevő Ügyfél (a továbbiakban: Ügyfél) jogait és kötelezettségeit tartalmazza. (Szolgáltató és Ügyfél a továbbiakban együttesen: Felek). Az ÁSZF minden jogügyletre és szolgáltatásra vonatkozik, amely a <span><a href="index.html" target="_blank">www.balorea.com</a></span> weboldalon keresztül történik, függetlenül attól, hogy annak teljesítése Magyarországról vagy külföldről, a Szolgáltató vagy közreműködője által történik. <span class="important">SZOLGÁLTATÓ ADATAI:</span></p>
+                <p><span class="important">Név: </span>BALOREA TEAM Kft.</p>
+                <p><span class="important">Székhely és levelezési cím: </span>2900 Komárom, Babits Mihály utca 24.</p>
                 <p><span class="important">Ügyfélszolgálat: </span>lásd bővebben 1.7</p>
-                <p><span class="important">Telefonszáma: </span><a href="🖀 +36 30 936 1899">🖀 +36 30 936 1899</a></p>
-                <p><span class="important">Email címe: </span><a href="mailto: fjuszas@gmail.com">✉ fjuszas@gmail.com</a></p>
-                <p><span class="important">Nyilvántartási száma: </span>7113188</p>
-                <p><span class="important">Adószáma: </span>72395990-1-28</p>
-                <p><span class="important">Pénzintézete és bankszámla száma: </span>OTP Győr-Moson-Sopron megyei LAFO fiók (9022 Győr, Teleki út 51.) 11773377-02153434-00000000</p>
+                <p><span class="important">Telefonszáma: </span><a href="🖀 +36 20 323 1179">🖀 +36 20 323 1179</a></p>
+                <p><span class="important">Email címe: </span><a href="mailto: szeidl.balazs@hotmail.com">✉ szeidl.balazs@hotmail.com</a></p>
+                <p><span class="important">Nyilvántartási száma: </span>11 09 023316</p>
+                <p><span class="important">Adószáma: </span>25090620111</p>
             </div>
 
             <div className="long-text">
                 <h2>1. A FELEK KÖZÖTTI SZERZŐDÉS LÉTREJÖTTE</h2>
-                <p>1.1.	A jelen ÁSZF hatálya kiterjed a Magyarország területén nyújtott minden olyan elektronikus kereskedelmi szolgáltatásra, amely a <a href="index.html" target="_blank">www.farkasgym.hu</a> weboldalon (a továbbiakban: Weboldal) keresztül történik. Továbbá jelen ÁSZF hatálya kiterjed minden olyan kereskedelmi ügyletre, amely jelen szerződésben meghatározott Felek között jön létre. A www.farkasgym.hu weboldal alapján történő vásárlást az elektronikus kereskedelmi szolgáltatások, az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi CVIII. törvény ("Elkertv.") szabályozza.</p>
-                <p>1.2.	A www.farkasgym.hu weboldalon történő vásárlás elektronikus úton leadott megrendeléssel lehetséges, a jelen ÁSZF-ben meghatározott módon.</p>
-                <p>1.3.	A www.farkasgym.hu weboldal szolgáltatásainak jelentős része elérhető minden felhasználó számára, regisztráció nélkül is.</p>
+                <p>1.1.	A jelen ÁSZF hatálya kiterjed a Magyarország területén nyújtott minden olyan elektronikus kereskedelmi szolgáltatásra, amely a <a href="index.html" target="_blank">www.balorea.com</a> weboldalon (a továbbiakban: Weboldal) keresztül történik. Továbbá jelen ÁSZF hatálya kiterjed minden olyan kereskedelmi ügyletre, amely jelen szerződésben meghatározott Felek között jön létre. A www.balorea.com weboldal alapján történő vásárlást az elektronikus kereskedelmi szolgáltatások, az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi CVIII. törvény ("Elkertv.") szabályozza.</p>
+                <p>1.2.	A www.balorea.com weboldalon történő vásárlás elektronikus úton leadott megrendeléssel lehetséges, a jelen ÁSZF-ben meghatározott módon.</p>
+                <p>1.3.	A www.balorea.com weboldal szolgáltatásainak jelentős része elérhető minden felhasználó számára, regisztráció nélkül is.</p>
                 <p>1.4.	A megrendelés leadását követően a szerződés következmény nélkül <span class="alert">NEM módosítható</span>, mivel a megrendelés alapján egyedi gyártás következik, amely megrendelés után nem mondható le. A Felek között az áru megvásárlásával magyar nyelven létrejött szerződés írásba foglalt szerződésnek minősül, a Szolgáltató azt iktatja, és annak létrejöttét követő 5 évig őrzi, utólag hozzáférhető.</p>
                 <p>1.5.	A szerződés nyelve magyar.</p>
                 <p>1.6.	A Szolgáltató semmilyen magatartási kódex rendelkezéseinek nem veti alá magát.</p>
-                <p>1.7.	Ügyfélszolgálat: Farkas János egyéni vállalkozó</p>
+                <p>1.7.	Ügyfélszolgálat: BALOREA TEAM Kft.</p>
                 <ul className="nested-list">
-                    <li>Ügyfélszolgálati iroda helye: Győr, Külső Veszprémi út 14 B ép. 9028</li>
+                    <li>Ügyfélszolgálati iroda helye: 2900 Komárom, Babits Mihály utca 24.</li>
                     <li>Az ügyfélszolgálat címén személyes ügyfélfogadásra nincs lehetőség. Az Ügyfél kizárólag tértivevényes postai levélben, emailben vagy telefonon tudja felvenni a kapcsolatot az ügyfélszolgálattal.</li>
                     <li>Telefonos ügyfélszolgálat hívható: munkanapokon 08:00-16:00 óra között.</li>
-                    <li>Ügyfélszolgálat telefonszáma: <a href="🖀 +36 30 936 1899">🖀 +36 30 936 1899</a></li>
-                    <li>Internet cím: <a href="index.html" target="_blank" rel="noreferrer">www.farkasgym.hu</a></li>
-                    <li>Email cím: <span><a href="mailto: fjuszas@gmail.com">✉ fjuszas@gmail.com</a></span></li>
+                    <li>Ügyfélszolgálat telefonszáma: <a href="🖀 +36 20 323 1179">🖀 +36 20 323 1179</a></li>
+                    <li>Internet cím: <a href="index.html" target="_blank" rel="noreferrer">www.balorea.com</a></li>
+                    <li>Email cím: <span><a href="mailto: szeidl.balazs@hotmail.com">✉ szeidl.balazs@hotmail.com</a></span></li>
                 </ul>
             </div>
 
@@ -201,7 +200,7 @@ const TermsHun = () => {
 
             <div className="long-text">
                 <h2>13.	EGYÉB RENDELKEZÉSEK</h2>
-                <p>A www.farkasgym.hu weboldal biztonsági foka megfelelő, használata nem jelent kockázatot, azonban javasoljuk, hogy tegye meg az alábbi óvintézkedéseket: használjon vírus és spyware védelmi szoftvereket friss adatbázissal, telepítse az operációs rendszer biztonsági frissítéseit. A Weboldalon való vásárlás feltételezi az Ügyfél részéről az Internet technikai és műszaki korlátainak ismeretét és a technológiával együtt járó hibalehetőségek elfogadását.</p>
+                <p>A www.balorea.com weboldal biztonsági foka megfelelő, használata nem jelent kockázatot, azonban javasoljuk, hogy tegye meg az alábbi óvintézkedéseket: használjon vírus és spyware védelmi szoftvereket friss adatbázissal, telepítse az operációs rendszer biztonsági frissítéseit. A Weboldalon való vásárlás feltételezi az Ügyfél részéről az Internet technikai és műszaki korlátainak ismeretét és a technológiával együtt járó hibalehetőségek elfogadását.</p>
                 <p>A Szolgáltató bármikor jogosult jelen ÁSZF feltételeit egyoldalúan módosítani. A Szolgáltató a módosításokról az Ügyfeleket a Weboldal felületén keresztül tájékoztatja. A módosítást követően a Weboldal használatának feltétele, hogy az Ügyfél a Weboldalon keresztül és az ott biztosított módon azokat kifejezetten elfogadja.</p>
             </div>
 

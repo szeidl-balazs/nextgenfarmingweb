@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroHun from './4_Hero_hun'
 import Benefits from './5_0_Benefits_hun';
-import AccordionEng from './5_2_Accordion_eng'
+import AccordionHun from './5_2_Accordion_hun'
 import Presentations from './6_Presentations_hun';
 import BackToTopArrow from './8_BackToTopArrow';
 
@@ -14,7 +14,7 @@ const MainPage = () => {
 
             <HeroHun />
             <Benefits />
-            <AccordionEng />
+            <AccordionHun />
             <Presentations />
             <BackToTopArrow />                 
 

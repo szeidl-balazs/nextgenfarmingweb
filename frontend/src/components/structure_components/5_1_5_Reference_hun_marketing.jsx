@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MarketingComponents = () => {
+const MarketingComponentsHun = () => {
 
     return (
 
@@ -10,10 +10,10 @@ const MarketingComponents = () => {
             <div className="subpanel">
 
                 <div className="panel-text">
-                    <p className="accordion__content">BALOREA logo</p>
-                    <p className="accordion__content">Function: corporate logo of BALOREA TEAM Ltd.</p>
+                    <p className="accordion__content">BALOREA cég logó</p>
+                    <p className="accordion__content">Rendeltetés: a BALOREA TEAM cég logója.</p>
                     <p className="accordion__content">  
-                        Description: BALOREA TEAM Ltd. is a family company focusing on sport coaching and web development services.
+                        Részletek: BALOREA TEAM Kft. egy családi vállalkozás, mely sport és webfejlesztési szolgáltatásokkal foglalkozik. 
                     </p>
                 </div>
 
@@ -27,10 +27,10 @@ const MarketingComponents = () => {
             <div className="subpanel">
 
                 <div className="panel-text">
-                    <p className="accordion__content">FARKAS GYM logo</p>
-                    <p className="accordion__content">Function: brand logo of FARKAS GYM fitness machines.</p>
+                    <p className="accordion__content">FARKAS GYM termék logó</p>
+                    <p className="accordion__content">Rendeltetés: FARKAS GYM fitneszgép logója.</p>
                     <p className="accordion__content">  
-                        Description: FARKAS GYM is the brand of an innovative fitness machine.
+                        Részletek: FARKAS GYM egy innovatív fitnesz gép márkája.
                     </p>
                 </div>
 
@@ -46,4 +46,4 @@ const MarketingComponents = () => {
     );
 }
 
-export default MarketingComponents;
+export default MarketingComponentsHun;

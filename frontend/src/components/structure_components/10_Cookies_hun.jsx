@@ -10,9 +10,9 @@ const CookiesHun = () => {
             
             <div className="cookie-scope">
                 <h2>A Cookie (süti) tájékoztató hatálya</h2>
-                <p className="short-text">Jelen szabályzat Farkas János egyéni vállalkozó (továbbiakban: Üzemeltető) kezelésében álló következő weboldalakra vonatkozik:</p>
+                <p className="short-text">Jelen szabályzat BALOREA Kft. (továbbiakban: Üzemeltető) kezelésében álló következő weboldalakra vonatkozik:</p>
                     <ul>
-                        <li className="short-text"><a href="index.html" target="_blank">www.farkasgym.hu</a></li>
+                        <li className="short-text"><a href="index.html" target="_blank">www.balorea.com</a></li>
                     </ul>
             </div>
             

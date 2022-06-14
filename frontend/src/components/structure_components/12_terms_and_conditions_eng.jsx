@@ -12,15 +12,14 @@ const TermsEng = () => {
             <div className="long-text">
 
                 <h3>1. IDENTIFICATION AND BUSINESS NAME OF THE SUPPLIER COMPANY.</h3>
-                <p>This General Terms and Conditions (in the followings: GTC) regards to Farkas János sole proprietorship (in the followings: Supplier) and to the user (in the followings: User) who uses the <span><a href="index.html" target="_blank">www.farkasgym.hu</a></span> web site and the commercial services of the website operated by the Supplier and contains the rights and duties of the parties (the Supplier and the User in the followings together: Parties). The GTC regards to all such privity and services that occurs through or based on the <span><a href="index.html" target="_blank">www.farkasgym.hu</a></span> website, regardless the place of accomplishment - Hungary or abroad - and regardless that has been performed directly by the Supplier or by its agent. <span class="important">DATA OF Supplier:</span></p>
-                <p><span class="important">Name: </span>Farkas János sole proprietorship</p>
-                <p><span class="important">Seat and mailing address: </span>Győr, Külső veszprémi út 14 B ép. 9028</p>
-                <p><span class="important">Customer service: </span><a href="mailto: fjuszas@gmail.com">✉ fjuszas@gmail.com</a></p>
-                <p><span class="important">Telephone number: </span><a href="🖀 +36 30 936 1899">🖀 +36 30 936 1899</a></p>
-                <p><span class="important">Email address: </span><a href="mailto: fjuszas@gmail.com">✉ fjuszas@gmail.com</a></p>
-                <p><span class="important">Court registration number: </span>7113188</p>
-                <p><span class="important">Tax number: </span>72395990-1-28</p>
-                <p><span class="important">Bank and bank account number: </span>OTP Győr-Moson-Sopron megyei LAFO fiók (9022 Győr, Teleki út 51.) 11773377-02153434-00000000</p>
+                <p>This General Terms and Conditions (in the followings: GTC) regards to BALOREA TEAM Kft. proprietorship (in the followings: Supplier) and to the user (in the followings: User) who uses the <span><a href="index.html" target="_blank">www.balorea.com</a></span> web site and the commercial services of the website operated by the Supplier and contains the rights and duties of the parties (the Supplier and the User in the followings together: Parties). The GTC regards to all such privity and services that occurs through or based on the <span><a href="index.html" target="_blank">www.balorea.com</a></span> website, regardless the place of accomplishment - Hungary or abroad - and regardless that has been performed directly by the Supplier or by its agent. <span class="important">DATA OF Supplier:</span></p>
+                <p><span class="important">Name: </span>BALOREA TEAM Kft. proprietorship</p>
+                <p><span class="important">Seat and mailing address: </span>2900 Komárom, Babits Mihály uca 24. HUNGARY</p>
+                <p><span class="important">Customer service: </span><a href="mailto: szeidl.balazs@hotmail.com">✉ szeidl.balazs@hotmail.com</a></p>
+                <p><span class="important">Telephone number: </span><a href="🖀 +36 20 323 1179">🖀 +36 20 323 1179</a></p>
+                <p><span class="important">Email address: </span><a href="mailto: szeidl.balazs@hotmail.com">✉ szeidl.balazs@hotmail.com</a></p>
+                <p><span class="important">Court registration number: </span>11 09 023316</p>
+                <p><span class="important">Tax number: </span>25090620111</p>
                 <p>The address for the purposes of complaints will correspond to that indicated as the company’s registered office.</p>
                 <p>Contracting through the website/online shop of the Supplier shall imply the acceptance by the User or User of the same, as well as the conditions of use established for the User’s navigation through the websites owned by the Supplier. These conditions shall apply without prejudice to the application of the legal regulations on the subject that may be applicable in each case.</p>
                 <p>The Supplier reserves the right to make any changes it deems appropriate, without prior notice, to the GTC. Such modifications may be made, through its website/online shop, by any legally admissible means and shall be binding during the time they are published on the website and until they are validly modified by subsequent ones. However, the Supplier reserves the right to apply, in certain cases, Special Contract Conditions in preference to these GTC when it considers it appropriate, announcing them in due time and form.</p>
@@ -48,7 +47,7 @@ const TermsEng = () => {
                 <p>The ordered products have to be prepaid before delivery according to the invoice issued by the Supplier.</p>
 
                 <h4>8. RETURN POLICY</h4>
-                <p>The Farkas Gym product is produced based on firm order from the User therefore the Supplier does not accept return.</p>
+                <p>The BALOREA TEAM Kft. product is produced based on firm order from the User therefore the Supplier does not accept return.</p>
 
                 <h4>9. GUARANTEE</h4>
                 <p>The warranty is subject to compliance with the conditions of use and maintenance indicated by the Supplier. The Supplier reserves the right to require the necessary documents that justify compliance with these conditions</p>
@@ -66,7 +65,7 @@ const TermsEng = () => {
                 <h4>11. APPLICABLE LEGISLATION AND JURISDICTION</h4>
                 <p>The relationship between the User and the Supplier shall be governed by the regulations in force and applicable in Hungarian territory, and the courts of law of the territory in which the Supplier has its registered office shall be competent to decide on any dispute that may arise between the User and the Supplier.</p>
             
-                <h4>12. SAFE USE OF FARKAS GYM PRODUCTS</h4>
+                <h4>12. SAFE USE OF BALOREA TEAM Kft. PRODUCTS</h4>
                 <p>All our products must be kept out of the reach of children.</p>
                 <p>For all products with heart rate related functions: the heart rate values provided by the heart rate monitor or hand-held sensors have been explicitly designed to display heart rate only. Therefore, any other use, either diagnostic or medical, is excluded; it does not detect cardiac abnormalities or dysfunctions. The use of the heart rate monitor in the presence of a pacemaker or similar medical devices is not recommended. The value may be altered in the case of drugs that can affect the heart rate. Always consult your doctor before starting a physical activity programme and before using specific devices with heart rate related functions.</p>
             </div>

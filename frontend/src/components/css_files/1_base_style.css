@@ -25,8 +25,8 @@ body {
     background-color: var(--main-dark-color);
     color: var(--main-light-color);
     /*font-family: 'Rokkitt', serif;*/
-    font-family: 'Jura', sans-serif;
-    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
     overflow-x: hidden;
 }
 

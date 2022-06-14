@@ -21,7 +21,7 @@
 }
 
 .hero-image--style {
-    animation: hero-image 30s infinite ease-in-out;
+    animation: hero-image 50s infinite ease-in-out;
 }
 
 @keyframes hero-image {

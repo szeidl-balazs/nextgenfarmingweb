@@ -37,7 +37,7 @@ const NavigationHun = (props) => {
                             <div className="menu-icon-container" onClick={menuToggle}>
                               <Hamburger toggled={isOpen} toggle={setOpen} duration={.8}/>
                             </div>
-                            <h1 className="main-title">balOrea team</h1> {/*Main title*/}
+                            <h1 className="main-title">BAL<span className="orsi-title">O</span>REA WEB</h1> {/*Main title*/}
                             <div className="logo-container"></div> {/*Page logo*/}
                         </div>
                         <div className="menu-titles-mover"></div>
@@ -50,9 +50,9 @@ const NavigationHun = (props) => {
                             ?
                         
                             <animated.div className="menu-titles" id="menu-links" style={openAnimation}> {/*Menu titles*/}
-                                <div className="menu menu-benefit"><a href="#benefit-id">Előnyök</a></div>
-                                <div className="menu menu-specification"><a href="#specifications-id">Jellemzők</a></div>           
-                                <div className="menu menu-workout"><a href="#recommendation-id">Gyakorlatok</a></div>
+                                <div className="menu menu-benefit"><a href="#benefit-id">Bemutatkozás</a></div>
+                                <div className="menu menu-specification"><a href="#specifications-id">Referenciák</a></div>           
+                                <div className="menu menu-workout"><a href="#recommendation-id">Szolgáltatások</a></div>
                                 <div className="menu menu-contact"><a href="#contact-id">Kapcsolat</a></div>    
                                 <select className="language-selector" id="language" value={props.data} onChange={props.function}>
                                   <option value="hun" >Hun</option>

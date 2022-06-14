@@ -154,11 +154,11 @@ const Footer = () => {
             <div id="contact-id" className="footer">            
                 <div className="contact">Kapcsolat:
                     <div>                
-                        <a href="mailto: fjuszas@gmail.com">✉ Email üzenet</a>
-                        <a href="🖀 +36 30 936 1899">🖀 +36 30 936 1899</a>
+                        <a href="mailto: szeidl.balazs@hotmail.com">✉ Email üzenet</a>
+                        <a href="🖀 +36 30 936 1899">🖀 +36 20 323 1179</a>
                     </div>
                 </div>
-                <div className="copyright">Copyright © 2021. Farkas János ev. minden jog fenntartva!</div>
+                <div className="copyright">Copyright © 2022. BALOREA TEAM Kft. minden jog fenntartva!</div>
                 <button className="gdpr button-wo-design" onClick={gdprOpener}>Adatvédelem <animated.div style={iconAnimation1} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <button className="gdpr button-wo-design" onClick={cookieOpener}>Süti (cookie) szabályzat <animated.div style={iconAnimation2} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <button className="gdpr button-wo-design" onClick={termsOpener}>Felhasználási feltételek <animated.div style={iconAnimation3} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>

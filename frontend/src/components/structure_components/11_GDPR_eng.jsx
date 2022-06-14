@@ -11,7 +11,7 @@ const GDPREng = () => {
                             
             <div>
                 <h2 className="important">Concerned domain:</h2>
-                <p className="short-text"><a href="index.html" target="_blank">www.farkasgym.hu</a></p>
+                <p className="short-text"><a href="index.html" target="_blank">www.balorea.com</a></p>
             </div>
 
             <div>
