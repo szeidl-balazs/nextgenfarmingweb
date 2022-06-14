@@ -5,7 +5,7 @@ const SlideShow = () => {
 
     /*slide show*/
 
-    /*
+    
     
     let slideIndex = 0;
     showSlides();
@@ -28,7 +28,7 @@ const SlideShow = () => {
         slides[slideIndex-1].style.display = "block";  
         dots[slideIndex-1].className += " active";
         setTimeout(showSlides, 2000); // Change image every 2 seconds
-    } */
+    } 
     
 
     return (
@@ -39,19 +39,19 @@ const SlideShow = () => {
 
                 <div className="mySlides fade">
                     <div className="numbertext">1 / 3</div>
-                    <img src="../images/farkasgym1.png" alt="slideimage" id="farkasgym1" className="slide-img"/>
+                    <img alt="slideimage1" id="farkasgym1" className="slide-img"/>
                     <div className="text">Caption Text</div>
                 </div>
 
                 <div className="mySlides fade">
                     <div className="numbertext">2 / 3</div>
-                    <img src="../images/game_character.png" alt="slideimage" className="slide-img"/>
+                    <img alt="slideimage2" id="gocsej" className="slide-img"/>
                     <div className="text">Caption Two</div>
                 </div>
 
                 <div className="mySlides fade">
                     <div className="numbertext">3 / 3</div>
-                    <img src="../images/pricing_table2.png" alt="slideimage" className="slide-img"/>
+                    <div  alt="slideimage3" id="pizza-dominium" className="slide-img"/>
                     <div className="text">Caption Three</div>
                 </div>
 

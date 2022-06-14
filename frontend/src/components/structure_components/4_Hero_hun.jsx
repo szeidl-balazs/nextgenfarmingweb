@@ -1,5 +1,6 @@
 import {React, useState} from 'react';
 import SlideShow from './4_Hero_slide_show';
+import '../css_files/3_1_hero.css';
 
 const HeroHun = () => {
 
