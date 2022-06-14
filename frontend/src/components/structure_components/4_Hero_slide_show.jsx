@@ -1,10 +1,11 @@
 import React from 'react';
+import '../css_files/3_1_hero.css';
 
 const SlideShow = () => {
 
     /*slide show*/
 
-    
+    /*
     
     let slideIndex = 0;
     showSlides();
@@ -27,7 +28,7 @@ const SlideShow = () => {
         slides[slideIndex-1].style.display = "block";  
         dots[slideIndex-1].className += " active";
         setTimeout(showSlides, 2000); // Change image every 2 seconds
-    }
+    } */
     
 
     return (
@@ -44,7 +45,7 @@ const SlideShow = () => {
 
                 <div className="mySlides fade">
                     <div className="numbertext">2 / 3</div>
-                    <img src="../images/pizza_dominium.png" alt="slideimage" className="slide-img"/>
+                    <img src="../images/game_character.png" alt="slideimage" className="slide-img"/>
                     <div className="text">Caption Two</div>
                 </div>
 

@@ -93,9 +93,13 @@
 
 /*slide show*/
 
+
+
 .mySlides {
-    display: none;
+    display: block;
     border: 1px solid black;
+    height: 30vh;
+    width: 100%;
 }
 
 img {
@@ -103,7 +107,7 @@ img {
 }
 
 .slide-img {
-        width:100%;  
+    width:100%;  
 }
 
 /* Slideshow container */
