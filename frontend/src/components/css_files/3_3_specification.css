@@ -20,14 +20,20 @@
 
 #farkasgym1 {
   background-image: url("../images/farkasgym1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #gocsej {
   background-image: url("../images/gocsej.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #pizza-dominium {
   background-image: url("../images/pizza_dominium.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #wedding-zoe-and-alex {

@@ -5,7 +5,7 @@ const SlideShow = () => {
 
     /*slide show*/
 
-    
+    function pageLoaded () {
     
     let slideIndex = 0;
     showSlides();
@@ -29,6 +29,10 @@ const SlideShow = () => {
         dots[slideIndex-1].className += " active";
         setTimeout(showSlides, 2000); // Change image every 2 seconds
     } 
+
+    };
+
+    window.addEventListener ('load', pageLoaded);
     
 
     return (

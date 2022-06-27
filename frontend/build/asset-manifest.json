@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.6c75184a.css",
-    "main.js": "./static/js/main.54c7ce83.js",
+    "main.css": "./static/css/main.9f270e95.css",
+    "main.js": "./static/js/main.d0123529.js",
     "static/js/787.cda612ba.chunk.js": "./static/js/787.cda612ba.chunk.js",
-    "static/media/Jump.png": "./static/media/Jump.431fcd637f2ab6d6f879.png",
-    "static/media/hero_breast_2.png": "./static/media/hero_breast_2.cdeeca4b97a67b74489c.png",
-    "static/media/screen_with_frame_1920x780.png": "./static/media/screen_with_frame_1920x780.1dd34413c12e9546cca5.png",
-    "static/media/swim_and_gym_breast_kick.png": "./static/media/swim_and_gym_breast_kick.9af88b1439903ca5bb3c.png",
-    "static/media/adjustable_angle.png": "./static/media/adjustable_angle.e58318099fa78e4a7588.png",
-    "static/media/leg_supportwo_background.png": "./static/media/leg_supportwo_background.0c2bae2f0e39c5d7847a.png",
-    "static/media/motorikus_kepessegek_svg.svg": "./static/media/motorikus_kepessegek_svg.15da033557c53d9c584a.svg",
+    "static/media/mantis_shrimp.png": "./static/media/mantis_shrimp.1e5c939649a2e1304efc.png",
+    "static/media/pizza_dominium.png": "./static/media/pizza_dominium.e5901c47d53fe4eccfe8.png",
+    "static/media/game_character.png": "./static/media/game_character.0cfcc1e849403a8b1f4f.png",
+    "static/media/farkasgym1.png": "./static/media/farkasgym1.b3c180e072832605f2d3.png",
+    "static/media/weddingzoeandalex.png": "./static/media/weddingzoeandalex.836bba778f7d5309ceab.png",
+    "static/media/pricing_table.png": "./static/media/pricing_table.d20d2fd283cfd953fa55.png",
     "static/media/farkas_gym_logo_facebook_profile.png": "./static/media/farkas_gym_logo_facebook_profile.23ddf1f58ff1f08af647.png",
+    "static/media/gocsej.png": "./static/media/gocsej.c1dfda56a7a6d224815c.png",
+    "static/media/pricing_table2.png": "./static/media/pricing_table2.fa8976a5b033145190ae.png",
+    "static/media/balorea_logo_grey.png": "./static/media/balorea_logo_grey.06dc1b1f0fd9561f0832.png",
+    "static/media/balorea_logo_black.png": "./static/media/balorea_logo_black.306e42b7b6123016e997.png",
     "index.html": "./index.html",
     "static/media/arrow_up.svg": "./static/media/arrow_up.488078ec0f8cb001a356ae9023c0d3dd.svg",
-    "main.6c75184a.css.map": "./static/css/main.6c75184a.css.map",
-    "main.54c7ce83.js.map": "./static/js/main.54c7ce83.js.map",
+    "main.9f270e95.css.map": "./static/css/main.9f270e95.css.map",
+    "main.d0123529.js.map": "./static/js/main.d0123529.js.map",
     "787.cda612ba.chunk.js.map": "./static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c75184a.css",
-    "static/js/main.54c7ce83.js"
+    "static/css/main.9f270e95.css",
+    "static/js/main.d0123529.js"
   ]
 }
