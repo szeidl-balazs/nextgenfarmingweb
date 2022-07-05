@@ -1,4 +1,5 @@
 import {React, useState} from 'react';
+import SlideShow from './4_Hero_slide_show';
 
 const HeroEng = () => {
 
@@ -37,6 +38,8 @@ const HeroEng = () => {
 
                     null
                 }
+
+                <SlideShow/>
         
             </div>
         </div>

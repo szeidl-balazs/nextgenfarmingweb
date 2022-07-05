@@ -1,74 +1,43 @@
 import React from 'react';
-import '../css_files/3_1_hero.css';
+import { CCarousel } from '@coreui/react';
+import { CCarouselCaption } from '@coreui/react';
+import { CCarouselItem } from '@coreui/react';
+import { CImage } from '@coreui/react';
+import '@coreui/coreui/dist/css/coreui.min.css';
 
-const SlideShow = () => {
 
-    /*slide show*/
-
-    function pageLoaded () {
-    
-    let slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-        }
-
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}    
-        
-        for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-        }
-        
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 2000); // Change image every 2 seconds
-    } 
-
-    };
-
-    window.addEventListener ('load', pageLoaded);
+const SlideShow = () => {   
     
 
     return (
 
-        <div className="slide-show-wrap">
+        <CCarousel controls indicators className="carousel-container">
 
-                <div className="slideshow-container">
+            <CCarouselItem>
+                <CImage  className="d-block w-100" fluid src="../images/weddingzoeandalex.png" alt="slide 1" />
+                <CCarouselCaption className="d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </CCarouselCaption>
 
-                <div className="mySlides fade">
-                    <div className="numbertext">1 / 3</div>
-                    <img alt="slideimage1" id="farkasgym1" className="slide-img"/>
-                    <div className="text">Caption Text</div>
-                </div>
+            </CCarouselItem>
+                <CCarouselItem>
+                    <CImage className="d-block w-100" src="/images/vue.jpg" alt="slide 2" />
+                    <CCarouselCaption className="d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </CCarouselCaption>
+            </CCarouselItem>
 
-                <div className="mySlides fade">
-                    <div className="numbertext">2 / 3</div>
-                    <img alt="slideimage2" id="gocsej" className="slide-img"/>
-                    <div className="text">Caption Two</div>
-                </div>
+            <CCarouselItem>
+                <CImage className="d-block w-100" src="/images/angular.jpg" alt="slide 3" />
+                <CCarouselCaption className="d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </CCarouselCaption>
+            </CCarouselItem>
 
-                <div className="mySlides fade">
-                    <div className="numbertext">3 / 3</div>
-                    <div  alt="slideimage3" id="pizza-dominium" className="slide-img"/>
-                    <div className="text">Caption Three</div>
-                </div>
-
-            </div>
-
-
-            <div className="dot-wrap">
-                <span className="dot"></span> 
-                <span className="dot"></span> 
-                <span className="dot"></span> 
-            </div>
-
-        </div>
+        </CCarousel>
 
     )
 }

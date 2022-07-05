@@ -1,5 +1,7 @@
 /*hero style, slide show style*/
 
+/*Basic hero structure*/
+
 .intro-container{
     grid-area: intro-container;
     display: flex;   
@@ -22,6 +24,8 @@
     align-items: center;
 }
 
+
+/*
 .hero-image--style {
     animation: hero-image 50s infinite ease-in-out;
 }
@@ -34,8 +38,9 @@
     100% {background-image: url("../images/pricing_table2.png");}
     
 }
+*/
 
-
+/*For sale promo*/
 
 .forsale-wrap {
     display: flex;
@@ -93,84 +98,18 @@
 
 /*slide show*/
 
-/* Slideshow container */
-.slideshow-container {
-    height: 90vh;
-    width: 100vw;
-    /*position: relative;*/
-    margin: auto;
-    border: 1px solid blue; 
+.carousel-container {
+    height: 500px;
+    width: 600px;
+    border: 1px solid red;
 }
 
-.mySlides {
-    display: none;
-    border: 1px solid black;
-    height: 90vh;
-    width: 100vw;
+.carousel-image {
+    height: 450px;
+    width: 550px;
+    border: 1px solid green;
 }
 
-img {
-    vertical-align: middle;
-}
-
-.slide-img {
-    display: block;
-    height: 90vh;
-    width: 100vw;
-    border: 1px solid red; 
-}
-
-
-
-/* Caption text */
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.dot-wrap {
-    text-align:center;
-}
-
-.active {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 
 
 
