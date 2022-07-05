@@ -110,6 +110,14 @@
     border: 1px solid green;
 }
 
+#carousel1 {
+    background-image: url("../images/farkasgym1.png");
+    background-size: cover;
+    height: 300px;
+    
+    
+}
+
 
 
 

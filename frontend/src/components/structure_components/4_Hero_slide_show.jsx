@@ -14,7 +14,7 @@ const SlideShow = () => {
         <CCarousel controls indicators className="carousel-container">
 
             <CCarouselItem>
-                <CImage  className="d-block w-100" fluid src="../images/weddingzoeandalex.png" alt="slide 1" />
+                <CImage  className="d-block w-100" fluid id="carousel1" alt="slide 1" />
                 <CCarouselCaption className="d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
