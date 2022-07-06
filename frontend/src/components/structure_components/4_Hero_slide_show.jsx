@@ -4,6 +4,7 @@ import { CCarouselCaption } from '@coreui/react';
 import { CCarouselItem } from '@coreui/react';
 import { CImage } from '@coreui/react';
 import '@coreui/coreui/dist/css/coreui.min.css';
+import gocsej from '../images/gocsej.png';
 
 
 const SlideShow = () => {   
@@ -11,10 +12,14 @@ const SlideShow = () => {
 
     return (
 
+        <div className="carousel-wrap">
+
+        
+
         <CCarousel controls indicators className="carousel-container">
 
             <CCarouselItem>
-                <CImage  className="d-block w-100" fluid id="carousel1" alt="slide 1" />
+                <CImage className="d-block w-100 slide-image" fluid src={gocsej} alt="slide 1"/>
                 <CCarouselCaption className="d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
@@ -38,6 +43,10 @@ const SlideShow = () => {
             </CCarouselItem>
 
         </CCarousel>
+
+        
+
+        </div>
 
     )
 }

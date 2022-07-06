@@ -99,24 +99,22 @@
 /*slide show*/
 
 .carousel-container {
-    height: 500px;
-    width: 600px;
-    border: 1px solid red;
+   
+    max-width: 100vw;
+    border: 10px solid red;
 }
 
-.carousel-image {
-    height: 450px;
-    width: 550px;
-    border: 1px solid green;
-}
+
 
 #carousel1 {
-    background-image: url("../images/farkasgym1.png");
-    background-size: cover;
-    height: 300px;
-    
-    
+   
+    max-width: 100%;
+    height: 300px;   
 }
+
+
+
+
 
 
 

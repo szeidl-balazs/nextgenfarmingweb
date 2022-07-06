@@ -10,6 +10,7 @@ const BenefitsEng = () => {
         
             <h2>INTRODUCTION</h2>
 
+
             <div className="benefits-list">
               <p>BALOREA WEB is the frontend web site development service of BALOREA TEAM Ltd.</p>          
               <p>Web developer: Balázs Szeidl</p>
