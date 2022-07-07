@@ -44,11 +44,11 @@ const FooterEng = () => {
     const iconAnimation1 = useSpring({
       from: {
         transform: "rotate(180deg)",
-        color: "#00ffff"        
+        color: "#0fee0f"        
       },
       to: {
        transform: gdpropen ? "rotate(0deg)" : "rotate(180deg)",
-       color: gdpropen ? "rgba(230, 240, 100, 1)" : "#00ffff"        
+       color: gdpropen ? "rgba(230, 240, 100, 1)" : "#0fee0f"        
       },
       config: { 
         duration: "500", 
@@ -59,11 +59,11 @@ const FooterEng = () => {
     const iconAnimation2 = useSpring({
       from: {
         transform: "rotate(180deg)",
-        color: "#00ffff"        
+        color: "#0fee0f"        
       },
       to: {
        transform: cookieopen ? "rotate(0deg)" : "rotate(180deg)",
-       color: cookieopen ? "rgba(230, 240, 100, 1)" : "#00ffff"        
+       color: cookieopen ? "rgba(230, 240, 100, 1)" : "#0fee0f"        
       },
       config: { 
         duration: "500", 
@@ -74,11 +74,11 @@ const FooterEng = () => {
     const iconAnimation3 = useSpring({
       from: {
         transform: "rotate(180deg)",
-        color: "#00ffff"        
+        color: "#0fee0f"        
       },
       to: {
        transform: termsopen ? "rotate(0deg)" : "rotate(180deg)",
-       color: termsopen ? "rgba(230, 240, 100, 1)" : "#00ffff"        
+       color: termsopen ? "rgba(230, 240, 100, 1)" : "#0fee0f"        
       },
       config: { 
         duration: "500", 
@@ -89,11 +89,11 @@ const FooterEng = () => {
     const iconAnimation4 = useSpring({
       from: {
         transform: "rotate(180deg)",
-        color: "#00ffff"        
+        color: "#0fee0f"        
       },
       to: {
        transform: imprintEng ? "rotate(0deg)" : "rotate(180deg)",
-       color: imprintEng ? "rgba(230, 240, 100, 1)" : "#00ffff"        
+       color: imprintEng ? "rgba(230, 240, 100, 1)" : "#0fee0f"        
       },
       config: { 
         duration: "500", 

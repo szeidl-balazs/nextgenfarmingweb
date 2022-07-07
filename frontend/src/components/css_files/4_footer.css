@@ -20,14 +20,17 @@
     justify-content: center;
     align-items: center;
     padding: var(--text-padding) var(--text-padding) calc(2*var(--text-padding)) var(--text-padding);
+    background-color: var(--main-dark-color);
 }
 
 .contact {
     text-align: center;
+    color: var(--secondary-color);
 }
 
 .copyright {
     text-align: center;
+    color: var(--secondary-color);
 }
 
 .button-wo-design {
