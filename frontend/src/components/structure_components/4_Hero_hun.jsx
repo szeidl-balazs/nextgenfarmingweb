@@ -7,7 +7,11 @@ const HeroHun = () => {
         
         <div className="intro-container">
 
-            <SlideShow/>       
+            <div className="hero-image hero-image--style">    
+                
+                <SlideShow/>
+        
+            </div>   
         
         </div>
 

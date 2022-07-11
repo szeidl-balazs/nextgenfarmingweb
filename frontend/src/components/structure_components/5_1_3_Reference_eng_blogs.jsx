@@ -1,4 +1,6 @@
 import React from 'react';
+import { CImage } from '@coreui/react';
+import shrimp from '../images/mantis_shrimp.png';
 
 const Blogs = () => {
 
@@ -21,7 +23,7 @@ const Blogs = () => {
                 </div>
 
                 <div className="specification-img-wrap">
-                    <div className="specification-photo" id="mantis-shrimp"></div>
+                <CImage className="d-block w-100" src={shrimp} alt="shrimp"/>
                 </div>
         
             </div>

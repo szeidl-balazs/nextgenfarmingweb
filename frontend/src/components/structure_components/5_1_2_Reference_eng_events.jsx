@@ -1,4 +1,6 @@
 import React from 'react';
+import { CImage } from '@coreui/react';
+import wedding from '../images/weddingzoeandalex.png';
 
 const Events = () => {
 
@@ -19,7 +21,7 @@ const Events = () => {
             </div>
 
             <div className="specification-img-wrap">
-                    <div className="specification-photo" id="wedding-zoe-and-alex"></div>
+              <CImage className="d-block w-100" src={wedding} alt="wedding"/>
             </div>
           
           </div>

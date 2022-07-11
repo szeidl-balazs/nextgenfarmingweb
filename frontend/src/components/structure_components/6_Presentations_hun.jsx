@@ -9,21 +9,24 @@ const Presentations = () => {
           
           <h2>SZOLGÁLTATÁSOK</h2>
 
-          <h3>WEB SITE AUDIT</h3>
-          <p>A weboldal üzemeltető jelenlegi weboldalának a user interface (UI) és 
+          <h3>WEB OLDAL AUDIT</h3>
+          <p>A web oldal üzemeltető jelenlegi weboldalának a user interface (UI) és 
             user experience (UX) felmérése, értékelése.
           </p>
           <p>Akcióterv kidolgozása a user interface (UI) és user experience (UX) fejlesztési lehetőségeire.</p>
-          <h3>WEB SITE DESIGN</h3>
-          <p>Surveying client's need regarding new web site.</p>
-          <p>Developing new web site designs and drafting proposals.</p>
-          <h3>WEB SITE PROGRAMMING</h3>
-          <p>Surveying client's need regarding new web site.</p>
-          <p>Programming new web sites.</p>
-          <p>Focus service is the customised programming of landing pages according to clients' individual needs.</p>
-          <h3>BRANDING ELEMENT DESIGN</h3>
-          <p>Surveying client's need regarding branding elements' need such as logos, tags etc.</p>
-          <p>Developing the design of branding elements.</p>
+          <h3>WEB OLDAL DESIGN</h3>
+          <p>Új web oldal design-al kapcsolatos ügyfél igények feltérképezése.</p>
+          <p>Új web odal design alternatívák vázlatának kidolgozása.</p>
+          <h3>WEB OLDAL PROGRAMOZÁS</h3>
+          <p>Az ügyfél weboldallal kapcsolatos struktúrális, tartalmi, funkcionális
+             és design elképzeléseinek felmérése.</p>
+          <p>Új web oldal programozása.</p>
+          <p>Elsősorban érkező oldalak (landing page) programozása az ügyfél egyedi igényei alapján.</p>
+          <h3>MÁRKA ARCULAT GRAFIKAI TERVEZÉSE</h3>
+          <p>Az ügyfél márka arculattal(logók, címkék prezentáció layoutok stb.) kapcsolatos 
+            igényeinek felmérése.
+          </p>
+          <p>A márka arculati elemek design kidolgozása</p>
 
         </div>
 

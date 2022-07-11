@@ -1,4 +1,7 @@
 import React from 'react';
+import { CImage } from '@coreui/react';
+import balorea from '../images/balorea_logo_black.png';
+import farkasgym_facebook from '../images/farkas_gym_logo_facebook_profile.png';
 
 const MarketingComponentsHun = () => {
 
@@ -18,7 +21,7 @@ const MarketingComponentsHun = () => {
                 </div>
 
                 <div className="specification-img-wrap">
-                    <div className="specification-photo" id="balorea"></div>
+                  <CImage className="d-block w-100" src={balorea} alt="balorea"/>
                 </div>
 
             </div>
@@ -35,7 +38,7 @@ const MarketingComponentsHun = () => {
                 </div>
 
                 <div className="specification-img-wrap">
-                    <div className="specification-photo" id="farkasgym-logo"></div>
+                  <CImage className="d-block w-100" src={farkasgym_facebook} alt="farkasgym"/>
                 </div>
 
             </div>

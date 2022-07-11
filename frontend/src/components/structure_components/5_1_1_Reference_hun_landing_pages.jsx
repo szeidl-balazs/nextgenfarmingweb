@@ -1,4 +1,8 @@
 import React from 'react';
+import { CImage } from '@coreui/react';
+import farkasgym1 from '../images/farkasgym1.png';
+import gocsej from '../images/gocsej.png';
+import pizza from '../images/pizza.png';
 
 const LandingPagesHun = () => {
 
@@ -23,7 +27,7 @@ const LandingPagesHun = () => {
                 </div>
 
                 <div className="specification-img-wrap">
-                    <div className="specification-photo" id="farkasgym1"></div>
+                  <CImage className="d-block w-100" src={farkasgym1} alt="farkas gym"/>
                 </div>
 
             </div>
@@ -43,7 +47,7 @@ const LandingPagesHun = () => {
                 </div>
 
                 <div className="specification-img-wrap">
-                    <div className="specification-photo" id="gocsej"></div>
+                  <CImage className="d-block w-100" src={gocsej} alt="Göcsej"/>
                 </div>
 
             </div>
@@ -63,7 +67,7 @@ const LandingPagesHun = () => {
                 </div>
 
                 <div className="specification-img-wrap">
-                    <div className="specification-photo" id="pizza-dominium"></div>
+                  <CImage className="d-block w-100" src={pizza} alt="pizza"/>
                 </div>
 
             </div>    

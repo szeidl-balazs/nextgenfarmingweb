@@ -1,4 +1,7 @@
 import React from 'react';
+import { CImage } from '@coreui/react';
+import pricing from '../images/pricing_table.png';
+import gamecharacter from '../images/game_character.png';
 
 const UicomponentsHun = () => {
 
@@ -21,7 +24,7 @@ const UicomponentsHun = () => {
                 </div>
 
                 <div className="specification-img-wrap">
-                    <div className="specification-photo" id="game-character"></div>
+                  <CImage className="d-block w-100" src={gamecharacter} alt="gamecharacter"/>
                 </div>
 
             </div>
@@ -45,7 +48,7 @@ const UicomponentsHun = () => {
                 </div>
 
                 <div className="specification-img-wrap">
-                    <div className="specification-photo" id="pricing-table"></div>
+                  <CImage className="d-block w-100" src={pricing} alt="pricing"/>
                 </div>
 
             </div>       

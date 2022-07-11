@@ -18,55 +18,6 @@
   border-radius: 10px; 
 }
 
-#farkasgym1 {
-  background-image: url("../images/farkasgym1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#gocsej {
-  background-image: url("../images/gocsej.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#pizza-dominium {
-  background-image: url("../images/pizza_dominium.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#wedding-zoe-and-alex {
-  background-image: url("../images/weddingzoeandalex.png");  
-}
-
-#game-character {
-  background-image: url("../images/game_character.png");  
-}
-
-#mantis-shrimp {
-  background-image: url("../images/mantis_shrimp.png");  
-}
-
-#pricing-table {
-  background-image: url("../images/pricing_table.png");  
-}
-
-#balorea {  
-  background-image: url("../images/balorea_logo_black.png");
-  background-size: contain;
-  background-repeat: no-repeat;    
-}
-
-#farkasgym-logo {
-  background-image: url("../images/farkas_gym_logo_facebook_profile.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-
-
-
 .accordion {
     
     background-color: var(--main-dark-color);
