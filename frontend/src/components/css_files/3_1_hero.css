@@ -33,63 +33,6 @@
 }
 
 
-
-/*For sale promo*/
-
-.forsale-wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    margin-left: 120px;
-   
-}
-
-.forsale {    
-    border: 1px solid var(--main-light-color);
-    cursor: pointer;
-    position: absolute;   
-    text-align: center;
-    width: var(--width);
-    height: calc(var(--width));
-    border-radius: 150px;
-    background-color: var(--main-light-color); 
-    box-shadow: var(--box-shadow);
-    font-size: 1.5rem;    
- }
-
- 
-
- .disc {
-    animation: forsale 10s linear infinite;
-    position: absolute;
-    cursor: pointer;
-    width: var(--width);
-    height: calc(var(--width));
-    border-radius: 155px;
-    border: 2px dashed var(--main-dark-color);
-    z-index: 2;
- }
-
-  @keyframes forsale {
-     100% {transform: rotate(360deg);}
-  }
-
-    .modal {
-      border: 1px solid var(--main-light-color);
-      width: 25vw;
-      text-align: justify;
-      padding: var(--text-padding);   
-      background-color: var(--main-light-color);
-      border-radius: 10px;
-      box-shadow: var(--box-shadow);
-    }
-
-   .modal-text {
-     color: var(--main-dark-color);    
-   }
-
 /*slide show*/
 
 .carousel-container {
@@ -98,6 +41,7 @@
     align-items: center;
     width: 70vw;
     /*border: 10px solid red;*/
+   
 }
 
 

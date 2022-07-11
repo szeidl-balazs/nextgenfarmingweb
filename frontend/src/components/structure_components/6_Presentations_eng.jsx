@@ -6,7 +6,9 @@ const PresentationsEng = () => {
 
         <div className="presentation">
             <div id="recommendation-id" className="place-holder-under-menuline"></div> {/*empty lane to push down the below content under menu line*/}
+            
             <h2>SERVICES</h2>
+
             <h3>WEB SITE AUDIT</h3>
             <p>Auditing current web site focusing on user interface (UI) and user experience (UX).</p>
             <p>Developing action plan to improve the user interface and user experience of current web site.</p>

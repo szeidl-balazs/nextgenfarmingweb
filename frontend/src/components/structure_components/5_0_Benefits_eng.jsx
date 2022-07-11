@@ -2,14 +2,14 @@ import React from 'react';
 
 const BenefitsEng = () => {
 
+
     return (        
         
-        <div className="benefits">
+        <div className="benefits">           
             
             <div id="benefit-id" className="place-holder-under-menuline"></div> {/*empty lane to push down the below content under menu line*/}
         
             <h2>INTRODUCTION</h2>
-
 
             <div className="benefits-list">
               <p>BALOREA WEB is the frontend web site development service of BALOREA TEAM Ltd.</p>          
