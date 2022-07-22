@@ -71,6 +71,7 @@
     background-color: var(--main-light-color);
     overflow: hidden;
     cursor: pointer;
+    max-height: 100% !important;
   }
   
   .subpanel {

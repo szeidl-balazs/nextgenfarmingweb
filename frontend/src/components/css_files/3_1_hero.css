@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 
-.intro-container{
+.intro-container {
     grid-area: intro-container;
     display: flex;   
     align-items: center;
