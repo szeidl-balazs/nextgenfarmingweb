@@ -186,6 +186,24 @@
     .hero-image {        
         height: 80vh;
     }
+
+    .benefits-list {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+        "benefit1 benefit2"
+        "benefit3 benefit3"
+        ;        
+    }
+    
+    .benefit-item {
+        padding: 0 var(--text-padding);
+    }
+
+    .benefit3 {
+        width: 50%;
+        justify-self: center;
+    }
     
     .specification-photo {
         height: 220px;
@@ -613,6 +631,16 @@
 
     .menu-titles {
         top: 110px;
+    }
+
+    .benefits-list {
+        grid-template-columns: 1fr 1fr 1fr;        
+        grid-template-areas:
+        "benefit1 benefit2 benefit3";        
+    }
+
+    .benefit3 {
+        width: 100% ;
     }
    
 
