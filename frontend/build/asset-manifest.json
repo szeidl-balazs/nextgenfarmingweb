@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.9f270e95.css",
-    "main.js": "./static/js/main.d0123529.js",
+    "main.css": "./static/css/main.29512108.css",
+    "main.js": "./static/js/main.1bb1f88e.js",
     "static/js/787.cda612ba.chunk.js": "./static/js/787.cda612ba.chunk.js",
     "static/media/mantis_shrimp.png": "./static/media/mantis_shrimp.1e5c939649a2e1304efc.png",
-    "static/media/pizza_dominium.png": "./static/media/pizza_dominium.e5901c47d53fe4eccfe8.png",
     "static/media/game_character.png": "./static/media/game_character.0cfcc1e849403a8b1f4f.png",
     "static/media/farkasgym1.png": "./static/media/farkasgym1.b3c180e072832605f2d3.png",
+    "static/media/pizza.png": "./static/media/pizza.682a1eccbff8277a9b67.png",
     "static/media/weddingzoeandalex.png": "./static/media/weddingzoeandalex.836bba778f7d5309ceab.png",
     "static/media/pricing_table.png": "./static/media/pricing_table.d20d2fd283cfd953fa55.png",
+    "static/media/SZB_202207261.jpg": "./static/media/SZB_202207261.029cca75be13f017beb7.jpg",
     "static/media/farkas_gym_logo_facebook_profile.png": "./static/media/farkas_gym_logo_facebook_profile.23ddf1f58ff1f08af647.png",
     "static/media/gocsej.png": "./static/media/gocsej.c1dfda56a7a6d224815c.png",
-    "static/media/pricing_table2.png": "./static/media/pricing_table2.fa8976a5b033145190ae.png",
     "static/media/balorea_logo_grey.png": "./static/media/balorea_logo_grey.06dc1b1f0fd9561f0832.png",
     "static/media/balorea_logo_black.png": "./static/media/balorea_logo_black.306e42b7b6123016e997.png",
     "index.html": "./index.html",
     "static/media/arrow_up.svg": "./static/media/arrow_up.488078ec0f8cb001a356ae9023c0d3dd.svg",
-    "main.9f270e95.css.map": "./static/css/main.9f270e95.css.map",
-    "main.d0123529.js.map": "./static/js/main.d0123529.js.map",
+    "main.29512108.css.map": "./static/css/main.29512108.css.map",
+    "main.1bb1f88e.js.map": "./static/js/main.1bb1f88e.js.map",
     "787.cda612ba.chunk.js.map": "./static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f270e95.css",
-    "static/js/main.d0123529.js"
+    "static/css/main.29512108.css",
+    "static/js/main.1bb1f88e.js"
   ]
 }
