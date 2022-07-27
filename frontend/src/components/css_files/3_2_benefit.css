@@ -45,4 +45,17 @@
     grid-area: benefit3;
 }
 
+.portre-wrap {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.portre {
+    width: 50%;  
+    border-radius: 100px;
+    align-self: center;
+    margin-bottom: var(--text-padding);
+    
+}
 

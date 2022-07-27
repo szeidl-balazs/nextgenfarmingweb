@@ -1,4 +1,6 @@
 import React from 'react';
+import { CImage } from '@coreui/react';
+import szb from '../images/SZB_202207261.jpg';
 
 
 const BenefitsEng = () => {
@@ -16,9 +18,13 @@ const BenefitsEng = () => {
 
               <div className="benefit1 benefit-item">
                 <p>BALOREA WEB is the frontend web site development service of BALOREA TEAM Ltd.</p>          
-                <p>Web developer: Balázs Szeidl</p>
+                <div className="portre-wrap">
+                  <p>Web developer: Balázs Szeidl</p>                
+                  <CImage className="d-block portre" src={szb} alt="portre"/>
+                </div>
                 <p>Background: marketing and sales management in international business environment, web site development. I have experience in developing and leading the implementation of sales and marketing campaigns, I have participated in multinational branding projects.</p>
               </div>
+
 
               <div className="benefit2 benefit-item">
                 <p>As web developer I use HTML, CSS, JavaScript with React.</p>
