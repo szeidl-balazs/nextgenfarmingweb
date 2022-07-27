@@ -192,18 +192,15 @@
         grid-template-rows: auto auto;
         grid-template-areas:
         "benefit1 benefit2"
-        "benefit3 benefit3"
+        "benefit1 benefit3"
         ;        
     }
-    
+
+        
     .benefit-item {
         padding: 0 var(--text-padding);
     }
 
-    .benefit3 {
-        width: 50%;
-        justify-self: center;
-    }
     
     .specification-photo {
         height: 220px;
@@ -573,6 +570,10 @@
         font-size: 2rem;
     }
 
+    .portre {
+        width: 30%;
+    }
+
     .specifications p, h4 {
         font-size: 1.5rem;        
     }
@@ -633,15 +634,6 @@
         top: 110px;
     }
 
-    .benefits-list {
-        grid-template-columns: 1fr 1fr 1fr;        
-        grid-template-areas:
-        "benefit1 benefit2 benefit3";        
-    }
-
-    .benefit3 {
-        width: 100% ;
-    }
    
 
     .accordion {
@@ -668,6 +660,16 @@
 /*iPad pro landscape 1366x1024*/
 
 @media screen and (min-width: 1366px) {
+
+    .portre-wrap {
+        flex-direction: row;
+    }
+    
+    .portre {
+        width: 30%;
+        margin-left: 50px;
+        
+    }
     .specification-photo {
         height: 240px;
         width: auto;

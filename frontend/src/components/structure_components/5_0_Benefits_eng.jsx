@@ -36,7 +36,7 @@ const BenefitsEng = () => {
                 <p>Synergy of marketing & sales management experience with the combination of web site development.</p>
                 <p>User friendly, simple, easy to use, ergonomic site handling.</p>
                 <p>Responsive sizing, readable, recognisable, handleable at any screen size.</p>
-                <p>Fast page load, lightning quick switchning between menus and sections.</p>              
+                <p>Fast page load, lightning quick switching between menus and sections.</p>              
               </div>
 
           </div>
