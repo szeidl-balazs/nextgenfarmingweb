@@ -9,7 +9,7 @@ const ImprintEng = () => {
             <div className="imprint-grid">
 
                 <div className="org item">Organization:</div>
-                <div className="org-content item">BALOREA TEAM Ltd. proprietorship</div>
+                <div className="org-content item">BALOREA TEAM Ltd.</div>
             
                 <div className="adress">Seat and correspondence address:</div>
                 <div className="adress-content">2900 Komárom, Babits Mihály utca 24.</div>
