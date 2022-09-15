@@ -33,7 +33,6 @@ const GridContainer = () => {
                 <NavigationHun data={language} function={languageSelector}/>
                 <MainPage />
                 <Footer />
-                <input className="checkbox-cb" id="checkbox-cb" type="checkbox" />
                 <CookieBar />
 
             </div>
@@ -45,7 +44,6 @@ const GridContainer = () => {
                 <NavigationEng data={language} function={languageSelector}/>
                 <MainPageEng />
                 <FooterEng />
-                <input className="checkbox-cb" id="checkbox-cb" type="checkbox" />
                 <CookieBarEng />
 
             </div>

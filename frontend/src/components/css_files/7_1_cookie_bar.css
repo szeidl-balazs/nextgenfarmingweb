@@ -6,7 +6,7 @@
     padding: calc(2*var(--text-padding)) var(--text-padding);
     height: 200px;
     width: 100vw;
-    top: 500px;
+    bottom: 0;
     right: 0;
     left: 0;
     background: var(--main-dark-color);
