@@ -40,7 +40,7 @@ const Presentations = () => {
 
           <CCol>
             <h3>MÁRKA ARCULAT GRAFIKAI TERVEZÉSE</h3>
-            <p>Az ügyfél márka arculattal(logók, címkék prezentáció layoutok stb.) kapcsolatos 
+            <p>Az ügyfél márka arculattal (logók, címkék prezentáció layoutok stb.) kapcsolatos 
             igényeinek felmérése.
             </p>
             <p>A márka arculati elemek design kidolgozása</p>

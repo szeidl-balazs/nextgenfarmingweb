@@ -22,7 +22,6 @@
     display: block;
     text-decoration: none;
     color: var(--secondary-color);
-    position: fixed;
     position: sticky;
     top: calc(100vh - 4rem); 
     width: 25px;
@@ -62,6 +61,7 @@
     z-index: 1;
     left: -15px;
     top: -20px;
+    border: 1px solid red;
   }
   
   .tooltip:hover .tooltiptext {
