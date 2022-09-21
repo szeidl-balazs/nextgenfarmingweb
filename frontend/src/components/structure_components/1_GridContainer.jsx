@@ -7,6 +7,7 @@ import Footer from './7_Footer_hun';
 import FooterEng from './7_Footer_eng';
 import CookieBar from './9_CookieBar_hun';
 import CookieBarEng from './9_CookieBar_eng';
+import BackToTop from './8_2_BackToTop';
 
 
 const GridContainer = () => {
@@ -32,6 +33,7 @@ const GridContainer = () => {
 
                 <NavigationHun data={language} function={languageSelector}/>
                 <MainPage />
+                <BackToTop />
                 <Footer />
                 <CookieBar />
 
@@ -43,6 +45,7 @@ const GridContainer = () => {
 
                 <NavigationEng data={language} function={languageSelector}/>
                 <MainPageEng />
+                <BackToTop />
                 <FooterEng />
                 <CookieBarEng />
 
