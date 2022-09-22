@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import arrow_up from '../images/go-up.png'
 
 const BackToTopArrow = () => {
@@ -12,4 +12,4 @@ const BackToTopArrow = () => {
     );
 }
 
-export default BackToTopArrow;
+export default BackToTopArrow;*/
