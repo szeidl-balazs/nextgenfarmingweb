@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.0f00d64a.css",
-    "main.js": "./static/js/main.e4a18611.js",
+    "main.css": "./static/css/main.ff808905.css",
+    "main.js": "./static/js/main.29f9acaa.js",
     "static/js/787.cda612ba.chunk.js": "./static/js/787.cda612ba.chunk.js",
     "static/media/mantis_shrimp.png": "./static/media/mantis_shrimp.1e5c939649a2e1304efc.png",
     "static/media/game_character.png": "./static/media/game_character.0cfcc1e849403a8b1f4f.png",
@@ -16,12 +16,12 @@
     "static/media/balorea_logo_black.png": "./static/media/balorea_logo_black.306e42b7b6123016e997.png",
     "static/media/uparrow.svg": "./static/media/uparrow.131104c8c06b5547d7fe2488676efea3.svg",
     "index.html": "./index.html",
-    "main.0f00d64a.css.map": "./static/css/main.0f00d64a.css.map",
-    "main.e4a18611.js.map": "./static/js/main.e4a18611.js.map",
+    "main.ff808905.css.map": "./static/css/main.ff808905.css.map",
+    "main.29f9acaa.js.map": "./static/js/main.29f9acaa.js.map",
     "787.cda612ba.chunk.js.map": "./static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f00d64a.css",
-    "static/js/main.e4a18611.js"
+    "static/css/main.ff808905.css",
+    "static/js/main.29f9acaa.js"
   ]
 }
