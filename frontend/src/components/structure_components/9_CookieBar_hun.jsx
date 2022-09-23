@@ -25,7 +25,7 @@ const CookieBar = (Cookies) => {
                           <p>A honlap használatával tudomásul veszi a <a href="Cookies" target="_blank" rel="noreferrer">tájékoztatónkat</a>.</p>
                         </div>
                         <div className="mobile">Ez a weboldal sütiket használ, <a href="7_2_cookie_text.html" target="_blank">részletek</a>.</div>
-                        <div className="accept-btn close-cb" onClick={cookiebarCloser}><label for="checkbox-cb">ELFOGADOM.</label></div>
+                        <button className="accept-btn close-cb" onClick={cookiebarCloser}>ELFOGADOM.</button>
                     </div>
 
                 :
