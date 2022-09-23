@@ -4,7 +4,7 @@ import { Squash as Hamburger } from 'hamburger-react' /*Has to be installed!!! n
 
 const NavigationEng = (props) => {
 
-  //show variable controls that the menu is visible in page laod or not
+  //show variable controls that the menu is visible in page load or not
 
     const [show, setShow] = useState(false);
 
@@ -38,7 +38,7 @@ const NavigationEng = (props) => {
             <Hamburger toggled={isOpen} toggle={setOpen} duration={.8}/>
           </div>
           
-          <h1 className="main-title">BAL<span className="orsi-title">O</span>REA WEB</h1> {/*Main title*/}
+          <h1 className="main-title">BALOREA WEB</h1> {/*Main title*/}
                             
           {/*Page logo*/}
           <div className="logo-container"></div> 
