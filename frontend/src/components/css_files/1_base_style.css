@@ -8,6 +8,7 @@
 
 
 /*variables*/
+
 :root {
     --main-dark-color: rgb(2, 32, 42);
     --logo-color: #b9bcbd;
@@ -30,8 +31,10 @@ body {
     overflow-x: hidden;
 }
 
+
 /*The below code retains the benefit content always below the menu line:*/
-.place-holder-under-menuline {    
+
+.place-holder-under-menuline {
     background-color: var(--main-light-color);
     width: 93vw;
     height: 30px;
@@ -43,30 +46,28 @@ button {
 }
 
 h1 {
-    font-family: 'Limelight', cursive;    
+    font-family: 'Big Shoulders Inline Display', cursive;
     color: var(--main-light-color);
     font-weight: 400;
 }
 
 h2 {
     margin: calc(4*var(--text-padding)) 0 var(--text-padding) 0;
-    font-family: 'Limelight', cursive;
+    font-family: 'Big Shoulders Inline Display', cursive;
     font-weight: 400;
     text-align: center;
 }
-
 
 ul {
     padding: var(--text-padding);
     list-style-type: circle;
 }
 
-
 li {
     margin-left: 20px;
 }
 
-.nested-list {    
+.nested-list {
     padding: 0 0 0 20px;
 }
 
@@ -74,12 +75,14 @@ li {
     font-size: .75em;
 }
 
-
 p {
     margin-bottom: var(--text-padding);
 }
 
+
 /*To synchronize the font size of button and li items:*/
+
 .benefit-and-specs-list {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
