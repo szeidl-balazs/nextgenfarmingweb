@@ -56,7 +56,7 @@ const NavigationHun = (props) => {
                                 </select>                      
                                 <div className="menu menu-benefit"><a href="#benefit-id">Bemutatkozás</a></div>
                                 <div className="menu menu-specification"><a href="#specifications-id">Termékek</a></div>           
-                                <div className="menu menu-workout"><a href="#recommendation-id">Szolgáltatások</a></div>
+                                <div className="menu menu-workout"><a href="#recommendation-id">Forgalmazók</a></div>
                                 <div className="menu menu-contact"><a href="#contact-id">Kapcsolat</a></div>    
                             </animated.div>
 

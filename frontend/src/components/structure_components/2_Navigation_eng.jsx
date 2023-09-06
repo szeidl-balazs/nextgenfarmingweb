@@ -60,7 +60,7 @@ const NavigationEng = (props) => {
             </select>
             <div className="menu menu-benefit"><a href="#benefit-id">Introduction</a></div>
             <div className="menu menu-specification"><a href="#specifications-id">Products</a></div>           
-            <div className="menu menu-workout"><a href="#recommendation-id">Services</a></div>
+            <div className="menu menu-workout"><a href="#recommendation-id">Dealers</a></div>
             <div className="menu menu-contact"><a href="#contact-id">Contact</a></div>    
           </animated.div>
 
