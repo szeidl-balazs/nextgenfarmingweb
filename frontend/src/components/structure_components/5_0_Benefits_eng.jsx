@@ -1,6 +1,6 @@
 import React from 'react';
 import { CImage } from '@coreui/react';
-import szb from '../images/SZB_202207261.jpg';
+import dimitris from '../images/Dimitris.jpg';
 
 
 const BenefitsEng = () => {
@@ -20,7 +20,7 @@ const BenefitsEng = () => {
                 <p>BALOREA WEB is the frontend web site development service of BALOREA TEAM Ltd.</p>          
                 <div className="portre-wrap">
                   <p>Web developer: Balázs Szeidl</p>                
-                  <CImage className="d-block portre" src={szb} alt="portre"/>
+                  <CImage className="d-block portre" src={dimitris} alt="portre"/>
                 </div>
                 <p>Background: marketing and sales management in international business environment, web site development. I have experience in developing and leading the implementation of sales and marketing campaigns, I have participated in multinational branding projects.</p>
               </div>
