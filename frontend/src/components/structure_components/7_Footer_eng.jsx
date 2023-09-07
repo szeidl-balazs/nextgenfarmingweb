@@ -153,11 +153,11 @@ const FooterEng = () => {
             <div id="contact-id" className="footer">            
                 <div className="contact">Contact:
                     <div>                
-                        <a href="mailto: szeidl.balazs@hotmail.com">✉ Email message</a>
-                        <a href="🖀 +36 20 323 1179">🖀 +36 20 323 1179</a>
+                        <a href="mailto: office.nextgenfarming.ro">✉ Email message</a>
+                        <a href="🖀 +36 1 222 3333">🖀 +36 1 222 3333</a>
                     </div>
                 </div>
-                <div className="copyright">Copyright © 2022. BALOREA TEAM Ltd. All rights reserved!</div>
+                <div className="copyright">Copyright © 2023. NEXT GEN FARMING Ltd. All rights reserved!</div>
                 <button id="gdpr-id" className="gdpr button-wo-design" onClick={gdprOpener}>Privacy policy <animated.div style={iconAnimation1} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <button className="gdpr button-wo-design" onClick={cookieOpener}>Cookie policy <animated.div style={iconAnimation2} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
                 <button className="gdpr button-wo-design" onClick={termsOpener}>General terms & conditions <animated.div style={iconAnimation3} ><ExpandMoreIcon className="more-less-sign"/></animated.div></button>
