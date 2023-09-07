@@ -9,22 +9,22 @@ const ImprintHun = () => {
             <div className="imprint-grid">
 
                 <div className="org item">Szervezet:</div>
-                <div className="org-content item">BALOREA TEAM Kft.</div>
+                <div className="org-content item">NEXT GEN FARMING Kft.</div>
             
                 <div className="adress">Székhely és levelezési cím:</div>
-                <div className="adress-content">2900 Komárom, Babits Mihály utca 24.</div>
+                <div className="adress-content">1115 Budapest, Agriculture street 1.</div>
             
                 <div className="tel">Telefonszám:</div>
-                <div className="tel-content">🖀 +36 20 323 1179</div>
+                <div className="tel-content">🖀 +36 1 222 3333</div>
             
                 <div className="email">Email cím:</div>
-                <div className="email-content">szeidl.balazs@hotmail.com</div>
+                <div className="email-content">office.nextgenfarming.ro</div>
 
                 <div className="regnum">Nyilvántartási száma:</div>
-                <div className="regnum-content">11 09 023316</div>
+                <div className="regnum-content">a bb cccccccc</div>
 
                 <div className="tax">Adószáma:</div>
-                <div className="tax-content">25090620111</div>
+                <div className="tax-content">abcdefgdh</div>
 
             </div>
             

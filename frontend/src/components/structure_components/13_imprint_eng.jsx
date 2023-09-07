@@ -9,22 +9,22 @@ const ImprintEng = () => {
             <div className="imprint-grid">
 
                 <div className="org item">Organization:</div>
-                <div className="org-content item">BALOREA TEAM Ltd.</div>
+                <div className="org-content item">NEXT GEN FARMING Ltd.</div>
             
                 <div className="adress">Seat and correspondence address:</div>
-                <div className="adress-content">2900 Komárom, Babits Mihály utca 24.</div>
+                <div className="adress-content">1115 Budapest, Agriculture street 1.</div>
             
                 <div className="tel">Phone number:</div>
-                <div className="tel-content">🖀 +36 20 323 1179</div>
+                <div className="tel-content">🖀 +36 1 222 3333</div>
             
                 <div className="email">Email:</div>
-                <div className="email-content">szeidl.balazs@hotmail.com</div>
+                <div className="email-content">office.nextgenfarming.ro</div>
 
                 <div className="regnum">Registration number:</div>
-                <div className="regnum-content">11 09 023316</div>
+                <div className="regnum-content">a bb cccccccc</div>
 
                 <div className="tax">Tax number:</div>
-                <div className="tax-content">25090620111</div>
+                <div className="tax-content">abcdefgdh</div>
 
             </div>
             
