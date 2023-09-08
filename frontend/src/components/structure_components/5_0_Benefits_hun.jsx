@@ -1,6 +1,6 @@
 import React from 'react';
 import { CImage } from '@coreui/react';
-import szb from '../images/SZB_202207261.jpg';
+import dimitris from '../images/Dimitris.jpg';
 
 const Benefits = () => {
 
@@ -18,7 +18,7 @@ const Benefits = () => {
                 <p>BALOREA WEB a BALOREA TEAM Kft. weboldal fejlesztési szolgáltatása.</p>          
                 <div className="portre-wrap">
                   <p>Web fejlesztő: Szeidl Balázs</p>                
-                  <CImage className="d-block portre" src={szb} alt="portre"/>
+                  <CImage className="d-block portre" src={dimitris} alt="portre"/>
                 </div>
                 <p>Tapasztalatok: marketing és értékesítési vezetés nemzetközi üzleti környezetben, web frontend fejlesztés. Húsz éves vezetői tapasztalattal rendelkezem marketing és értékesítési kampányok tervezésében és megvalósításában országos és nemzetközi felelősségel egyaránt. Részt vettem kontinentális márka fejlesztés előkészítésében és lebonyolításában tíz országban.</p>
               </div>

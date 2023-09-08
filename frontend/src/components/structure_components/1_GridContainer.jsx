@@ -12,7 +12,7 @@ import BackToTop from './8_2_BackToTop';
 
 const GridContainer = () => {
     
-    const [language, setLanguage] = useState("eng");
+    const [language, setLanguage] = useState("hun");
 
     
     const languageSelector = (e) => {

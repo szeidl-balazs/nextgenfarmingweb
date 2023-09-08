@@ -6,7 +6,7 @@ const NavigationEng = (props) => {
 
   //show variable controls that the menu is visible in page load or not
 
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(true);
 
     const menuToggle = (e) => {
         setShow(!show);
@@ -14,7 +14,7 @@ const NavigationEng = (props) => {
 
     //isOpen variable controls that the Hamburger icon is open or closed
 
-    const [isOpen, setOpen] = useState(false);
+    const [isOpen, setOpen] = useState(true);
 
     
     //open animation with react spring for the navigation line
