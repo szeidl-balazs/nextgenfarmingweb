@@ -9,23 +9,18 @@
 }
 
 .benefits-list {
-    list-style-type: none;    
+    list-style-type: none;
     line-height: 2rem;
     padding: var(--text-padding);
     text-align: justify;
-    display: grid;   
-    grid-template-areas: 
-    "benefit1"
-    "benefit2"
-    "benefit3"
-    ;    
+    display: grid;
+    grid-template-areas: "benefit1" "benefit2";
 }
 
 .benefit-img {
     grid-area: benefit-img;
-    justify-self: right;
+    justify-self: center;
 }
-
 
 .benefit-photo {
     max-height: 89vh;
@@ -41,20 +36,16 @@
     grid-area: benefit2;
 }
 
-.benefit3 {
-    grid-area: benefit3;
-}
-
 .portre-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .portre {
-    width: 50%;  
+    width: 50%;
     border-radius: 100px;
     align-self: center;
     margin-bottom: var(--text-padding);
-    
 }
-

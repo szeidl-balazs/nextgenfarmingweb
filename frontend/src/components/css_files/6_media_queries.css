@@ -1,11 +1,11 @@
 @media screen and (prefers-reduced-motion: no-preference) {
     html {
-      scroll-behavior: smooth;
+        scroll-behavior: smooth;
     }
 }
 
-/*smart phones portrait direction*/
 
+/*smart phones portrait direction*/
 
 
 /*Samsung Galaxy fold*/
@@ -14,47 +14,38 @@
     .main-title {
         font-size: 1.3rem;
     }
-
-   
-    .menu a, .language-selector {
+    .menu a,
+    .language-selector {
         font-size: .9rem;
     }
-
-    .menu a:hover {       
-        transform: scale(1.1);        
+    .menu a:hover {
+        transform: scale(1.1);
     }
-
-    .forsale, .disc {
+    .forsale,
+    .disc {
         --width: 80px;
         font-size: .8rem;
         margin-left: -150px;
         margin-bottom: 0;
     }
-
     .intro-container {
         align-items: flex-end;
     }
-
-    
     .modal {
         width: 90vw;
         font-size: 1rem;
     }
-
     .menu-icon-container {
         margin-left: calc(.5*var(--text-padding));
     }
-
     .logo-container {
         margin-right: calc(.5*var(--text-padding));
     }
-
     .place-holder-under-menuline {
         height: 50px;
     }
-
-    
 }
+
 
 /*iPhone 5/SE*/
 
@@ -63,22 +54,20 @@
         height: 110px;
         width: auto;
     }
-
-    .menu a, .language-selector {
+    .menu a,
+    .language-selector {
         font-size: 1rem;
     }
-
     .logo-container {
         width: 50px;
         height: 50px;
         margin-right: var(--text-padding);
     }
-
     .menu-icon-container {
         margin-left: calc(.5*var(--text-padding));
     }
-
 }
+
 
 /*Samsung Galaxy*/
 
@@ -87,8 +76,8 @@
         height: 120px;
         width: auto;
     }
-
-    .menu a, .language-selector {
+    .menu a,
+    .language-selector {
         font-size: 1.1rem;
     }
     .logo-container {
@@ -102,16 +91,13 @@
         height: 130px;
         width: auto;
     }
-    
     .video {
         height: 38vh;
         width: 100vw;
     }
-
     .main-title {
         font-size: 25px;
     }
-   
 }
 
 @media screen and (min-width: 414px) {
@@ -119,201 +105,163 @@
         height: 45vh;
         width: 100vw;
     }
-
     .specification-photo {
         height: 150px;
         width: auto;
-    } 
-
+    }
     .place-holder-under-menuline {
         height: 35px;
     }
-
-    
 }
 
 @media screen and (min-width: 540px) {
     .specification-photo {
         height: 200px;
         width: auto;
-    }  
-    
+    }
     .menu-logo-line {
         grid-template-columns: 2fr 5fr 2fr;
     }
-
     .logo-container {
         width: 70px;
         height: 70px;
     }
-
     .main-title {
         font-size: 2rem;
     }
-
-    .benefits-list, .presentation {
-        padding: calc(2*var(--text-padding)) ;
+    .benefits-list,
+    .presentation {
+        padding: calc(2*var(--text-padding));
     }
-
     .accordion {
         padding: 10px calc(2*var(--text-padding));
     }
-
     .panel-wrap {
         padding: 10px var(--text-padding);
     }
-
 }
+
 
 /*smart phones landscape direction*/
 
+
 /*iPhone 5 SE*/
 
-@media  screen and (min-width: 568px) {
+@media screen and (min-width: 568px) {
     .main-page {
         grid-template-columns: 3fr 3fr;
     }
-
-   
-
     .menu a:hover {
         transform: scale(1.2);
     }
-
-    .hero-image {        
+    .hero-image {
         height: 80vh;
     }
-
     .benefits-list {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
-        grid-template-areas:
-        "benefit1 benefit2"
-        "benefit1 benefit3"
-        ;        
+        grid-template-areas: "benefit1 benefit2" "benefit1 benefit3";
     }
-
-        
     .benefit-item {
         padding: 0 var(--text-padding);
     }
-
-    
     .specification-photo {
         height: 220px;
         width: auto;
     }
-
     .video {
         height: 70vh;
         width: 100vw;
     }
-    
     .recommendation-image {
         height: 70vh;
         width: 100%;
-    } 
-
+    }
 }
+
 
 /* ipHone 6/7/8 */
 
-@media screen and (min-width: 667px) {    
+@media screen and (min-width: 667px) {
     body {
         font-size: 1.2rem;
     }
-
     .main-title {
         font-size: 2.3rem;
     }
-
     .hero-image {
         height: 85vh;
         width: 100vw;
     }
-    
     .specification-photo {
         height: 260px;
         width: auto;
     }
-
-
-
 }
+
 
 /* Samsung Galaxy Tab 712px*/
 
 @media screen and (min-width: 712px) {
-
-    .forsale, .disc {
+    .forsale,
+    .disc {
         --width: 120px;
         font-size: 1.2rem;
         margin-left: 10px;
         margin-top: -200px;
     }
-
     .intro-container {
         align-items: flex-end;
     }
-
     .hero-image {
-        align-items: center;        
+        align-items: center;
     }
-
-    
     .modal {
         width: 90vw;
         font-size: 1rem;
     }
 }
 
+
 /* iPhone 6/7/8 Plus */
 
 @media screen and (max-width: 736px) {
-
-    body, .accordion {
+    body,
+    .accordion {
         font-size: 1.1rem;
     }
     .nested-list li {
         font-size: 1em;
-    }       
+    }
 }
 
 @media screen and (min-width: 736px) {
     body {
         font-size: 1.4rem;
     }
-   
-
-    .place-holder-under-menuline {    
+    .place-holder-under-menuline {
         height: 35px;
     }
-
-    .menu a:hover {       
-        transform: scale(1.2);        
+    .menu a:hover {
+        transform: scale(1.2);
     }
-
     .specification-photo {
         height: 290px;
         width: auto;
     }
-
-    .forsale, .disc {
+    .forsale,
+    .disc {
         --width: 120px;
         font-size: 1.2rem;
         margin-left: 10px;
         margin-top: -250px;
     }
-
     .intro-container {
         align-items: flex-end;
     }
-
     .hero-image {
-        align-items: flex-start;      
+        align-items: flex-start;
     }
-
-    
     .modal {
         width: 90vw;
         font-size: 1.1rem;
@@ -321,357 +269,290 @@
 }
 
 
-
-
 /*iPad mini and iPad media query*/
-@media  screen and (min-width: 768px) {
 
+@media screen and (min-width: 768px) {
     .specification-photo {
         height: 300px;
         width: auto;
     }
-
     .menu-logo-line {
         height: 80px;
-        
     }
-
-  
     .logo-container {
         height: 70px;
-        width: 70px;       
+        width: 70px;
     }
-
-
     .main-title {
         font-size: 2.3rem;
     }
-    
     .menu-cont {
         width: 80px;
         height: 80px;
         margin: 15px;
     }
-    
     .menu-titles {
         top: 80px;
     }
-
-    .menu a, .language-selector {
+    .menu a,
+    .language-selector {
         font-size: 1.5rem;
     }
-
-    .place-holder-under-menuline {    
+    .place-holder-under-menuline {
         height: 90px;
     }
-
-    
-    .benefits, .specifications, .presentation, .recommendation {
+    .benefits,
+    .specifications,
+    .presentation,
+    .recommendation {
         font-size: 2rem;
     }
-
     .footer {
         font-size: 1.5rem;
     }
-
     ul {
         padding: 20px;
     }
-    
-    .hero-image {        
+    .hero-image {
         height: 60vh;
-        align-items: center; 
-        
+        align-items: center;
     }
-
     .benefit-and-specs-list {
-        font-size: 1.5rem;;
+        font-size: 1.5rem;
+        ;
     }
-
     p {
         font-size: 1.5rem;
     }
-
-    .forsale, .disc {
+    .forsale,
+    .disc {
         --width: 120px;
         font-size: 1.2rem;
         margin-left: 10px;
         margin-top: -250px;
     }
-
     .intro-container {
         align-items: flex-end;
     }
-    
     .modal {
         width: 90vw;
         font-size: 1.1rem;
     }
-    
 }
+
 
 /*iPhone X media query and notebook 800*600*/
 
 @media screen and (min-width: 800px) {
-
     .specification-photo {
         height: 310px;
         width: auto;
     }
-
     .menu-logo-line {
         height: 90px;
     }
-
     .logo-container {
         height: 90px;
         width: 90px;
     }
-
     .menu-titles {
         top: 90px;
     }
-  
-    
     .menu-cont {
         width: 50px;
         height: 50px;
         margin: 10px 15px 10px 30px;
     }
-
-    .hero-image {        
-        height: 85vh;        
+    .hero-image {
+        height: 85vh;
     }
-
     .video {
         height: 82vh;
         width: 100vw;
     }
-
     h3 {
         font-size: .9em;
     }
-
     p {
         font-size: .9em;
     }
-
     .benefit-and-specs-list {
-        font-size: .9em;;
+        font-size: .9em;
+        ;
     }
-
     .footer {
         font-size: 0.9em;
     }
-
-    .forsale, .disc {
+    .forsale,
+    .disc {
         --width: 130px;
         font-size: 1.5rem;
         margin-left: -10px;
         margin-bottom: 0;
-      
     }
-
     .disc {
         --width: 135px;
     }
-
     .intro-container {
         align-items: flex-end;
     }
-
     .modal {
         width: 25vw;
         font-size: 1.2rem;
     }
-
-    .benefits-list, .presentation {
+    .benefits-list,
+    .presentation {
         padding: calc(3*var(--text-padding));
         line-height: 3rem;
     }
-
     .accordion {
         padding: 10px calc(3*var(--text-padding));
     }
-
     .panel-wrap {
         padding: 10px calc(2*var(--text-padding));
     }
 }
 
+
 /*iPad Air portrait 812px media query*/
 
-@media screen and (min-width: 812px)  {
-    
-    .forsale, .disc {
+@media screen and (min-width: 812px) {
+    .forsale,
+    .disc {
         --width: 130px;
         font-size: 1.5rem;
         margin-left: -10px;
         margin-top: 150px;
-      
     }
-
     .disc {
         --width: 135px;
     }
-
     .intro-container {
         align-items: center;
     }
-
     .modal {
         width: 40vw;
         font-size: 1.4rem;
     }
 }
 
+
 /*iPad pro portrait 1024px media query*/
 
-@media  screen and (min-width: 1024px) {
-
+@media screen and (min-width: 1024px) {
     .specification-photo {
         height: 360px;
         width: auto;
     }
     .menu-logo-line {
         height: 110px;
-        grid-template-columns: 1.5fr 5fr 1.5fr;;
+        grid-template-columns: 1.5fr 5fr 1.5fr;
+        ;
     }
-
     .menu-icon-container {
         margin-left: calc(2.5*var(--text-padding));
     }
-
     .logo-container {
         height: 110px;
         width: 110px;
         margin-right: 40px;
     }
-
-
     .main-title {
         font-size: 4rem;
     }
-    
     .menu-cont {
         width: 80px;
-        height: 80px;        
+        height: 80px;
     }
-
     .menu-titles {
         font-size: 2.5rem;
         top: 100px;
     }
-
-    .benefits, .specifications, .presentation, .recommendation {
+    .benefits,
+    .specifications,
+    .presentation,
+    .recommendation {
         font-size: 2rem;
     }
-
     .portre {
         width: 30%;
     }
-
-    .specifications p, h4 {
-        font-size: 1.5rem;        
+    .specifications p,
+    h4 {
+        font-size: 1.5rem;
     }
-
     .accordion {
         padding: var(--text-padding) calc(3*var(--text-padding));
     }
-
     .panel-wrap {
         padding: var(--text-padding) calc(2*var(--text-padding));
     }
-    
-   
     .footer {
         font-size: 1.2rem;
     }
-
     ul {
         padding: 20px;
     }
-    
-    .hero-image {        
+    .hero-image {
         height: 100vh;
-        
     }
-
     .video {
         height: 75vh;
         width: 100vw;
         margin-bottom: 20px;
-    }    
-    
+    }
 }
+
 
 /*19" screen 1280x1024*/
 
 @media screen and (min-width: 1280px) {
-    
     .specification-photo {
         height: 200px;
         width: auto;
     }
-
     .place-holder-under-menuline {
         height: 110px;
     }
-
     .menu-logo-line {
         height: 120px;
     }
-
     .logo-container {
         width: 110px;
         height: 110px;
     }
-
     .menu-titles {
         top: 110px;
     }
-
-   
-
     .accordion {
         padding: var(--text-padding) calc(5*var(--text-padding));
     }
-
-    .panel-text, .specification-img-wrap {
+    .panel-text,
+    .specification-img-wrap {
         padding: var(--text-padding) calc(2*var(--text-padding));
     }
-
-    
     .subpanel {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
-        grid-template-areas: 
-        "panel-text specification-img-wrap";
+        grid-template-areas: "panel-text specification-img-wrap";
         padding: calc(2*var(--text-padding));
     }
-
-    
 }
+
 
 /*iPad pro landscape 1366x1024*/
 
 @media screen and (min-width: 1366px) {
-
-    .portre-wrap {
-        flex-direction: row;
-    }
-    
     .portre {
         width: 30%;
-        margin-left: 50px;
-        
     }
     .specification-photo {
         height: 240px;
         width: auto;
     }
 }
+
 
 /*14" laptop 1600x900*/
 
@@ -682,78 +563,65 @@
     }
 }
 
+
 /*Large display media query above 1920px*/
 
 @media screen and (min-width: 1920px) {
-
     .menu-logo-line {
         height: 140px;
         grid-template-columns: 1.5fr 5fr 1.5fr;
     }
-
     .logo-container {
         width: 130px;
         height: 130px;
     }
-
-
     .main-title {
         font-size: 6rem;
     }
-    
     .menu-cont {
         width: 80px;
         height: 80px;
         margin: 15px 15px 15px 30px;
     }
-
     .menu-titles {
         top: 120px;
     }
-
     .place-holder-under-menuline {
         height: 120px;
     }
-
-    .hero-image {        
+    .hero-image {
         height: 100vh;
-        
     }
-
     h3 {
         font-size: 1.5em;
     }
-
     p {
         font-size: .8em;
         margin: 15px 0;
     }
-
     .benefit-and-specs-list {
-        font-size: 1.1em;;
+        font-size: 1.1em;
+        ;
     }
-
     ul {
         padding: 20px;
     }
-
     div .footer {
         font-size: .9em;
     }
-
-    .benefits, .specifications, .presentation, .recommendation, .footer {
+    .benefits,
+    .specifications,
+    .presentation,
+    .recommendation,
+    .footer {
         font-size: 2rem;
-    } 
-
+    }
     .specification-photo {
         height: 350px;
         width: auto;
     }
-  
-
     .video {
         height: 75vh;
         width: 100vw;
-    }    
-
+    }
 }

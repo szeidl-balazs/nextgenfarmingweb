@@ -15,27 +15,28 @@ const Benefits = () => {
             <div className="benefits-list">
 
               <div className="benefit1 benefit-item">
-                <p>BALOREA WEB a BALOREA TEAM Kft. weboldal fejlesztési szolgáltatása.</p>          
-                <div className="portre-wrap">
-                  <p>Web fejlesztő: Szeidl Balázs</p>                
-                  <CImage className="d-block portre" src={dimitris} alt="portre"/>
-                </div>
-                <p>Tapasztalatok: marketing és értékesítési vezetés nemzetközi üzleti környezetben, web frontend fejlesztés. Húsz éves vezetői tapasztalattal rendelkezem marketing és értékesítési kampányok tervezésében és megvalósításában országos és nemzetközi felelősségel egyaránt. Részt vettem kontinentális márka fejlesztés előkészítésében és lebonyolításában tíz országban.</p>
+                <p>Tisztelt Partnerünk!</p>
+                <p>Megtisztelő, hogy meglátogatta weboldalunkat és érdeklődik termékeink iránt.</p>
+                <p>A NEXT GEN FARMING Kft-ét azzal a céllal alapítottam Magyarországon, hogy a legfontosabb szántóföldi és kertészeti növénykultúrákban 
+                  modern technológiai megoldásokhoz biztosítsak input anyagokat, melyekkel Ön hatékonyan kezelheti az időjárás és a talajtulajdonságok 
+                  által okozott növénytermesztési kihívásokat.
+                </p>
+                <p>Termékkínálatunk kialakításakor összpontosítunk a legfontosabb és leghatékonyabb alap termékekre, melyek használata nélkülözhetetlen
+                   a biztonságos növénytermesztéshez, továbbá folyamatosan keressük a legújabb fejlesztéseket, melyekkel Ön magasabb színvonalon és kiszámíthatóbban tud gazdálkodni.
+                </p>    
+                <p>Forgalmazóink kiválasztásakor törekedünk arra, hogy a legrövidebb logisztikai láncon gyorsan juttasuk el Önhöz a megrendelt árut, hogy időben az Ön rendelkezésére álljon, 
+                  illetve az Önt kiszolgáló forgalmazó a kedvező árak mellett kiszolgálásban is pontosan tudja teljesíteni az Ön elvárásait.
+                </p>      
               </div>
 
 
               <div className="benefit2 benefit-item">
-                <p>Web fejlesztőként HTML, CSS, JavaScript és React környezetben programozok.</p>
-                <p>Ügyfeleimnek sokat tudok segíteni abban, hogy a web fejlesztési igényeket kombinálni tudom a marketing és értékesítési vezetői tapasztalataimmal, így az általam programozott weboldalakon ötvöződnek a modern webes megoldások ügyfélközpontúbb kivitelezésben. Az egyedi weboldal programozási igényeken túl tudok tanácsot adni meglévő weboldalak fejlesztésében valamint marketing komponensek - logók, címkék, egyedi feliratok - tervezésében is.</p>
+              <p>Vállalkozásához sok sikert kívánok bízva a sikeres együttműködésben!</p>
+              <div className="portre-wrap">                                 
+                  <CImage className="d-block portre" src={dimitris} alt="portre"/>
+                  <p>Dr. Dimitrios Drisis</p>
               </div>
-
-              <div className="benefit3 benefit-item">
-                <p>Előnyök</p>                 
-                <p>Nálam a webfejlesztési szempontok szinergikus kapcsolatban vannak a marketing és értékesítési vezetői célokkal.</p>
-                <p>Felhasználóbarát, egyszerűen és gyorsan áttekinthető, könnyen kezelhető, ergonómikusan használható weboldalakat programozok.</p>
-                <p>Oldalaim kijelző mérettől függetlenül nagyítgatás nélkül is olvashatóak és könnyen kezelhetőek.</p>
-                  <p>Az alkalmazott programozási technológiáknak és a minimálisan szükséges információ megjelenítési törekvéseimnek köszönhetően az oldalak gyorsan töltődnek be és villámgyorsan lehet váltogatni a tartalmakat a menüpontok között.</p>
-                <p>Több nyelven is vállalok weboldal készítést. Magyar weboldal angol változatát igény esetén lefordítom.</p>              
+           
               </div>
 
             </div>
