@@ -9,21 +9,13 @@
     padding: 0;
 }
 
-
 .main-page {
     display: grid;
     grid-template-columns: 2fr 3fr;
     grid-template-rows: auto auto auto auto auto;
-    grid-template-areas: 
-    "intro-container language"
-    "benefits benefits"
-    "specifications specifications"
-    "presentation presentation"
-    "gdpr gdpr";
+    grid-template-areas: "intro-container language" "benefits benefits" "products products" "presentation presentation" "gdpr gdpr";
     background-color: var(--main-light-color);
     color: var(--main-dark-color);
     width: 100vw;
     margin: 0;
 }
-
-

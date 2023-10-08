@@ -1,25 +1,17 @@
-.specifications {
-    grid-area: specifications;
-    max-width: 100vw; 
+.products {
+    grid-area: products;
+    max-width: 100vw;
 }
 
-
-.specification-img-wrap {
+.product-image-wrap {
     grid-area: specification-img-wrap;
-    justify-self: right;     
-    width: 100%;   
-}
-
-
-.specification-photo {
-  grid-area: specification-photo;
-  background-size: cover;
-  height: 100px;
-  border-radius: 10px; 
+    justify-self: right;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .accordion {
-    
     background-color: var(--main-dark-color);
     color: var(--main-light-color);
     cursor: pointer;
@@ -30,58 +22,52 @@
     text-align: left;
     outline: none;
     transition: 0.4s;
-  }
-  
-  .accordion:hover {
+}
+
+.accordion:hover {
     color: var(--hover-color);
     box-shadow: var(--box-shadow);
     text-shadow: var(--text-shadow);
     font-size: 120%;
     transition: .5s ease-in;
-  }
-  
-  .more-less-sign {
-    font-weight:900;
+}
+
+.more-less-sign {
+    font-weight: 900;
     float: right;
     margin-left: 5px;
     z-index: 1;
-  }
+}
 
-  .panel-text {
+.panel-text {
     grid-area: panel-text;
     text-align: justify;
     text-decoration: none;
-  }
+}
 
-  .accordion__content a {
-    
+.accordion__content a {
     color: var(--main-dark-color);
-  }
+}
 
-  .accordion__content a:hover {
-    
+.accordion__content a:hover {
     color: var(--hover-color);
     text-decoration: underline;
-  }
+}
 
-  
-    
-  .panel {
+.panel {
     padding: 0 var(--text-padding);
     background-color: var(--main-light-color);
     overflow: hidden;
     cursor: pointer;
     max-height: 100% !important;
-  }
-  
-  .subpanel {
+}
+
+.subpanel {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
-    grid-template-areas: 
-    "panel-text "
-    "specification-img-wrap";
+    grid-template-areas: "panel-text " "specification-img-wrap";
     row-gap: calc(1*var(--text-padding));
     padding: var(--text-padding) 0;
     align-items: center;
-  }
+}

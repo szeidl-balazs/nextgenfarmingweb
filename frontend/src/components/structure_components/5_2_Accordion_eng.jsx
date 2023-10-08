@@ -1,8 +1,8 @@
 import { React, useState } from "react";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useSpring, animated, easings } from "react-spring";
-import "../css_files/3_3_specification.css"
-import LandingPages from "./5_1_1_Reference_eng_landing_pages";
+
+import LandingPages from "./5_1_1_Products_eng_biostimulators";
 import Events from "./5_1_2_Reference_eng_events";
 import Blogs from "./5_1_3_Reference_eng_blogs";
 import Uicomponents from "./5_1_4_Reference_eng_ui";
@@ -255,7 +255,7 @@ const AccordionEng = () => {
   
   return (
 
-    <div className="specifications">
+    <div className="products">
 
       <div id="specifications-id" className="place-holder-under-menuline"></div> {/*empty lane to push down the below content under menu line*/}
           

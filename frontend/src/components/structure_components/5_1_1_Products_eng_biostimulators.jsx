@@ -26,7 +26,7 @@ const LandingPages = () => {
                     </p>            
                 </div>
 
-                <div className="specification-img-wrap">
+                <div className="product-image-wrap">
                     <CImage className="d-block w-100" src={farkasgym1} alt="farkas gym"/>
                 </div>
 
@@ -46,7 +46,7 @@ const LandingPages = () => {
                     </p>            
                 </div>
 
-                <div className="specification-img-wrap">
+                <div className="product-image-wrap">
                     <CImage className="d-block w-100" src={gocsej} alt="Göcsej"/>
                 </div>
 
@@ -64,7 +64,7 @@ const LandingPages = () => {
                     <p className="accordion__content">Highlights: HTML, CSS, flex box, border styling, booking form.</p>            
                 </div>
 
-                <div className="specification-img-wrap">
+                <div className="product-image-wrap">
                   <CImage className="d-block w-100" src={pizza} alt="pizza"/>
                 </div>
 
