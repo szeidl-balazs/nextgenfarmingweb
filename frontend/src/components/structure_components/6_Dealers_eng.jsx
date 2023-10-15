@@ -3,7 +3,7 @@ import { CContainer } from '@coreui/react'
 import { CCol } from '@coreui/react'
 import { CRow } from '@coreui/react'
 
-const PresentationsEng = () => {
+const DealersEng = () => {
 
     return (
 
@@ -48,4 +48,4 @@ const PresentationsEng = () => {
     );
 }
 
-export default PresentationsEng;
+export default DealersEng;

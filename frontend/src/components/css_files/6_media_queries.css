@@ -130,7 +130,7 @@
         font-size: 2rem;
     }
     .benefits-list,
-    .presentation {
+    .dealers {
         padding: calc(2*var(--text-padding));
     }
     .accordion {
@@ -303,7 +303,7 @@
     }
     .benefits,
     .specifications,
-    .presentation,
+    .dealers,
     .recommendation {
         font-size: 2rem;
     }
@@ -401,7 +401,7 @@
         font-size: 1.2rem;
     }
     .benefits-list,
-    .presentation {
+    .dealers {
         padding: calc(3*var(--text-padding));
         line-height: 3rem;
     }
@@ -470,7 +470,7 @@
     }
     .benefits,
     .specifications,
-    .presentation,
+    .dealers,
     .recommendation {
         font-size: 2rem;
     }
@@ -611,7 +611,7 @@
     }
     .benefits,
     .specifications,
-    .presentation,
+    .dealers,
     .recommendation,
     .footer {
         font-size: 2rem;

@@ -3,11 +3,11 @@ import { CContainer } from '@coreui/react'
 import { CCol } from '@coreui/react'
 import { CRow } from '@coreui/react'
 
-const Presentations = () => {
+const DealersHUN = () => {
 
     return (
 
-        <div className="presentation">
+        <div className="dealers">
           <div id="recommendation-id" className="place-holder-under-menuline"></div> {/*empty lane to push down the below content under menu line*/}
           
           <h2>SZOLGÁLTATÁSOK</h2>
@@ -55,4 +55,4 @@ const Presentations = () => {
     );
 }
 
-export default Presentations;
+export default DealersHUN;

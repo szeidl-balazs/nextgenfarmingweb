@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useSpring, animated, easings } from "react-spring";
-import LandingPagesHun from "./5_1_1_Products_hun_biostimulators";
+import BiostimulatorsHun from "./5_1_1_Products_hun_biostimulators";
 import EventsHun from "./5_1_2_Reference_hun_events";
 import BlogsHun from "./5_1_3_Reference_hun_blogs";
 import UicomponentsHun from "./5_1_4_Reference_hun_ui";
@@ -277,7 +277,7 @@ const AccordionHun = () => {
         ?
 
         <animated.div className="panel" style={openAnimation}>        
-          <LandingPagesHun />
+          <BiostimulatorsHun />
         </animated.div>
         
         : 

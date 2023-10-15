@@ -1,15 +1,15 @@
-.presentation {
+.dealers {
     grid-area: presentation;
     line-height: 2rem;
     padding: var(--text-padding);    
     max-width: 100vw;
 }
 
-.presentation p {
+.dealers p {
     text-align: justify;
 }
 
-.presentation h3 {
+.dealers h3 {
     margin-top: 50px;
 }
 

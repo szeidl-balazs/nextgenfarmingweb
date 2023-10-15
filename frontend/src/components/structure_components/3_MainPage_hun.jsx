@@ -2,7 +2,7 @@ import React from 'react';
 import HeroHun from './4_Hero_hun'
 import Benefits from './5_0_Introduction_hun';
 import AccordionHun from './5_2_Accordion_hun'
-import Presentations from './6_Presentations_hun';
+import DealersHUN from './6_Dealers_hun';
 
 
 
@@ -15,7 +15,7 @@ const MainPage = () => {
             <HeroHun />
             <Benefits />
             <AccordionHun />
-            <Presentations />
+            <DealersHUN />
                            
 
         </main>

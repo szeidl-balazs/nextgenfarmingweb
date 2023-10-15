@@ -4,7 +4,7 @@ import euro_vive_pure from '../images/euro_vive_pure.png';
 import gocsej from '../images/gocsej.png';
 import pizza from '../images/pizza.png';
 
-const LandingPagesHun = () => {
+const BiostimulatorsHun = () => {
 
 
     return (
@@ -18,7 +18,7 @@ const LandingPagesHun = () => {
                                        
                     <p className="accordion__content">  
                     Az Euro Vive Pure Liquid az Ascophyllum nodosum tengeri alga nagy tisztaságú és tömény kivonata, mely stabilan oldott állapotban tartható.
-                    Kivákó hatásfokkal alkalmazható a kultúrnövények különböző fenológiai stádiumaiban.
+                    Kiváló hatásfokkal alkalmazható a kultúrnövények különböző fenológiai stádiumaiban.
                     A kanadai eredetű Ascophyllum nodosum alkalmazkodott az apály-dagály változásokhoz és a sós körülményekhez 
                     és az így kialakult stressztűrő képességét át tudja adni a termesztett növényeknek.
                     </p>
@@ -144,4 +144,4 @@ const LandingPagesHun = () => {
     )
 }
 
-export default LandingPagesHun;
+export default BiostimulatorsHun;
