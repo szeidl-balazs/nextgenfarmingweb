@@ -12,7 +12,7 @@ const Blogs = () => {
             <div className="subpanel">
 
                 <div className="panel-text">
-                    <p className="accordion__content">Title: Mantis shrimp</p>
+                    <h2 className="accordion__content">Title: Mantis shrimp</h2>
                     <p className="accordion__content">URL: <a href="https://bszeidl.github.io/mantis_shrimps/" rel="noreferrer" target="_blank">mantis-shrimp</a></p>
                     <p className="accordion__content">  
                     Description: This site has been a homework in Code Berry Programming school to practice basic level CSS and responsivity. 

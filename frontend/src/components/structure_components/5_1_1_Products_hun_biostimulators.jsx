@@ -1,8 +1,7 @@
 import React from 'react';
 import { CImage } from '@coreui/react';
 import euro_vive_pure from '../images/euro_vive_pure.png';
-import gocsej from '../images/gocsej.png';
-import pizza from '../images/pizza.png';
+
 
 const BiostimulatorsHun = () => {
 
@@ -11,10 +10,10 @@ const BiostimulatorsHun = () => {
     
         <div className="panel-wrap">
 
-            <div className="subpanel">
+            <div className="subpanel"> {/*This is one unit to comprise one product*/}
 
                 <div className="panel-text">
-                    <p className="accordion__content">Euro Vive Pure Liquid</p> 
+                    <h2 className="accordion__content">Euro Vive Pure Liquid</h2> 
                                        
                     <p className="accordion__content">  
                     Az Euro Vive Pure Liquid az Ascophyllum nodosum tengeri alga nagy tisztaságú és tömény kivonata, mely stabilan oldott állapotban tartható.
@@ -90,52 +89,12 @@ const BiostimulatorsHun = () => {
                 </div>
 
                 <div className="product-image-wrap">
-                  <CImage className="d-block w-30" src={euro_vive_pure} alt="Euro Vive Pure"/>
+                  <CImage className="d-block w-50" src={euro_vive_pure} alt="Euro Vive Pure"/>
                 </div>
 
             </div>
 
-            <div className="subpanel">
 
-                <div className="panel-text">
-                    <p className="accordion__content">Cím: Göcsej Természetvédelmi Alapítvány</p>
-                    <p className="accordion__content">URL: <a href="https://szeidl-balazs.github.io/landing_page/" rel="noreferrer" target="_blank">gocsej alapitvany</a></p>
-                    <p className="accordion__content">
-                        Részletek: Az oldal heti csapat projekt feladat volt a Code Cool frontend tanfolyamon, melyet Marosi Mártával és Arany Richárddal együtt készítettünk el. 
-                        A feladat célja egy bemutatkozó céloldal készítése volt egy nonprofit szervezet (fiktív) számára HTML és CSS használatával. A designt és a wire-frame-et közösen készítettük el, az oldal szekciók programozását elosztottuk egymás között és önállóan kódoltuk őket.
-                    </p>
-                    <p className="accordion__content">
-                        Webfejlesztési megoldások: HTML, CSS, flex box.
-                    </p>            
-                </div>
-
-                <div className="product-image-wrap">
-                  <CImage className="d-block w-100" src={gocsej} alt="Göcsej"/>
-                </div>
-
-            </div>
-
-            <div className="subpanel">
-
-                <div className="panel-text">
-                    <p className="accordion__content">Cím: Pizza Dominium</p>
-                    <p className="accordion__content">URL: <a href="https://szeidl-balazs.github.io/table_booking/" rel="noreferrer" target="_blank" className="url--style">pizza-dominium</a></p>
-                    <p className="accordion__content">
-                        Részletek: Az oldal heti csapa projekt feladat volt a Code Cool frontend tanfolyamon, melyet Marosi Mártával és Arany Richárddal együtt készítettünk el. 
-                        A feladat célja egy termék kínálatot bemutató céloldal készítése volt egy pizzéria (fiktív) részére email-es asztalfoglaló űrlappal. A designt és a wire-frame-et közösen készítettük el, az oldal szekciók programozását elosztottuk egymás között és önállóan kódoltuk őket.
-                    </p>
-                    <p className="accordion__content">
-                        Webfejlesztési megoldások: HTML, CSS, flex box, űrlap.
-                    </p>            
-                </div>
-
-                <div className="product-image-wrap">
-                  <CImage className="d-block w-100" src={pizza} alt="pizza"/>
-                </div>
-
-            </div>    
-   
-    
 
         </div>
 

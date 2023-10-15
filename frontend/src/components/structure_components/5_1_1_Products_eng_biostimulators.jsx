@@ -14,7 +14,7 @@ const LandingPages = () => {
             <div className="subpanel">
 
                 <div className="panel-text">
-                    <p className="accordion__content">Title: Farkas Gym</p>
+                    <h2 className="accordion__content">Title: Farkas Gym</h2>
                     <p className="accordion__content">URL: <a href="https://farkasgym.hu/" rel="noreferrer" target="_blank">www.farkasgym.hu</a></p>
                     <p className="accordion__content">  
                         Description: Farkas Gym has been dedicated for introduction and promotion of an innovative fitness machine.
