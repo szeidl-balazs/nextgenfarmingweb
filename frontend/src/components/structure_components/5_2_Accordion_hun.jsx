@@ -3,7 +3,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useSpring, animated, easings } from "react-spring";
 import BiostimulatorsHun from "./5_1_1_Products_hun_biostimulators";
 import EventsHun from "./5_1_2_Reference_hun_events";
-import BlogsHun from "./5_1_3_Reference_hun_blogs";
+import HerbicidesHun from "./5_1_3_Products_hun_herbicides";
 import UicomponentsHun from "./5_1_4_Reference_hun_ui";
 import MarketingComponentsHun from "./5_1_5_Reference_hun_marketing";
 
@@ -328,7 +328,7 @@ const AccordionHun = () => {
         ?
 
         <animated.div className="panel" style={openAnimation3}>        
-          <BlogsHun />
+          <HerbicidesHun />
         </animated.div>
         
         : 

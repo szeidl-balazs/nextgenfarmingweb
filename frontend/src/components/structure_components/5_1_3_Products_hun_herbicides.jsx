@@ -2,7 +2,7 @@ import React from 'react';
 import { CImage } from '@coreui/react';
 import vextadim from '../images/vextadim.webp';
 
-const BlogsHun = () => {
+const HerbicidesHun = () => {
 
 
     return (
@@ -12,15 +12,16 @@ const BlogsHun = () => {
             <div className="subpanel">
 
                 <div className="panel-text">
-                    <h2 className="accordion__content">Vextadim 240 EC</h2>
-                    <p className="accordion__content">Szelektív gyomírtószer őszi búza árvakelés ellen</p>
-                    <p>Felhasználási előnyök</p>
+                    <h2 className="accordion__content product_name">Vextadim 240 EC</h2> {/*product name*/}
+                    <h3 className="accordion__content highlights">Szelektív gyomírtószer őszi búza árvakelés ellen</h3>{/*product highlight*/}
+                    <h3>Felhasználási előnyök</h3>{/*product benefit*/}
                     <ul>
                         <li>Nagyon erős levélen keresztüli hatás kiváló szelektivitással.</li>
                         <li>Száraz körülmények között is hatékony formuláció.</li>
                         <li>Tömény hatóanyag tartalom (240 g/l), kevesebb göngyöleg.</li>
                     </ul>
-                    <p>
+                    <h3>Tulajdonságok</h3>
+                    <p>{/*product features*/}
                         Hatóanyag összetétel: 240 g/l kletodim, mely a HRAC-A acetil-koenzim-A karboxilázgátló 
                         herbicidcsoportban a hidroxi-ciklohexén-on hatóanyagcsoportba tartozik.
                     </p>
@@ -41,7 +42,7 @@ const BlogsHun = () => {
                     <p>Hatásmód: VextaDim 240 EC kiváló oldékonyságának köszönhetően gyorsan felszívódik a
                     kezelt növényekben, és gyorsan transzlokálódik a gyökérrendszerükben valamint a föld feletti részeikben. Az érzékeny gyomnövényeken a jellegzetes tünetek - növekedés leállása, levelek sárgulása, végül a növény pusztulása -a permetezést követő 1-2 héten belül jelentkeznek. 
                     </p>
-                    <p>Technológiai tanácsok:</p>
+                    <h3>Felhasználási ajánlások:</h3>{/*using recommendations*/}
                     <ul>
                         <li>Megfelelő dózisban és körülmények között nincs fitotoxikus hatása és nem lassítja a kultúrnövény fejlődését.</li>
                         <li>Kerülni kell minden más készítmény használatát 14 nappal a VextaDim 240 EC használata előtt és után.</li>
@@ -49,13 +50,13 @@ const BlogsHun = () => {
                         <li>Amennyiben a kijuttatást követő néhány napon belül fagypont alá süllyed a hőmérséklet, fitotoxikus tünetek jelentkezhetnek a kultúrnövényen.</li>
                         <li>A tél végén is kijuttatható a repce szárbaindulása megkezdéséig (BBCH30), amikor az árvakelés növekedésnek indul.</li>
                     </ul>
-                    <p>Hatékonyság:</p>
+                    <h3>Hatékonyság:</h3>{/*efficacy*/}
                     <p>A készítmény adjuváns nélkül is nagyon jó hatásfokú, de tapadásfokozó (VexZone 0,25 l/ha) hozzáadásával érhető el a legkiválóbb eredmény.</p>
                     <p>A VexZone felületaktív anyagokat, alkilész- ter olajat és oldódást elősegítő anyagokat tartalmaz, optimális lefedettséget és kiváló tapa- dást biztosít a leveleken, továbbá fokozza a hatóanyag gyors bejutását a belső növényi szöve- tekbe</p>
                     <p>A VextaDim 240 EC és a VexZone a VextaChem Srl. (Piazza B. Buozzi 9, Sc B, 04100 Latina LT, Italy) bejegyzett védjegye.</p>
                 </div>
 
-                <div className="specification-img-wrap">
+                <div className="product-image-wrap">
                   <CImage className="d-block w-50" src={vextadim} alt="vextadim"/>
                 </div>
         
@@ -70,4 +71,4 @@ const BlogsHun = () => {
     );
 }
 
-export default BlogsHun;
+export default HerbicidesHun;

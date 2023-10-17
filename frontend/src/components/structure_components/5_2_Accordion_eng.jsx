@@ -4,7 +4,7 @@ import { useSpring, animated, easings } from "react-spring";
 
 import LandingPages from "./5_1_1_Products_eng_biostimulators";
 import Events from "./5_1_2_Reference_eng_events";
-import Blogs from "./5_1_3_Reference_eng_blogs";
+import Blogs from "./5_1_3_Products_eng_herbicides";
 import Uicomponents from "./5_1_4_Reference_eng_ui";
 import MarketingComponents from "./5_1_5_Reference_eng_marketing";
 

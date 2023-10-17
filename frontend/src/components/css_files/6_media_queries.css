@@ -370,12 +370,8 @@
         height: 82vh;
         width: 100vw;
     }
-    h3 {
-        font-size: .9em;
-    }
-    p {
-        font-size: .9em;
-    }
+   
+   
     .benefit-and-specs-list {
         font-size: .9em;
         ;
@@ -447,19 +443,22 @@
     .menu-logo-line {
         height: 110px;
         grid-template-columns: 1.5fr 5fr 1.5fr;
-        ;
     }
+
     .menu-icon-container {
         margin-left: calc(2.5*var(--text-padding));
     }
+
     .logo-container {
         height: 110px;
         width: 110px;
         margin-right: 40px;
     }
+
     .main-title {
         font-size: 4rem;
     }
+    
     .menu-cont {
         width: 80px;
         height: 80px;

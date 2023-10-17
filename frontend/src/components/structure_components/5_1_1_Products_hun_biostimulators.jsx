@@ -13,17 +13,17 @@ const BiostimulatorsHun = () => {
             <div className="subpanel"> {/*This is one unit to comprise one product*/}
 
                 <div className="panel-text">
-                    <h2 className="accordion__content">Euro Vive Pure Liquid</h2> 
+                    <h2 className="accordion__content">Euro Vive Pure Liquid</h2> {/*product name*/}
                                        
-                    <p className="accordion__content">  
+                    <h3 className="accordion__content">Tengeri alga tartalmú biostimulátor</h3>
+                    <p className="accordion__content">{/*product highlight*/}  
                     Az Euro Vive Pure Liquid az Ascophyllum nodosum tengeri alga nagy tisztaságú és tömény kivonata, mely stabilan oldott állapotban tartható.
                     Kiváló hatásfokkal alkalmazható a kultúrnövények különböző fenológiai stádiumaiban.
                     A kanadai eredetű Ascophyllum nodosum alkalmazkodott az apály-dagály változásokhoz és a sós körülményekhez 
                     és az így kialakult stressztűrő képességét át tudja adni a termesztett növényeknek.
                     </p>
 
-                    <p className="accordion__content">
-                        Az Ascophyllum nodosum alkalmazásának előnyei:
+                    <h3 className="accordion__content">Felhasználási előnyök:</h3>{/*product benefit*/}
                         <ul>
                             <li>
                                 Elősegíti a termesztett növény maximális terméspotenciáljának elérését.                          
@@ -39,7 +39,7 @@ const BiostimulatorsHun = () => {
                             </li>
                         </ul>
                         
-                        Felhasználási ajánlások:
+                    <h3>Felhasználási ajánlások:</h3>    {/*using recommendations*/}
                         <ul>
                             <li>
                             A készítmény kijuttatható permetezésekkel egy menetben, a leveleken keresztül szívódik fel.
@@ -85,7 +85,7 @@ const BiostimulatorsHun = () => {
                             </li>
                         </ul>           
                        
-                    </p>           
+                            
                 </div>
 
                 <div className="product-image-wrap">
@@ -94,11 +94,7 @@ const BiostimulatorsHun = () => {
 
             </div>
 
-
-
-        </div>
-
-        
+        </div>        
 
     )
 }
