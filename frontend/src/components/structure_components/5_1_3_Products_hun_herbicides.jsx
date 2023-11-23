@@ -42,7 +42,7 @@ const HerbicidesHun = () => {
                     <p>Hatásmód: VextaDim 240 EC kiváló oldékonyságának köszönhetően gyorsan felszívódik a
                     kezelt növényekben, és gyorsan transzlokálódik a gyökérrendszerükben valamint a föld feletti részeikben. Az érzékeny gyomnövényeken a jellegzetes tünetek - növekedés leállása, levelek sárgulása, végül a növény pusztulása -a permetezést követő 1-2 héten belül jelentkeznek. 
                     </p>
-                    <h3>Felhasználási ajánlások:</h3>{/*using recommendations*/}
+                    <h3>Felhasználási ajánlások</h3>{/*using recommendations*/}
                     <ul>
                         <li>Megfelelő dózisban és körülmények között nincs fitotoxikus hatása és nem lassítja a kultúrnövény fejlődését.</li>
                         <li>Kerülni kell minden más készítmény használatát 14 nappal a VextaDim 240 EC használata előtt és után.</li>
@@ -50,7 +50,7 @@ const HerbicidesHun = () => {
                         <li>Amennyiben a kijuttatást követő néhány napon belül fagypont alá süllyed a hőmérséklet, fitotoxikus tünetek jelentkezhetnek a kultúrnövényen.</li>
                         <li>A tél végén is kijuttatható a repce szárbaindulása megkezdéséig (BBCH30), amikor az árvakelés növekedésnek indul.</li>
                     </ul>
-                    <h3>Hatékonyság:</h3>{/*efficacy*/}
+                    <h3>Hatékonyság</h3>{/*efficacy*/}
                     <p>A készítmény adjuváns nélkül is nagyon jó hatásfokú, de tapadásfokozó (VexZone 0,25 l/ha) hozzáadásával érhető el a legkiválóbb eredmény.</p>
                     <p>A VexZone felületaktív anyagokat, alkilész- ter olajat és oldódást elősegítő anyagokat tartalmaz, optimális lefedettséget és kiváló tapa- dást biztosít a leveleken, továbbá fokozza a hatóanyag gyors bejutását a belső növényi szöve- tekbe</p>
                     <p>A VextaDim 240 EC és a VexZone a VextaChem Srl. (Piazza B. Buozzi 9, Sc B, 04100 Latina LT, Italy) bejegyzett védjegye.</p>

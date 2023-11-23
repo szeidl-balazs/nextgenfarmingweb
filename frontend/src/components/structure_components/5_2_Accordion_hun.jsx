@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { useSpring, animated, easings } from "react-spring";
 import BiostimulatorsHun from "./5_1_1_Products_hun_biostimulators";
-import EventsHun from "./5_1_2_Reference_hun_events";
+import EventsHun from "./5_1_2_Products_hun_fertilizers";
 import HerbicidesHun from "./5_1_3_Products_hun_herbicides";
 import UicomponentsHun from "./5_1_4_Reference_hun_ui";
 import MarketingComponentsHun from "./5_1_5_Reference_hun_marketing";

@@ -591,11 +591,8 @@
     .hero-image {
         height: 100vh;
     }
-    h3 {
-        font-size: 1.5em;
-    }
-    p {
-        font-size: .8em;
+  
+    p {        
         margin: 15px 0;
     }
     .benefit-and-specs-list {
