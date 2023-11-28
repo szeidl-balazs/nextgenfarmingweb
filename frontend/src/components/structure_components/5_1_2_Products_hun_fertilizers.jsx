@@ -40,9 +40,9 @@ const EventsHun = () => {
 
                 <h3>Felhasználási ajánlások</h3>    {/*using recommendations*/}
                 <ul>
-                  <li>Lombrtágyaként: javasolt kijuttatási mennyiség:  1 vagy 2 alkalommal 3 l/ha. A második alkalmazást 8-10 nap múlva kell elvégezni.</li>
-                  <li></li>
-                  <li></li>
+                  <li>Lombtrágyaként javasolt a kijuttatása.</li>
+                  <li>Kijuttatás időzítése: első alkalom kelés után minél előbb, második alkalommal az első alkalmazást követően 8-10 nap múlva.</li>
+                  <li>Javasolt kijuttatási mennyiség: 3 l/ha X l/ha vízmennyiséggel.</li>
                 </ul>        
             </div>
 
